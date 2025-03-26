@@ -1,0 +1,25 @@
+subject,relationship,object
+man,hyponym,person
+woman,hyponym,person
+dog,hyponym,animal
+cat,hyponym,animal
+coat,hyponym,clothing
+dress,hyponym,clothing
+bag,hyponym,accessory
+stick,hyponym,object
+person,synonym,human
+dog,synonym,canine
+cat,synonym,feline
+coat,partMeronym,clothing
+dress,partMeronym,clothing
+bag,partMeronym,accessory
+sneakers,partMeronym,clothing
+pants,partMeronym,clothing
+shirt,partMeronym,clothing
+jacket,partMeronym,clothing
+shoes,partMeronym,clothing
+glasses,partMeronym,accessory
+headlight,partMeronym,car
+back,partMeronym,car
+parking meter,partMeronym,sidewalk
+tree trunk,partMeronym,tree

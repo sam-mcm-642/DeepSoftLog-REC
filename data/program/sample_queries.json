@@ -1,0 +1,74 @@
+{
+    "queries": [
+        {
+            "image_id": 1,
+            "query": "target(X), type(X, person), expression(wearing, X, coat), expression(nextTo, X, woman)",
+            "target": [
+                "man",
+                [
+                    150,
+                    250,
+                    60,
+                    180
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 2,
+            "query": "target(X), type(X, person), expression(nextTo, X, dog), expression(playingWith, X, animal)",
+            "target": [
+                "man",
+                [
+                    250,
+                    270,
+                    75,
+                    185
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 3,
+            "query": "target(X), type(X, canine), expression(playingWith, X, man), expression(nextTo, X, stick)",
+            "target": [
+                "dog",
+                [
+                    270,
+                    310,
+                    80,
+                    100
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 4,
+            "query": "target(X), type(X, animal), expression(nextTo, X, animal), expression(playingWith, X, stick)",
+            "target": [
+                "cat",
+                [
+                    140,
+                    250,
+                    55,
+                    70
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 5,
+            "query": "target(X), type(X, dog), expression(hasAttribute, X, brown), expression(nextTo, X, bag)",
+            "target": [
+                "man",
+                [
+                    320,
+                    330,
+                    90,
+                    95
+                ]
+            ],
+            "probability": 1.0
+        }
+    ]
+}

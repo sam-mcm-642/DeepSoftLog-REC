@@ -1,0 +1,7 @@
+image_id,subject,subject_bbox,relationship,object,object_bbox
+1,man,[150, 250, 60, 180],wearing,coat,[145, 240, 65, 100]
+1,man,[150, 250, 60, 180],holding,bag,[160, 255, 40, 50]
+1,woman,n/a,wearing,dress,[195, 260, 60, 110]
+1,woman,[200, 270, 55, 170],nextTo,man,n/a
+1,dog,[300, 320, 80, 90],hasAttribute,brown,n/a
+1,dog,[300, 320, 80, 90],playingWith,stick,[310, 330, 20, 80]

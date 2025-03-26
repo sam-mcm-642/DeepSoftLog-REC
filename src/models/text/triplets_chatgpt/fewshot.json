@@ -1,0 +1,176 @@
+[
+  {
+    "query": "The person sitting on a bench next to another person who is on a skateboard.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~person)",
+      "expression(~sittingOn, X, ~bench)",
+      "expression(~nextTo, X, ~person)",
+      "expression(~on, ~person, ~skateboard)"
+    ]
+  },
+  {
+    "query": "The dog lying under the table near a chair.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~dog)",
+      "expression(~lyingUnder, X, ~table)",
+      "expression(~near, X, ~chair)"
+    ]
+  },
+  {
+    "query": "The red car parked beside a tree in front of a house.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~car)",
+      "expression(~parkedBeside, X, ~tree)",
+      "expression(~inFrontOf, X, ~house)"
+    ]
+  },
+  {
+    "query": "The man wearing a blue shirt standing behind a woman.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~man)",
+      "expression(~wearing, X, ~blueShirt)",
+      "expression(~standingBehind, X, ~woman)"
+    ]
+  },
+  {
+    "query": "The cat sitting on the windowsill looking at a bird.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~cat)",
+      "expression(~sittingOn, X, ~windowsill)",
+      "expression(~lookingAt, X, ~bird)"
+    ]
+  },
+  {
+    "query": "The child playing with a toy car on the floor near the couch.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~child)",
+      "expression(~playingWith, X, ~toyCar)",
+      "expression(~on, X, ~floor)",
+      "expression(~near, X, ~couch)"
+    ]
+  },
+  {
+    "query": "The woman carrying a bag walking through the doorway.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~woman)",
+      "expression(~carrying, X, ~bag)",
+      "expression(~walkingThrough, X, ~doorway)"
+    ]
+  },
+  {
+    "query": "The cyclist wearing a helmet riding past a traffic light.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~cyclist)",
+      "expression(~wearing, X, ~helmet)",
+      "expression(~ridingPast, X, ~trafficLight)"
+    ]
+  },
+  {
+    "query": "The bus parked at the bus stop with passengers inside.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~bus)",
+      "expression(~parkedAt, X, ~busStop)",
+      "expression(~with, X, ~passengers)"
+    ]
+  },
+  {
+    "query": "The waiter holding a tray standing beside a table.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~waiter)",
+      "expression(~holding, X, ~tray)",
+      "expression(~standingBeside, X, ~table)"
+    ]
+  },
+  {
+    "query": "The airplane flying above the city skyline during sunset.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~airplane)",
+      "expression(~flyingAbove, X, ~citySkyline)",
+      "expression(~during, X, ~sunset)"
+    ]
+  },
+  {
+    "query": "The monkey hanging from a tree branch eating a banana.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~monkey)",
+      "expression(~hangingFrom, X, ~treeBranch)",
+      "expression(~eating, X, ~banana)"
+    ]
+  },
+  {
+    "query": "The woman wearing glasses reading a book at a café table.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~woman)",
+      "expression(~wearing, X, ~glasses)",
+      "expression(~reading, X, ~book)",
+      "expression(~at, X, ~caféTable)"
+    ]
+  },
+  {
+    "query": "The soccer player kicking a ball near the goalpost.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~soccerPlayer)",
+      "expression(~kicking, X, ~ball)",
+      "expression(~near, X, ~goalpost)"
+    ]
+  },
+  {
+    "query": "The baker placing a tray of bread on the counter.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~baker)",
+      "expression(~placing, X, ~trayOfBread)",
+      "expression(~on, X, ~counter)"
+    ]
+  },
+  {
+    "query": "The girl holding a balloon standing under a tree.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~girl)",
+      "expression(~holding, X, ~balloon)",
+      "expression(~standingUnder, X, ~tree)"
+    ]
+  },
+  {
+    "query": "The boy jumping off a bench in the park.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~boy)",
+      "expression(~jumpingOff, X, ~bench)",
+      "expression(~in, X, ~park)"
+    ]
+  },
+  {
+    "query": "The man leaning against a car talking on his phone.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~man)",
+      "expression(~leaningAgainst, X, ~car)",
+      "expression(~talkingOn, X, ~phone)"
+    ]
+  },
+  {
+    "query": "The artist painting on a canvas standing in a studio.",
+    "parsed": [
+      "target(X)",
+      "type(X, ~artist)",
+      "expression(~paintingOn, X, ~canvas)",
+      "expression(~standingIn, X, ~studio)"
+    ]
+  }
+]
