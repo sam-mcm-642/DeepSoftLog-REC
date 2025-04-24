@@ -11,7 +11,7 @@ max_branching: 12
 max_depth: 17
 max_proofs: null
 name: thesis
-nb_epochs: 5
+nb_epochs: 3
 optimizer: AdamW
 program: /Users/sammcmanagan/Desktop/Thesis/Model/data/program/initial_program.pl
 project: referring expression

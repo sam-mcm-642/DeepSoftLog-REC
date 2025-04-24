@@ -1,0 +1,172 @@
+{
+    "queries": [
+        {
+            "image_id": 1,
+            "query": "target(X), type(X, person), expression(nextTo, X, woman)",
+            "target": [
+                "man",
+                [
+                    150,
+                    250,
+                    60,
+                    180
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 1,
+            "query": "target(X), type(X, person), expression(nextTo, man, X)",
+            "target": [
+                "woman",
+                [
+                    200,
+                    270,
+                    55,
+                    170
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 1,
+            "query": "target(X), type(X, clothing), expression(wearing, person, X)",
+            "target": [
+                "coat",
+                [
+                    145,
+                    240,
+                    65,
+                    100
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 2,
+            "query": "target(X), type(X, accessory), expression(holding, woman, X)",
+            "target": [
+                "bag",
+                [
+                    175,
+                    265,
+                    40,
+                    55
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 2,
+            "query": "target(X), type(X, person), expression(playingWith, X, cat)",
+            "target": [
+                "man",
+                [
+                    250,
+                    270,
+                    75,
+                    185
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 2,
+            "query": "target(X), type(X, animal), expression(playingWith, person, X)",
+            "target": [
+                "cat",
+                [
+                    260,
+                    280,
+                    50,
+                    70
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 3,
+            "query": "target(X), type(X, object), expression(nextTo, X, dog)",
+            "target": [
+                "stick",
+                [
+                    450,
+                    400,
+                    15,
+                    85
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 3,
+            "query": "target(X), type(X, animal), expression(nextTo, stick, X)",
+            "target": [
+                "dog",
+                [
+                    460,
+                    410,
+                    90,
+                    95
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 3,
+            "query": "target(X), type(X, clothing), expression(wearing, person, X)",
+            "target": [
+                "coat",
+                [
+                    125,
+                    265,
+                    70,
+                    95
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 4,
+            "query": "target(X), type(X, person), expression(wearing, X, dress)",
+            "target": [
+                "woman",
+                [
+                    150,
+                    270,
+                    60,
+                    180
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 4,
+            "query": "target(X), type(X, clothing), expression(wearing, woman, X)",
+            "target": [
+                "dress",
+                [
+                    145,
+                    260,
+                    65,
+                    110
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 5,
+            "query": "target(X), type(X, clothing), expression(wearing, woman, X)",
+            "target": [
+                "dress",
+                [
+                    175,
+                    270,
+                    65,
+                    110
+                ]
+            ],
+            "probability": 1.0
+        }
+    ]
+}

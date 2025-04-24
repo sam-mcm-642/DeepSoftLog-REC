@@ -13,7 +13,7 @@ optimizer: AdamW
 embedding_learning_rate: 0.01
 functor_learning_rate: 0
 weight_decay: 0
-nb_epochs: 5
+nb_epochs: 3
 batch_size: 1
 grad_clip: null
 max_proofs: null

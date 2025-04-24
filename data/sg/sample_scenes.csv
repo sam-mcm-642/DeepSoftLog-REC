@@ -6,7 +6,7 @@ image_id,subject,subject_bbox,relationship,object,object_bbox
 2,woman,"[170, 260, 65, 175]",holding,bag,"[175, 265, 40, 55]"
 2,man,"[250, 270, 75, 185]",nextTo,dog,"[280, 290, 85, 105]"
 2,man,"[250, 270, 75, 185]",playingWith,cat,"[260, 280, 50, 70]"
-2,dog,"[280, 290, 85, 105]",hasAttribute,black,NULL
+2,dog,"[280, 290, 85, 105]",hasAttribute,black,"[280, 290, 85, 105]"
 2,cat,"[260, 280, 50, 70]",nextTo,stick,"[265, 290, 20, 80]"
 3,man,"[130, 270, 65, 180]",nextTo,woman,"[200, 280, 60, 175]"
 3,man,"[130, 270, 65, 180]",wearing,coat,"[125, 265, 70, 95]"
