@@ -2,7 +2,7 @@
     "queries": [
         {
             "image_id": 1,
-            "query": "target(X), type(X, person), expression(wearing, X, coat), expression(nextTo, X, woman)",
+            "query": "target(X), type(X, person), expression(wearing, X, coat), expression(nextTo, X, person)",
             "target": [
                 "man",
                 [
@@ -30,7 +30,7 @@
         },
         {
             "image_id": 3,
-            "query": "target(X), type(X, canine), expression(playingWith, X, man), expression(nextTo, X, stick)",
+            "query": "target(X), type(X, canine), expression(playingWith, canine, man), expression(nextTo, X, stick)",
             "target": [
                 "dog",
                 [

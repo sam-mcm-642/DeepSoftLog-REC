@@ -13,12 +13,12 @@ optimizer: AdamW
 embedding_learning_rate: 0.01
 functor_learning_rate: 0
 weight_decay: 0
-nb_epochs: 3
+nb_epochs: 50
 batch_size: 1
 grad_clip: null
 max_proofs: null
-max_depth: 17
-max_branching: 12
+max_depth: 20
+max_branching: 20
 
 # embeddings
 embedding_dimensions: 100

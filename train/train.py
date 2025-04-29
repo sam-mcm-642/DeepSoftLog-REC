@@ -11,8 +11,8 @@ dataset = ReferringExpressionDataset([])
 dataset.generate_data_instances("/Users/sammcmanagan/Desktop/Thesis/Model/data/sg/sample_scenes.csv")
 print(F"DATASET TYPE: {type(dataset)}")
 print(F"DATASET TYPE: {type(dataset[0])}")
-train_dataset = ReferringExpressionDataset(dataset[:3])
-val_dataset = ReferringExpressionDataset(dataset[4:5])
+train_dataset = ReferringExpressionDataset(dataset[:2])
+val_dataset = ReferringExpressionDataset(dataset[2:3])
 
 
 print(f"type(train_dataset): {type(train_dataset)}")

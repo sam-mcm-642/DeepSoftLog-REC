@@ -13,10 +13,6 @@ target(man) :- groundtruth(man, bbox1), object(man, bbox1).
 expression(X, Y, Z) :- scene_graph(X, A, B), object(Y, A), object(Z, B).
 % scene_graph(~rr1, A, B) :- scene_graph(~rr1, B, A).
 % type(X, Y) :- ontology(Z, Y, X).
-
-color(~brown).
-color(~black).
-color(~orange).
 % ontology(~synonym,~person,~human).
 % ontology(~partMeronym,~coat,~clothing).
 % ontology(~partMeronym,~dress,~clothing).
