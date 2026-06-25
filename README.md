@@ -35,12 +35,16 @@ data/                              Dataset/dataloader, query generation,
                                    ontologies, and DeepSoftLog .pl programs
 src/models/sgg/                    Scene-graph generation (offline)
 src/models/text/triplets_chatgpt/  LLM query parser (offline)
-*_analysis.py / visualize_loss.py  Analysis & plotting utilities
-results/                           Run configs and result summaries
+analysis/                          Analysis & plotting utilities
+scripts/                           Data-prep / formatting / ontology utilities
+eval/, results/                    Run configs and result summaries
 ```
 
-> Note: the dependency `deepsoftlog` is a **separate package** (see Installation),
-> not vendored in this repo.
+> Notes:
+> - The dependency `deepsoftlog` is a **separate package** (see Installation),
+>   not vendored in this repo.
+> - Run all scripts from the repository root (e.g. `python analysis/eval_analysis.py`)
+>   so relative data paths resolve correctly.
 
 ## Installation
 
