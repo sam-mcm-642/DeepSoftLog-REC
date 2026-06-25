@@ -235,8 +235,8 @@ def verify_generated_queries(queries_path):
 
 def main():
     """Run the batch processor on VG scene graph data."""
-    # Define paths
-    vg_scene_graph_path = "/Users/sammcmanagan/Desktop/Thesis/Model/data/vg_scene_graphs.csv"  # Original VG scene graph
+    # Define paths (override via config/CLI as needed)
+    vg_scene_graph_path = "data/vg/vg_scene_graphs.csv"  # Original VG scene graph
     processed_scene_graph_path = "data/vg/vg_scene_graphs_formatted.csv"  # Processed scene graph
     
     # Process in batches

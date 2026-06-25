@@ -48,7 +48,7 @@ def get_train_val_split(file_path, train_ratio=0.9, max_instances=None):
 
 def get_train_dataloader(cfg: dict):
     train_dataset, _ = get_train_val_split(
-        cfg.get('data_file', "/Users/sammcmanagan/Desktop/Thesis/Model/data/vocab_filtered_vg_scene_graph_sample.csv"),
+        cfg.get('data_file', "data/vocab_filtered_vg_scene_graph_sample.csv"),
         train_ratio=cfg.get('train_ratio', 0.9),
         max_instances=cfg.get('max_instances', 500)
     )
@@ -56,7 +56,7 @@ def get_train_dataloader(cfg: dict):
 
 def get_val_dataloader(cfg: dict):
     _, val_dataset = get_train_val_split(
-        cfg.get('data_file', "/Users/sammcmanagan/Desktop/Thesis/Model/data/vocab_filtered_vg_scene_graph_sample.csv"),
+        cfg.get('data_file', "data/vocab_filtered_vg_scene_graph_sample.csv"),
         train_ratio=cfg.get('train_ratio', 0.9),
         max_instances=cfg.get('max_instances', 1500)
     )

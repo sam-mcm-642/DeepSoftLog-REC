@@ -1,9 +1,0 @@
-epoch,batch,loss,diff,proof_steps,nb_proofs,query,target
-0,0,5.959226131439209,0.9974180907424895,73.0,4.0,"1.0::;(;(target(X);type(X;~building));expression(~has;X;~tall)).","('building'; 'bbox4')"
-0,1,11.395038604736328,0.9999887488319129,68.0,4.0,"1.0::;(;(target(X);type(X;~vehicle));expression(~hasAttribute;X;~park)).","('van'; 'bbox17')"
-0,2,6.438348770141602,0.9984009551074629,57.0,4.0,"1.0::;(;(target(X);type(X;~walkway));expression(~on;~bike;X)).","('sidewalk'; 'bbox14')"
-0,3,6.519703388214111,0.9985258937251897,170.0,4.0,"1.0::;(;(;(target(X);type(X;~bike));expression(~parkedOn;X;~pavement));expression(~hasAttribute;X;~chained)).","('bike'; 'bbox12')"
-0,4,11.388264656066895,0.9999886723583562,160.0,4.0,"1.0::;(;(;(target(X);type(X;~device));expression(~hasAttribute;X;~snowy));expression(~hasAttribute;X;~parked)).","('car'; 'bbox13')"
-0,5,6.266407012939453,0.9981009604354183,132.0,4.0,"1.0::;(;(;(;(;(target(X);type(X;~male));expression(~has;X;~jacket));expression(~wearing;X;~jacket));expression(~hasAttribute;~jacket;~grey));expression(~hasAttribute;~jacket;~gray)).","('man'; 'bbox9')"
-0,6,6.425642967224121,0.998380508336956,66.0,4.0,"1.0::;(;(target(X);type(X;~garment));expression(~hasAttribute;X;~grey)).","('shirt'; 'bbox19')"
-0,7,0.0,0.0,63.0,4.0,"1.0::;(;(target(X);type(X;~bike));expression(~hasAttribute;X;~parked)).","('bike'; 'bbox12')"

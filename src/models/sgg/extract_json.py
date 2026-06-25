@@ -139,8 +139,10 @@ def extract_dictionaries_from_h5(h5_file_path, output_json_path):
     return vg_dict
 
 if __name__ == "__main__":
-    # Replace these paths with your actual paths
-    h5_file_path = "/Users/sammcmanagan/Desktop/Thesis/VG-SGG-with-attri.h5"
-    output_json_path = "data/sg/VG-SGG-dicts-with-attri.json"
-    
-    extract_dictionaries_from_h5(h5_file_path, output_json_path)
+    import argparse
+    parser = argparse.ArgumentParser(description="Extract VG-SGG dictionaries from an .h5 file")
+    parser.add_argument("h5_file", help="Path to the VG-SGG .h5 file")
+    parser.add_argument("--output", default="data/sg/VG-SGG-dicts-with-attri.json",
+                        help="Output JSON path")
+    args = parser.parse_args()
+    extract_dictionaries_from_h5(args.h5_file, args.output)

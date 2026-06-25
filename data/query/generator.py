@@ -1521,9 +1521,9 @@ class QueryGenerator:
 
 
 if __name__ == "__main__":
-    # Paths to your data
-    scene_graph_path = "/Users/sammcmanagan/Desktop/Thesis/Model/data/vocab_filtered_vg_scene_graph.csv"
-    ontology_path = "/Users/sammcmanagan/Desktop/Thesis/Model/data/final_ontology.csv"
+    # Paths to your data (override via config/CLI as needed)
+    scene_graph_path = "data/vocab_filtered_vg_scene_graph.csv"
+    ontology_path = "data/final_ontology.csv"
     output_path = "data/query/generated_queries.json"
     
     # Initialize the query generator with enhanced tracking

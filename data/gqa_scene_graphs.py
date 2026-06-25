@@ -103,9 +103,11 @@ def process_gqa_scene_graphs(scene_graphs):
 
 def main():
     """Main function to process GQA scene graphs"""
-    # Update this path to your GQA scene graphs JSON file
-    file_path = "/Users/sammcmanagan/Downloads/sceneGraphs/val_sceneGraphs.json"
-    
+    import argparse
+    parser = argparse.ArgumentParser(description="Process GQA scene graphs into CSV")
+    parser.add_argument("input", help="Path to a GQA scene graphs JSON (e.g. val_sceneGraphs.json)")
+    file_path = parser.parse_args().input
+
     # Load GQA scene graphs
     print(f"Loading GQA scene graphs from {file_path}...")
     scene_graphs = load_gqa_scene_graphs(file_path, limit=LIMIT)

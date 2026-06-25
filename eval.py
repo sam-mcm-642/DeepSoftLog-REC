@@ -57,8 +57,8 @@ def load_pretrained_model(model_path, program_path, config):
 def get_eval_dataloader(config):
     """Create evaluation dataloader"""
     eval_dataset = ReferringExpressionDataset([])
-    data_file = config.get('eval_data_file', config.get('data_file', 
-        "/Users/sammcmanagan/Desktop/Thesis/Model/data/vg/sgg_scene_graphs_formatted.csv"))
+    data_file = config.get('eval_data_file', config.get('data_file',
+        "data/vg/sgg_scene_graphs_formatted.csv"))
     
     print(f"Loading evaluation data from: {data_file}")
     eval_dataset.generate_data_instances(data_file)
@@ -81,7 +81,6 @@ def evaluate_model(config_path, model_path, output_path="evaluation_metrics_sgg.
     
     # Create initial program using config
     initial_program = load_program(config, eval_dataloader)
-    print(f"🔍 evaluate_model: initial_program has {len(initial_program.store.constant_embeddings)} embeddings")
     
     # Create initial evaluator just to call load_pretrained_model
     temp_evaluator = ReferringEvaluator(
@@ -91,7 +90,6 @@ def evaluate_model(config_path, model_path, output_path="evaluation_metrics_sgg.
         max_branching=config.get('max_branching', 10), 
         max_depth=config.get('max_depth', 20),
     )
-    print(f"🔍 evaluate_model: temp_evaluator.program has {len(temp_evaluator.program.store.constant_embeddings)} embeddings")
     
     # Fix checkpoint if needed (use the model_path argument, not a hardcoded file)
     fix_pretrained_checkpoint(model_path, model_path)
@@ -101,11 +99,8 @@ def evaluate_model(config_path, model_path, output_path="evaluation_metrics_sgg.
         model_path,
         initial_program_path=config.get('eval_program', config.get('initial_program_path', 'data/program/initial_program.pl'))
     )
-    print(f"🔍 evaluate_model: pretrained_program has {len(pretrained_program.store.constant_embeddings)} embeddings")
-    print(f"🔍 evaluate_model: pretrained_program id: {id(pretrained_program)}")
     
     # Create the actual evaluator with pretrained program
-    print(f"🔍 evaluate_model: About to create final evaluator with pretrained_program...")
     evaluator = ReferringEvaluator(
         pretrained_program,
         config=config,
@@ -113,8 +108,6 @@ def evaluate_model(config_path, model_path, output_path="evaluation_metrics_sgg.
         max_branching=config.get('max_branching', 10),
         max_depth=config.get('max_depth', 20),
     )
-    print(f"🔍 evaluate_model: final evaluator.program has {len(evaluator.program.store.constant_embeddings)} embeddings")
-    print(f"🔍 evaluate_model: evaluator.program id: {id(evaluator.program)}")
     
     # Run evaluation
     print("Starting evaluation...")

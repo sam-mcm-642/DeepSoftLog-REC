@@ -112,7 +112,6 @@ def compute_iou(bbox1, bbox2):
 
 class ReferringEvaluator(ReferringTrainer):
     def __init__(self, program, config, iou_threshold=0.3, **search_args):
-        print(f"🔍 ReferringEvaluator.__init__: input program store has {len(program.store.constant_embeddings)} embeddings")
         # Initialize without optimizer since we're not training
         self.program = program
         self.config = config
@@ -127,7 +126,6 @@ class ReferringEvaluator(ReferringTrainer):
         self._initialize_metadata_csv(self.metadata_csv_path)
         self.instance_counter = 0
         self.result_counter = 0
-        print(f"🔍 ReferringEvaluator.__init__: after assignment, self.program store has {len(self.program.store.constant_embeddings)} embeddings")
         print(f"🔍 Using IoU threshold: {self.iou_threshold}")
         
         # Track initial vocabulary

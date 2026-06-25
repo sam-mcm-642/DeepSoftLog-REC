@@ -124,9 +124,11 @@ def verify_paper_numbers(split_counts):
         print("⚠️  Numbers don't match - check data completeness")
 
 def main():
-    # Update this path to your Cops-Ref JSON file
-    json_path = "/Users/sammcmanagan/Downloads/data.json"
-    
+    import argparse
+    parser = argparse.ArgumentParser(description="Analyse Cops-Ref dataset splits")
+    parser.add_argument("json_path", help="Path to the Cops-Ref data.json")
+    json_path = parser.parse_args().json_path
+
     try:
         # Analyze splits
         split_counts, cross_tab = analyze_cops_ref_splits(json_path)

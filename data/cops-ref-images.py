@@ -175,9 +175,15 @@ def create_batch_summary(output_dir, batch_info):
     print(f"Batch summary saved to: {summary_path}")
 
 def main():
-    # Configuration - UPDATE THESE PATHS
-    COPS_REF_JSON = "/Users/sammcmanagan/Desktop/Thesis/Model/data/cops_ref_test_sample_1000.json"  # Update this path
-    LOCAL_GQA_DIR = "/Users/sammcmanagan/Downloads/images"    # Update this path
+    import argparse
+    parser = argparse.ArgumentParser(description="Extract Cops-Ref images and upload in batches")
+    parser.add_argument("--cops-ref-json", default="data/cops_ref_test_sample_1000.json",
+                        help="Path to the Cops-Ref sample JSON")
+    parser.add_argument("--local-gqa-dir", required=True,
+                        help="Local directory containing the GQA images")
+    args = parser.parse_args()
+    COPS_REF_JSON = args.cops_ref_json                 # Cops-Ref sample JSON
+    LOCAL_GQA_DIR = args.local_gqa_dir                 # Local GQA image directory
     PARENT_FOLDER_NAME = "cops_ref_images"              # Google Drive parent folder name
     BATCH_SIZE = 100                                    # Images per batch
     
