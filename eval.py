@@ -93,12 +93,12 @@ def evaluate_model(config_path, model_path, output_path="evaluation_metrics_sgg.
     )
     print(f"🔍 evaluate_model: temp_evaluator.program has {len(temp_evaluator.program.store.constant_embeddings)} embeddings")
     
-    # Fix checkpoint if needed
-    fix_pretrained_checkpoint("pretrained_epoch_32_2025-08-11 17:00:30.pt", "pretrained_epoch_32_2025-08-11 17:00:30.pt")
-    
+    # Fix checkpoint if needed (use the model_path argument, not a hardcoded file)
+    fix_pretrained_checkpoint(model_path, model_path)
+
     # Load pretrained program using the temp evaluator
     pretrained_program = temp_evaluator.load_pretrained_model(
-        "pretrained_epoch_32_2025-08-11 17:00:30.pt", 
+        model_path,
         initial_program_path=config.get('eval_program', config.get('initial_program_path', 'data/program/initial_program.pl'))
     )
     print(f"🔍 evaluate_model: pretrained_program has {len(pretrained_program.store.constant_embeddings)} embeddings")

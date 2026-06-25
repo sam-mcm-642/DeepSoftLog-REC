@@ -7,73 +7,21 @@ from data.dataset import ReferringExpressionDataset
 from data.dataloader import ReferringExpressionDataLoader
 
 
-# dataset = ReferringExpressionDataset([])
-# dataset.generate_data_instances("/Users/sammcmanagan/Desktop/Thesis/Model/data/vg/vg_scene_graphs_formatted.csv")
-# print(F"DATASET TYPE: {type(dataset)}")
-# print(F"DATASET TYPE: {type(dataset[0])}")
-# print(f"DATASET SIZE: {len(dataset)}")
-# train_dataset = ReferringExpressionDataset(dataset[:700])
-# val_dataset = ReferringExpressionDataset(dataset[701:])
-
-
-# print(f"type(train_dataset): {type(train_dataset)}")
-
-
-# def get_train_dataloader(cfg: dict):
-#     return ReferringExpressionDataLoader(train_dataset)
-
-# def get_val_dataloader():
-#     print(f"VAL DATASET SIZE: {len(val_dataset)}", val_dataset)
-#     return ReferringExpressionDataLoader(val_dataset)
-
-
-
-# def get_train_val_split(file_path, train_ratio=0.9):
-#     # Create an empty dataset to populate
-#     full_dataset = ReferringExpressionDataset([])
-    
-#     # Generate data instances from the file
-#     print(f"Loading data from: {file_path}")
-#     full_dataset.generate_data_instances(file_path)
-    
-#     # Report the total number of instances
-#     total_instances = len(full_dataset.instances)
-#     print(f"Total dataset instances: {total_instances}")
-    
-#     if total_instances == 0:
-#         raise ValueError("No instances were generated from the data file!")
-        
-#     # Calculate split point
-#     train_size = int(total_instances * train_ratio)
-    
-#     # Create training dataset with first portion of instances
-#     train_instances = full_dataset.instances[:train_size]
-#     train_dataset = ReferringExpressionDataset(train_instances)
-#     print(f"Training dataset size: {len(train_dataset)}")
-    
-#     # Create validation dataset with remaining instances
-#     val_instances = full_dataset.instances[train_size:]
-#     val_dataset = ReferringExpressionDataset(val_instances)
-#     print(f"Validation dataset size: {len(val_dataset)}")
-    
-#     return train_dataset, val_dataset
-
-
 def get_train_val_split(file_path, train_ratio=0.9, max_instances=None):
     # Create an empty dataset to populate
     full_dataset = ReferringExpressionDataset([])
-    
+
     # Generate data instances from the file
     print(f"Loading data from: {file_path}")
     full_dataset.generate_data_instances(file_path)
-    
+
     # Report the total number of instances
     total_instances = len(full_dataset.instances)
     print(f"Total dataset instances: {total_instances}")
-    
+
     if total_instances == 0:
         raise ValueError("No instances were generated from the data file!")
-    
+
     # Limit to max_instances if specified
     if max_instances and max_instances < total_instances:
         print(f"Limiting dataset to {max_instances} instances (out of {total_instances})")
@@ -82,20 +30,20 @@ def get_train_val_split(file_path, train_ratio=0.9, max_instances=None):
         total_instances = max_instances
     else:
         limited_instances = full_dataset.instances
-    
+
     # Calculate split point
     train_size = int(total_instances * train_ratio)
-    
+
     # Create training dataset with first portion of instances
     train_instances = limited_instances[:train_size]
     train_dataset = ReferringExpressionDataset(train_instances)
     print(f"Training dataset size: {len(train_dataset)}")
-    
+
     # Create validation dataset with remaining instances
     val_instances = limited_instances[train_size:]
     val_dataset = ReferringExpressionDataset(val_instances)
     print(f"Validation dataset size: {len(val_dataset)}")
-    
+
     return train_dataset, val_dataset
 
 def get_train_dataloader(cfg: dict):
@@ -119,8 +67,8 @@ def train(cfg):
     eval_dataloader = get_val_dataloader(cfg)
     program = load_program(cfg, eval_dataloader)
     optimizer = get_optimizer(program.get_store(), cfg)
-    
-    
+
+
     logger = WandbLogger(cfg)
     trainer = ReferringTrainer(
         program, get_train_dataloader, nll_loss, optimizer,
