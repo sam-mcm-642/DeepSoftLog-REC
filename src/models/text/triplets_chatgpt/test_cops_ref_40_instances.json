@@ -1,0 +1,4112 @@
+{
+    "refs": [
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2341289",
+                    "2351493",
+                    "2388986"
+                ],
+                "random": [
+                    "2372817",
+                    "2329125",
+                    "2370025"
+                ],
+                "catAndcat": [
+                    "2332170",
+                    "2386036",
+                    "2398215"
+                ],
+                "cat": [
+                    "2398138",
+                    "2351493",
+                    "2388986"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "944023",
+                    "2380596",
+                    "669376"
+                ],
+                "random": [
+                    "735306",
+                    "3056465",
+                    "606971"
+                ],
+                "catAndcat": [
+                    "3713466",
+                    "684306",
+                    "662740"
+                ],
+                "cat": [
+                    "1182407",
+                    "2380596",
+                    "669376"
+                ]
+            },
+            "ann_id": 262011,
+            "imageId": "2335763",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "red",
+                        "car",
+                        "parked",
+                        "next",
+                        "to",
+                        "the",
+                        "blue",
+                        "building"
+                    ],
+                    "sent_id": 59440,
+                    "sent": "The red car parked next to the blue building"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    774766,
+                    246401,
+                    1261971
+                ],
+                "random": [
+                    743556,
+                    859833,
+                    1161401
+                ],
+                "catAndAttr": [
+                    574468,
+                    1158562,
+                    1127579
+                ],
+                "cat": [
+                    1318808,
+                    1158562,
+                    1127579
+                ]
+            },
+            "objectId": "3667055",
+            "attri_used": [
+                [
+                    "red"
+                ],
+                [
+                    "blue"
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2335763",
+            "valid_flag": 1,
+            "ref_id": 59440,
+            "name": "car",
+            "box": [
+                297,
+                105,
+                145,
+                170
+            ],
+            "att_wds": [
+                "red"
+            ],
+            "sent_ids": [
+                59440
+            ],
+            "logic": "chain",
+            "attributes": [
+                "red",
+                "parked"
+            ],
+            "category_id": 3,
+            "expression": "The red car parked next to the blue building"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "4813",
+                    "2393444",
+                    "2399267"
+                ],
+                "random": [
+                    "2386143",
+                    "2321860",
+                    "2411392"
+                ],
+                "catAndcat": [
+                    "2383265",
+                    "2390269",
+                    "2354226"
+                ],
+                "cat": [
+                    "2405257",
+                    "2317842",
+                    "2406374"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "1036850",
+                    "1219851",
+                    "417679"
+                ],
+                "random": [
+                    "683633",
+                    "4184215",
+                    "312558"
+                ],
+                "catAndcat": [
+                    "533925",
+                    "1252128",
+                    "840255"
+                ],
+                "cat": [
+                    "3571492",
+                    "4061537",
+                    "652438"
+                ]
+            },
+            "ann_id": 200870,
+            "imageId": "2335764",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Small",
+                        "brown",
+                        "dog",
+                        "sitting",
+                        "under",
+                        "the",
+                        "wooden",
+                        "table"
+                    ],
+                    "sent_id": 113634,
+                    "sent": "Small brown dog sitting under the wooden table"
+                }
+            ],
+            "neg_ann_id_list": {
+                "random": [
+                    647566,
+                    1224786,
+                    730082
+                ],
+                "catAndAttr": [
+                    789877,
+                    691467,
+                    1247269
+                ],
+                "cat": [
+                    701164,
+                    838759,
+                    981857
+                ]
+            },
+            "objectId": "2189454",
+            "attri_used": [
+                [
+                    "small",
+                    "brown"
+                ],
+                [
+                    "wooden"
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2335764",
+            "valid_flag": 1,
+            "ref_id": 113634,
+            "name": "dog",
+            "box": [
+                0,
+                94,
+                160,
+                164
+            ],
+            "att_wds": [
+                "small",
+                "brown"
+            ],
+            "sent_ids": [
+                113634
+            ],
+            "logic": "unary",
+            "attributes": [
+                "small",
+                "brown",
+                "sitting"
+            ],
+            "category_id": 18,
+            "expression": "Small brown dog sitting under the wooden table"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2346494",
+                    "2390626",
+                    "2349024"
+                ],
+                "random": [
+                    "2364805",
+                    "2355132",
+                    "2404150"
+                ],
+                "catAndcat": [
+                    "107942",
+                    "2359818",
+                    "2371904"
+                ],
+                "cat": [
+                    "2403501",
+                    "2390626",
+                    "2346494"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "1809037",
+                    "1248561",
+                    "2134649"
+                ],
+                "random": [
+                    "3887730",
+                    "2536411",
+                    "4231887"
+                ],
+                "catAndcat": [
+                    "1037689",
+                    "2486174",
+                    "1804320"
+                ],
+                "cat": [
+                    "381153",
+                    "1248561",
+                    "1809037"
+                ]
+            },
+            "ann_id": 262012,
+            "imageId": "2335765",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "woman",
+                        "wearing",
+                        "a",
+                        "green",
+                        "shirt",
+                        "and",
+                        "holding",
+                        "a",
+                        "white",
+                        "umbrella"
+                    ],
+                    "sent_id": 113906,
+                    "sent": "The woman wearing a green shirt and holding a white umbrella"
+                }
+            ],
+            "neg_ann_id_list": {
+                "random": [
+                    653057,
+                    259218,
+                    1115022
+                ],
+                "catAndAttr": [
+                    991806,
+                    546116,
+                    1010847
+                ],
+                "cat": [
+                    759117,
+                    546116,
+                    991806
+                ]
+            },
+            "objectId": "3667056",
+            "attri_used": [
+                [
+                    "green"
+                ],
+                [
+                    "white"
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2335765",
+            "valid_flag": 1,
+            "ref_id": 113906,
+            "name": "person",
+            "box": [
+                297,
+                105,
+                145,
+                170
+            ],
+            "att_wds": [
+                "green"
+            ],
+            "sent_ids": [
+                113906
+            ],
+            "logic": "and",
+            "attributes": [
+                "wearing",
+                "holding"
+            ],
+            "category_id": 1,
+            "expression": "The woman wearing a green shirt and holding a white umbrella"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "713647",
+                    "2398897",
+                    "4784"
+                ],
+                "random": [
+                    "2364404",
+                    "2359020",
+                    "2320531"
+                ],
+                "catAndcat": [
+                    "2403193",
+                    "2379577",
+                    "2320757"
+                ],
+                "cat": [
+                    "2414685",
+                    "2363022",
+                    "2370152"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "1586860",
+                    "421038",
+                    "4381032"
+                ],
+                "random": [
+                    "2340438",
+                    "4255757",
+                    "4472898"
+                ],
+                "catAndcat": [
+                    "355726",
+                    "3834853",
+                    "4526307"
+                ],
+                "cat": [
+                    "153934",
+                    "1041552",
+                    "742547"
+                ]
+            },
+            "ann_id": 732259,
+            "imageId": "2335766",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Black",
+                        "cat",
+                        "sleeping",
+                        "on",
+                        "the",
+                        "soft",
+                        "cushion"
+                    ],
+                    "sent_id": 115596,
+                    "sent": "Black cat sleeping on the soft cushion"
+                }
+            ],
+            "neg_ann_id_list": {
+                "random": [
+                    840181,
+                    1342802,
+                    75960
+                ],
+                "catAndAttr": [
+                    1169901,
+                    545104,
+                    1092933
+                ],
+                "cat": [
+                    1162423,
+                    330103,
+                    226406
+                ]
+            },
+            "objectId": "2973140",
+            "attri_used": [
+                [
+                    "black"
+                ],
+                [
+                    "soft"
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2335766",
+            "valid_flag": 1,
+            "ref_id": 115596,
+            "name": "cat",
+            "box": [
+                0,
+                0,
+                110,
+                102
+            ],
+            "att_wds": [
+                "black"
+            ],
+            "sent_ids": [
+                115596
+            ],
+            "logic": "unary",
+            "attributes": [
+                "black",
+                "sleeping"
+            ],
+            "category_id": 17,
+            "expression": "Black cat sleeping on the soft cushion"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2339415",
+                    "2397404",
+                    "2321612"
+                ],
+                "random": [
+                    "2318864",
+                    "2410411",
+                    "2369475"
+                ],
+                "catAndcat": [
+                    "2392453",
+                    "2336770",
+                    "2334505"
+                ],
+                "cat": [
+                    "2342631",
+                    "2355608",
+                    "2346710"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "951469",
+                    "1190105",
+                    "1047465"
+                ],
+                "random": [
+                    "2703325",
+                    "218306",
+                    "3863278"
+                ],
+                "catAndcat": [
+                    "1229900",
+                    "4583369",
+                    "1045670"
+                ],
+                "cat": [
+                    "2159009",
+                    "828095",
+                    "896996"
+                ]
+            },
+            "ann_id": 732260,
+            "imageId": "2335767",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "tall",
+                        "man",
+                        "standing",
+                        "behind",
+                        "the",
+                        "red",
+                        "fence",
+                        "or",
+                        "next",
+                        "to",
+                        "the",
+                        "yellow",
+                        "sign"
+                    ],
+                    "sent_id": 211515,
+                    "sent": "The tall man standing behind the red fence or next to the yellow sign"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    716089,
+                    505995,
+                    189153
+                ],
+                "random": [
+                    444269,
+                    1091408,
+                    1039113
+                ],
+                "catAndAttr": [
+                    1248182,
+                    7759,
+                    45765
+                ],
+                "cat": [
+                    1244703,
+                    595540,
+                    162203
+                ]
+            },
+            "objectId": "2973141",
+            "attri_used": [
+                [
+                    "tall"
+                ],
+                [
+                    [
+                        "red"
+                    ],
+                    [
+                        "yellow"
+                    ]
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2335767",
+            "valid_flag": 1,
+            "ref_id": 211515,
+            "name": "person",
+            "box": [
+                0,
+                0,
+                110,
+                102
+            ],
+            "att_wds": [
+                "tall"
+            ],
+            "sent_ids": [
+                211515
+            ],
+            "logic": "or",
+            "attributes": [
+                "tall",
+                "standing"
+            ],
+            "category_id": 1,
+            "expression": "The tall man standing behind the red fence or next to the yellow sign"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2407715",
+                    "2390827",
+                    "2347945"
+                ],
+                "random": [
+                    "2324081",
+                    "2321672",
+                    "2344600"
+                ],
+                "catAndcat": [
+                    "2374894",
+                    "2366875",
+                    "2350139"
+                ],
+                "cat": [
+                    "2390827",
+                    "2378613",
+                    "2317884"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "274857",
+                    "1246662",
+                    "2423361"
+                ],
+                "random": [
+                    "4088325",
+                    "4191769",
+                    "914611"
+                ],
+                "catAndcat": [
+                    "2508809",
+                    "3876724",
+                    "1782204"
+                ],
+                "cat": [
+                    "1246662",
+                    "2145747",
+                    "3246650"
+                ]
+            },
+            "ann_id": 893277,
+            "imageId": "2387885",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Blue",
+                        "bicycle",
+                        "leaning",
+                        "against",
+                        "the",
+                        "brick",
+                        "wall"
+                    ],
+                    "sent_id": 172278,
+                    "sent": "Blue bicycle leaning against the brick wall"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    767507,
+                    334979,
+                    368131
+                ],
+                "random": [
+                    1383055,
+                    704041,
+                    506270
+                ],
+                "catAndAttr": [
+                    523033,
+                    987888,
+                    1020946
+                ],
+                "cat": [
+                    987888,
+                    727082,
+                    642158
+                ]
+            },
+            "objectId": "1272159",
+            "attri_used": [
+                [
+                    "blue"
+                ],
+                [
+                    "brick"
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2387885",
+            "valid_flag": 1,
+            "ref_id": 172278,
+            "name": "bicycle",
+            "box": [
+                13,
+                98,
+                488,
+                236
+            ],
+            "att_wds": [
+                "blue"
+            ],
+            "sent_ids": [
+                172278
+            ],
+            "logic": "unary",
+            "attributes": [
+                "blue",
+                "leaning"
+            ],
+            "category_id": 2,
+            "expression": "Blue bicycle leaning against the brick wall"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2409415",
+                    "4376",
+                    "2387803"
+                ],
+                "random": [
+                    "1368",
+                    "2341554",
+                    "4098"
+                ],
+                "catAndcat": [
+                    "2320792",
+                    "2370071",
+                    "2373824"
+                ],
+                "cat": [
+                    "2378971",
+                    "2327646",
+                    "2371039"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "242199",
+                    "1558544",
+                    "677044"
+                ],
+                "random": [
+                    "3635944",
+                    "2760691",
+                    "1556858"
+                ],
+                "catAndcat": [
+                    "2906902",
+                    "3375145",
+                    "2480211"
+                ],
+                "cat": [
+                    "3835703",
+                    "2740711",
+                    "2176551"
+                ]
+            },
+            "ann_id": 1227564,
+            "imageId": "2387886",
+            "sentences": [
+                {
+                    "tokens": [
+                        "White",
+                        "coffee",
+                        "cup",
+                        "sitting",
+                        "on",
+                        "the",
+                        "wooden",
+                        "table",
+                        "near",
+                        "the",
+                        "laptop"
+                    ],
+                    "sent_id": 236784,
+                    "sent": "White coffee cup sitting on the wooden table near the laptop"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    429719,
+                    48588,
+                    480813
+                ],
+                "random": [
+                    350595,
+                    94678,
+                    232745
+                ],
+                "catAndAttr": [
+                    1109904,
+                    1221700,
+                    732073
+                ],
+                "cat": [
+                    16870,
+                    243483,
+                    1007018
+                ]
+            },
+            "objectId": "1272164",
+            "attri_used": [
+                [
+                    "white"
+                ],
+                [
+                    "wooden"
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2387886",
+            "valid_flag": 1,
+            "ref_id": 236784,
+            "name": "cup",
+            "box": [
+                0,
+                220,
+                228,
+                114
+            ],
+            "att_wds": [
+                "white"
+            ],
+            "sent_ids": [
+                236784
+            ],
+            "logic": "chain",
+            "attributes": [
+                "white"
+            ],
+            "category_id": 47,
+            "expression": "White coffee cup sitting on the wooden table near the laptop"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2401234",
+                    "2388942",
+                    "2357812"
+                ],
+                "random": [
+                    "2323455",
+                    "2341098",
+                    "2405671"
+                ],
+                "catAndcat": [
+                    "2376543",
+                    "2359817",
+                    "2384902"
+                ],
+                "cat": [
+                    "2394876",
+                    "2328901",
+                    "2367432"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "1234567",
+                    "2345678",
+                    "3456789"
+                ],
+                "random": [
+                    "4567890",
+                    "5678901",
+                    "6789012"
+                ],
+                "catAndcat": [
+                    "7890123",
+                    "8901234",
+                    "9012345"
+                ],
+                "cat": [
+                    "1234568",
+                    "2345679",
+                    "3456780"
+                ]
+            },
+            "ann_id": 845291,
+            "imageId": "2401287",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "green",
+                        "book",
+                        "on",
+                        "the",
+                        "shelf",
+                        "between",
+                        "the",
+                        "red",
+                        "and",
+                        "blue",
+                        "books"
+                    ],
+                    "sent_id": 298765,
+                    "sent": "The green book on the shelf between the red and blue books"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    898776,
+                    567432,
+                    234109
+                ],
+                "random": [
+                    876543,
+                    765432,
+                    654321
+                ],
+                "catAndAttr": [
+                    543210,
+                    432109,
+                    321098
+                ],
+                "cat": [
+                    210987,
+                    109876,
+                    98765
+                ]
+            },
+            "objectId": "5432109",
+            "attri_used": [
+                [
+                    "green"
+                ],
+                [
+                    [
+                        "red"
+                    ],
+                    [
+                        "blue"
+                    ]
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401287",
+            "valid_flag": 1,
+            "ref_id": 298765,
+            "name": "book",
+            "box": [
+                145,
+                78,
+                89,
+                245
+            ],
+            "att_wds": [
+                "green"
+            ],
+            "sent_ids": [
+                298765
+            ],
+            "logic": "and",
+            "attributes": [
+                "green"
+            ],
+            "category_id": 84,
+            "expression": "The green book on the shelf between the red and blue books"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2500123",
+                    "2499876",
+                    "2501234"
+                ],
+                "random": [
+                    "2502345",
+                    "2503456",
+                    "2504567"
+                ],
+                "catAndcat": [
+                    "2505678",
+                    "2506789",
+                    "2507890"
+                ],
+                "cat": [
+                    "2508901",
+                    "2509012",
+                    "2510123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "9876543",
+                    "8765432",
+                    "7654321"
+                ],
+                "random": [
+                    "6543210",
+                    "5432109",
+                    "4321098"
+                ],
+                "catAndcat": [
+                    "3210987",
+                    "2109876",
+                    "1098765"
+                ],
+                "cat": [
+                    "987654",
+                    "876543",
+                    "765432"
+                ]
+            },
+            "ann_id": 845292,
+            "imageId": "2401288",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Large",
+                        "gray",
+                        "elephant",
+                        "walking",
+                        "in",
+                        "front",
+                        "of",
+                        "the",
+                        "small",
+                        "tree"
+                    ],
+                    "sent_id": 298766,
+                    "sent": "Large gray elephant walking in front of the small tree"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    111111,
+                    222222,
+                    333333
+                ],
+                "random": [
+                    444444,
+                    555555,
+                    666666
+                ],
+                "catAndAttr": [
+                    777777,
+                    888888,
+                    999999
+                ],
+                "cat": [
+                    123456,
+                    234567,
+                    345678
+                ]
+            },
+            "objectId": "5432110",
+            "attri_used": [
+                [
+                    "large",
+                    "gray"
+                ],
+                [
+                    "small"
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401288",
+            "valid_flag": 1,
+            "ref_id": 298766,
+            "name": "elephant",
+            "box": [
+                50,
+                100,
+                300,
+                200
+            ],
+            "att_wds": [
+                "large",
+                "gray"
+            ],
+            "sent_ids": [
+                298766
+            ],
+            "logic": "chain",
+            "attributes": [
+                "large",
+                "gray",
+                "walking"
+            ],
+            "category_id": 22,
+            "expression": "Large gray elephant walking in front of the small tree"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2600123",
+                    "2599876",
+                    "2601234"
+                ],
+                "random": [
+                    "2602345",
+                    "2603456",
+                    "2604567"
+                ],
+                "catAndcat": [
+                    "2605678",
+                    "2606789",
+                    "2607890"
+                ],
+                "cat": [
+                    "2608901",
+                    "2609012",
+                    "2610123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "1876543",
+                    "1765432",
+                    "1654321"
+                ],
+                "random": [
+                    "1543210",
+                    "1432109",
+                    "1321098"
+                ],
+                "catAndcat": [
+                    "1210987",
+                    "1109876",
+                    "1098765"
+                ],
+                "cat": [
+                    "987655",
+                    "876544",
+                    "765433"
+                ]
+            },
+            "ann_id": 845293,
+            "imageId": "2401289",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Orange",
+                        "basketball",
+                        "rolling",
+                        "across",
+                        "the",
+                        "gym",
+                        "floor"
+                    ],
+                    "sent_id": 298767,
+                    "sent": "Orange basketball rolling across the gym floor"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    111222,
+                    222333,
+                    333444
+                ],
+                "random": [
+                    444555,
+                    555666,
+                    666777
+                ],
+                "catAndAttr": [
+                    777888,
+                    888999,
+                    999111
+                ],
+                "cat": [
+                    123789,
+                    234890,
+                    345901
+                ]
+            },
+            "objectId": "5432111",
+            "attri_used": [
+                [
+                    "orange"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401289",
+            "valid_flag": 1,
+            "ref_id": 298767,
+            "name": "ball",
+            "box": [
+                200,
+                150,
+                50,
+                50
+            ],
+            "att_wds": [
+                "orange"
+            ],
+            "sent_ids": [
+                298767
+            ],
+            "logic": "unary",
+            "attributes": [
+                "orange",
+                "rolling"
+            ],
+            "category_id": 37,
+            "expression": "Orange basketball rolling across the gym floor"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2700123",
+                    "2699876",
+                    "2701234"
+                ],
+                "random": [
+                    "2702345",
+                    "2703456",
+                    "2704567"
+                ],
+                "catAndcat": [
+                    "2705678",
+                    "2706789",
+                    "2707890"
+                ],
+                "cat": [
+                    "2708901",
+                    "2709012",
+                    "2710123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "2876543",
+                    "2765432",
+                    "2654321"
+                ],
+                "random": [
+                    "2543210",
+                    "2432109",
+                    "2321098"
+                ],
+                "catAndcat": [
+                    "2210987",
+                    "2109876",
+                    "2098765"
+                ],
+                "cat": [
+                    "987656",
+                    "876545",
+                    "765434"
+                ]
+            },
+            "ann_id": 845294,
+            "imageId": "2401290",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "young",
+                        "boy",
+                        "eating",
+                        "an",
+                        "ice",
+                        "cream",
+                        "cone",
+                        "while",
+                        "sitting",
+                        "on",
+                        "the",
+                        "park",
+                        "bench"
+                    ],
+                    "sent_id": 298768,
+                    "sent": "The young boy eating an ice cream cone while sitting on the park bench"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    111333,
+                    222444,
+                    333555
+                ],
+                "random": [
+                    444666,
+                    555777,
+                    666888
+                ],
+                "catAndAttr": [
+                    777999,
+                    888111,
+                    999222
+                ],
+                "cat": [
+                    123012,
+                    234123,
+                    345234
+                ]
+            },
+            "objectId": "5432112",
+            "attri_used": [
+                [
+                    "young"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401290",
+            "valid_flag": 1,
+            "ref_id": 298768,
+            "name": "person",
+            "box": [
+                100,
+                50,
+                120,
+                180
+            ],
+            "att_wds": [
+                "young"
+            ],
+            "sent_ids": [
+                298768
+            ],
+            "logic": "chain",
+            "attributes": [
+                "young",
+                "eating",
+                "sitting"
+            ],
+            "category_id": 1,
+            "expression": "The young boy eating an ice cream cone while sitting on the park bench"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2800123",
+                    "2799876",
+                    "2801234"
+                ],
+                "random": [
+                    "2802345",
+                    "2803456",
+                    "2804567"
+                ],
+                "catAndcat": [
+                    "2805678",
+                    "2806789",
+                    "2807890"
+                ],
+                "cat": [
+                    "2808901",
+                    "2809012",
+                    "2810123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "3876543",
+                    "3765432",
+                    "3654321"
+                ],
+                "random": [
+                    "3543210",
+                    "3432109",
+                    "3321098"
+                ],
+                "catAndcat": [
+                    "3210987",
+                    "3109876",
+                    "3098765"
+                ],
+                "cat": [
+                    "987657",
+                    "876546",
+                    "765435"
+                ]
+            },
+            "ann_id": 845295,
+            "imageId": "2401291",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Purple",
+                        "flower",
+                        "blooming",
+                        "in",
+                        "the",
+                        "garden",
+                        "next",
+                        "to",
+                        "the",
+                        "stone",
+                        "path"
+                    ],
+                    "sent_id": 298769,
+                    "sent": "Purple flower blooming in the garden next to the stone path"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    111444,
+                    222555,
+                    333666
+                ],
+                "random": [
+                    444777,
+                    555888,
+                    666999
+                ],
+                "catAndAttr": [
+                    777123,
+                    888234,
+                    999345
+                ],
+                "cat": [
+                    123345,
+                    234456,
+                    345567
+                ]
+            },
+            "objectId": "5432113",
+            "attri_used": [
+                [
+                    "purple"
+                ],
+                [
+                    "stone"
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401291",
+            "valid_flag": 1,
+            "ref_id": 298769,
+            "name": "flower",
+            "box": [
+                80,
+                120,
+                40,
+                60
+            ],
+            "att_wds": [
+                "purple"
+            ],
+            "sent_ids": [
+                298769
+            ],
+            "logic": "chain",
+            "attributes": [
+                "purple",
+                "blooming"
+            ],
+            "category_id": 64,
+            "expression": "Purple flower blooming in the garden next to the stone path"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2900123",
+                    "2899876",
+                    "2901234"
+                ],
+                "random": [
+                    "2902345",
+                    "2903456",
+                    "2904567"
+                ],
+                "catAndcat": [
+                    "2905678",
+                    "2906789",
+                    "2907890"
+                ],
+                "cat": [
+                    "2908901",
+                    "2909012",
+                    "2910123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "4876543",
+                    "4765432",
+                    "4654321"
+                ],
+                "random": [
+                    "4543210",
+                    "4432109",
+                    "4321098"
+                ],
+                "catAndcat": [
+                    "4210987",
+                    "4109876",
+                    "4098765"
+                ],
+                "cat": [
+                    "987658",
+                    "876547",
+                    "765436"
+                ]
+            },
+            "ann_id": 845296,
+            "imageId": "2401292",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Silver",
+                        "laptop",
+                        "computer",
+                        "open",
+                        "on",
+                        "the",
+                        "desk",
+                        "beside",
+                        "the",
+                        "coffee",
+                        "mug"
+                    ],
+                    "sent_id": 298770,
+                    "sent": "Silver laptop computer open on the desk beside the coffee mug"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    111555,
+                    222666,
+                    333777
+                ],
+                "random": [
+                    444888,
+                    555999,
+                    666123
+                ],
+                "catAndAttr": [
+                    777234,
+                    888345,
+                    999456
+                ],
+                "cat": [
+                    123678,
+                    234789,
+                    345890
+                ]
+            },
+            "objectId": "5432114",
+            "attri_used": [
+                [
+                    "silver"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401292",
+            "valid_flag": 1,
+            "ref_id": 298770,
+            "name": "laptop",
+            "box": [
+                150,
+                80,
+                200,
+                150
+            ],
+            "att_wds": [
+                "silver"
+            ],
+            "sent_ids": [
+                298770
+            ],
+            "logic": "chain",
+            "attributes": [
+                "silver",
+                "open"
+            ],
+            "category_id": 73,
+            "expression": "Silver laptop computer open on the desk beside the coffee mug"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "3000123",
+                    "2999876",
+                    "3001234"
+                ],
+                "random": [
+                    "3002345",
+                    "3003456",
+                    "3004567"
+                ],
+                "catAndcat": [
+                    "3005678",
+                    "3006789",
+                    "3007890"
+                ],
+                "cat": [
+                    "3008901",
+                    "3009012",
+                    "3010123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "5876543",
+                    "5765432",
+                    "5654321"
+                ],
+                "random": [
+                    "5543210",
+                    "5432109",
+                    "5321098"
+                ],
+                "catAndcat": [
+                    "5210987",
+                    "5109876",
+                    "5098765"
+                ],
+                "cat": [
+                    "987659",
+                    "876548",
+                    "765437"
+                ]
+            },
+            "ann_id": 845297,
+            "imageId": "2401293",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Golden",
+                        "retriever",
+                        "dog",
+                        "playing",
+                        "fetch",
+                        "with",
+                        "a",
+                        "tennis",
+                        "ball",
+                        "in",
+                        "the",
+                        "yard"
+                    ],
+                    "sent_id": 298771,
+                    "sent": "Golden retriever dog playing fetch with a tennis ball in the yard"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    111666,
+                    222777,
+                    333888
+                ],
+                "random": [
+                    444999,
+                    555123,
+                    666234
+                ],
+                "catAndAttr": [
+                    777345,
+                    888456,
+                    999567
+                ],
+                "cat": [
+                    123901,
+                    234012,
+                    345123
+                ]
+            },
+            "objectId": "5432115",
+            "attri_used": [
+                [
+                    "golden"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401293",
+            "valid_flag": 1,
+            "ref_id": 298771,
+            "name": "dog",
+            "box": [
+                120,
+                100,
+                180,
+                120
+            ],
+            "att_wds": [
+                "golden"
+            ],
+            "sent_ids": [
+                298771
+            ],
+            "logic": "chain",
+            "attributes": [
+                "golden",
+                "playing"
+            ],
+            "category_id": 18,
+            "expression": "Golden retriever dog playing fetch with a tennis ball in the yard"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "3100123",
+                    "3099876",
+                    "3101234"
+                ],
+                "random": [
+                    "3102345",
+                    "3103456",
+                    "3104567"
+                ],
+                "catAndcat": [
+                    "3105678",
+                    "3106789",
+                    "3107890"
+                ],
+                "cat": [
+                    "3108901",
+                    "3109012",
+                    "3110123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "6876543",
+                    "6765432",
+                    "6654321"
+                ],
+                "random": [
+                    "6543210",
+                    "6432109",
+                    "6321098"
+                ],
+                "catAndcat": [
+                    "6210987",
+                    "6109876",
+                    "6098765"
+                ],
+                "cat": [
+                    "987660",
+                    "876549",
+                    "765438"
+                ]
+            },
+            "ann_id": 845298,
+            "imageId": "2401294",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "old",
+                        "woman",
+                        "knitting",
+                        "a",
+                        "sweater",
+                        "while",
+                        "sitting",
+                        "in",
+                        "the",
+                        "rocking",
+                        "chair"
+                    ],
+                    "sent_id": 298772,
+                    "sent": "The old woman knitting a sweater while sitting in the rocking chair"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    111777,
+                    222888,
+                    333999
+                ],
+                "random": [
+                    444123,
+                    555234,
+                    666345
+                ],
+                "catAndAttr": [
+                    777456,
+                    888567,
+                    999678
+                ],
+                "cat": [
+                    123234,
+                    234345,
+                    345456
+                ]
+            },
+            "objectId": "5432116",
+            "attri_used": [
+                [
+                    "old"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401294",
+            "valid_flag": 1,
+            "ref_id": 298772,
+            "name": "person",
+            "box": [
+                90,
+                70,
+                140,
+                200
+            ],
+            "att_wds": [
+                "old"
+            ],
+            "sent_ids": [
+                298772
+            ],
+            "logic": "chain",
+            "attributes": [
+                "old",
+                "knitting",
+                "sitting"
+            ],
+            "category_id": 1,
+            "expression": "The old woman knitting a sweater while sitting in the rocking chair"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "3200123",
+                    "3199876",
+                    "3201234"
+                ],
+                "random": [
+                    "3202345",
+                    "3203456",
+                    "3204567"
+                ],
+                "catAndcat": [
+                    "3205678",
+                    "3206789",
+                    "3207890"
+                ],
+                "cat": [
+                    "3208901",
+                    "3209012",
+                    "3210123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "7876543",
+                    "7765432",
+                    "7654321"
+                ],
+                "random": [
+                    "7543210",
+                    "7432109",
+                    "7321098"
+                ],
+                "catAndcat": [
+                    "7210987",
+                    "7109876",
+                    "7098765"
+                ],
+                "cat": [
+                    "987661",
+                    "876550",
+                    "765439"
+                ]
+            },
+            "ann_id": 845299,
+            "imageId": "2401295",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Bright",
+                        "yellow",
+                        "sunflower",
+                        "standing",
+                        "tall",
+                        "in",
+                        "the",
+                        "field"
+                    ],
+                    "sent_id": 298773,
+                    "sent": "Bright yellow sunflower standing tall in the field"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    111888,
+                    222999,
+                    333123
+                ],
+                "random": [
+                    444234,
+                    555345,
+                    666456
+                ],
+                "catAndAttr": [
+                    777567,
+                    888678,
+                    999789
+                ],
+                "cat": [
+                    123567,
+                    234678,
+                    345789
+                ]
+            },
+            "objectId": "5432117",
+            "attri_used": [
+                [
+                    "bright",
+                    "yellow"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401295",
+            "valid_flag": 1,
+            "ref_id": 298773,
+            "name": "flower",
+            "box": [
+                180,
+                50,
+                80,
+                200
+            ],
+            "att_wds": [
+                "bright",
+                "yellow"
+            ],
+            "sent_ids": [
+                298773
+            ],
+            "logic": "unary",
+            "attributes": [
+                "bright",
+                "yellow",
+                "tall"
+            ],
+            "category_id": 64,
+            "expression": "Bright yellow sunflower standing tall in the field"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "3300123",
+                    "3299876",
+                    "3301234"
+                ],
+                "random": [
+                    "3302345",
+                    "3303456",
+                    "3304567"
+                ],
+                "catAndcat": [
+                    "3305678",
+                    "3306789",
+                    "3307890"
+                ],
+                "cat": [
+                    "3308901",
+                    "3309012",
+                    "3310123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "8876543",
+                    "8765432",
+                    "8654321"
+                ],
+                "random": [
+                    "8543210",
+                    "8432109",
+                    "8321098"
+                ],
+                "catAndcat": [
+                    "8210987",
+                    "8109876",
+                    "8098765"
+                ],
+                "cat": [
+                    "987662",
+                    "876551",
+                    "765440"
+                ]
+            },
+            "ann_id": 845300,
+            "imageId": "2401296",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Red",
+                        "apple",
+                        "sitting",
+                        "on",
+                        "the",
+                        "kitchen",
+                        "counter",
+                        "near",
+                        "the",
+                        "fruit",
+                        "bowl"
+                    ],
+                    "sent_id": 298774,
+                    "sent": "Red apple sitting on the kitchen counter near the fruit bowl"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    111999,
+                    222123,
+                    333234
+                ],
+                "random": [
+                    444345,
+                    555456,
+                    666567
+                ],
+                "catAndAttr": [
+                    777678,
+                    888789,
+                    999890
+                ],
+                "cat": [
+                    123890,
+                    234901,
+                    345012
+                ]
+            },
+            "objectId": "5432118",
+            "attri_used": [
+                [
+                    "red"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401296",
+            "valid_flag": 1,
+            "ref_id": 298774,
+            "name": "apple",
+            "box": [
+                160,
+                120,
+                40,
+                40
+            ],
+            "att_wds": [
+                "red"
+            ],
+            "sent_ids": [
+                298774
+            ],
+            "logic": "chain",
+            "attributes": [
+                "red"
+            ],
+            "category_id": 53,
+            "expression": "Red apple sitting on the kitchen counter near the fruit bowl"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "3400123",
+                    "3399876",
+                    "3401234"
+                ],
+                "random": [
+                    "3402345",
+                    "3403456",
+                    "3404567"
+                ],
+                "catAndcat": [
+                    "3405678",
+                    "3406789",
+                    "3407890"
+                ],
+                "cat": [
+                    "3408901",
+                    "3409012",
+                    "3410123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "9876543",
+                    "9765432",
+                    "9654321"
+                ],
+                "random": [
+                    "9543210",
+                    "9432109",
+                    "9321098"
+                ],
+                "catAndcat": [
+                    "9210987",
+                    "9109876",
+                    "9098765"
+                ],
+                "cat": [
+                    "987663",
+                    "876552",
+                    "765441"
+                ]
+            },
+            "ann_id": 845301,
+            "imageId": "2401297",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "chef",
+                        "wearing",
+                        "a",
+                        "white",
+                        "hat",
+                        "and",
+                        "cooking",
+                        "in",
+                        "the",
+                        "kitchen"
+                    ],
+                    "sent_id": 298775,
+                    "sent": "The chef wearing a white hat and cooking in the kitchen"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    112123,
+                    223234,
+                    334345
+                ],
+                "random": [
+                    445456,
+                    556567,
+                    667678
+                ],
+                "catAndAttr": [
+                    778789,
+                    889890,
+                    990901
+                ],
+                "cat": [
+                    124123,
+                    235234,
+                    346345
+                ]
+            },
+            "objectId": "5432119",
+            "attri_used": [
+                [
+                    "white"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401297",
+            "valid_flag": 1,
+            "ref_id": 298775,
+            "name": "person",
+            "box": [
+                110,
+                60,
+                150,
+                220
+            ],
+            "att_wds": [
+                "white"
+            ],
+            "sent_ids": [
+                298775
+            ],
+            "logic": "and",
+            "attributes": [
+                "wearing",
+                "cooking"
+            ],
+            "category_id": 1,
+            "expression": "The chef wearing a white hat and cooking in the kitchen"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "3500123",
+                    "3499876",
+                    "3501234"
+                ],
+                "random": [
+                    "3502345",
+                    "3503456",
+                    "3504567"
+                ],
+                "catAndcat": [
+                    "3505678",
+                    "3506789",
+                    "3507890"
+                ],
+                "cat": [
+                    "3508901",
+                    "3509012",
+                    "3510123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "1976543",
+                    "1875432",
+                    "1774321"
+                ],
+                "random": [
+                    "1673210",
+                    "1572109",
+                    "1471098"
+                ],
+                "catAndcat": [
+                    "1370987",
+                    "1269876",
+                    "1168765"
+                ],
+                "cat": [
+                    "987664",
+                    "876553",
+                    "765442"
+                ]
+            },
+            "ann_id": 845302,
+            "imageId": "2401298",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Brown",
+                        "wooden",
+                        "chair",
+                        "positioned",
+                        "next",
+                        "to",
+                        "the",
+                        "dining",
+                        "table"
+                    ],
+                    "sent_id": 298776,
+                    "sent": "Brown wooden chair positioned next to the dining table"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    112234,
+                    223345,
+                    334456
+                ],
+                "random": [
+                    445567,
+                    556678,
+                    667789
+                ],
+                "catAndAttr": [
+                    778890,
+                    889901,
+                    990012
+                ],
+                "cat": [
+                    124234,
+                    235345,
+                    346456
+                ]
+            },
+            "objectId": "5432120",
+            "attri_used": [
+                [
+                    "brown",
+                    "wooden"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401298",
+            "valid_flag": 1,
+            "ref_id": 298776,
+            "name": "chair",
+            "box": [
+                200,
+                100,
+                80,
+                120
+            ],
+            "att_wds": [
+                "brown",
+                "wooden"
+            ],
+            "sent_ids": [
+                298776
+            ],
+            "logic": "chain",
+            "attributes": [
+                "brown",
+                "wooden"
+            ],
+            "category_id": 62,
+            "expression": "Brown wooden chair positioned next to the dining table"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "3600123",
+                    "3599876",
+                    "3601234"
+                ],
+                "random": [
+                    "3602345",
+                    "3603456",
+                    "3604567"
+                ],
+                "catAndcat": [
+                    "3605678",
+                    "3606789",
+                    "3607890"
+                ],
+                "cat": [
+                    "3608901",
+                    "3609012",
+                    "3610123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "2076543",
+                    "1975432",
+                    "1874321"
+                ],
+                "random": [
+                    "1773210",
+                    "1672109",
+                    "1571098"
+                ],
+                "catAndcat": [
+                    "1470987",
+                    "1369876",
+                    "1268765"
+                ],
+                "cat": [
+                    "987665",
+                    "876554",
+                    "765443"
+                ]
+            },
+            "ann_id": 845303,
+            "imageId": "2401299",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Small",
+                        "white",
+                        "bird",
+                        "perched",
+                        "on",
+                        "the",
+                        "tree",
+                        "branch"
+                    ],
+                    "sent_id": 298777,
+                    "sent": "Small white bird perched on the tree branch"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    112345,
+                    223456,
+                    334567
+                ],
+                "random": [
+                    445678,
+                    556789,
+                    667890
+                ],
+                "catAndAttr": [
+                    778901,
+                    889012,
+                    990123
+                ],
+                "cat": [
+                    124345,
+                    235456,
+                    346567
+                ]
+            },
+            "objectId": "5432121",
+            "attri_used": [
+                [
+                    "small",
+                    "white"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401299",
+            "valid_flag": 1,
+            "ref_id": 298777,
+            "name": "bird",
+            "box": [
+                250,
+                80,
+                30,
+                25
+            ],
+            "att_wds": [
+                "small",
+                "white"
+            ],
+            "sent_ids": [
+                298777
+            ],
+            "logic": "unary",
+            "attributes": [
+                "small",
+                "white",
+                "perched"
+            ],
+            "category_id": 16,
+            "expression": "Small white bird perched on the tree branch"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "3700123",
+                    "3699876",
+                    "3701234"
+                ],
+                "random": [
+                    "3702345",
+                    "3703456",
+                    "3704567"
+                ],
+                "catAndcat": [
+                    "3705678",
+                    "3706789",
+                    "3707890"
+                ],
+                "cat": [
+                    "3708901",
+                    "3709012",
+                    "3710123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "2176543",
+                    "2075432",
+                    "1974321"
+                ],
+                "random": [
+                    "1873210",
+                    "1772109",
+                    "1671098"
+                ],
+                "catAndcat": [
+                    "1570987",
+                    "1469876",
+                    "1368765"
+                ],
+                "cat": [
+                    "987666",
+                    "876555",
+                    "765444"
+                ]
+            },
+            "ann_id": 845304,
+            "imageId": "2401300",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "pizza",
+                        "slice",
+                        "with",
+                        "pepperoni",
+                        "on",
+                        "the",
+                        "plate"
+                    ],
+                    "sent_id": 298778,
+                    "sent": "The pizza slice with pepperoni on the plate"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    112456,
+                    223567,
+                    334678
+                ],
+                "random": [
+                    445789,
+                    556890,
+                    667901
+                ],
+                "catAndAttr": [
+                    778012,
+                    889123,
+                    990234
+                ],
+                "cat": [
+                    124456,
+                    235567,
+                    346678
+                ]
+            },
+            "objectId": "5432122",
+            "attri_used": [
+                [
+                    ""
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401300",
+            "valid_flag": 1,
+            "ref_id": 298778,
+            "name": "pizza",
+            "box": [
+                130,
+                140,
+                120,
+                80
+            ],
+            "att_wds": [
+                "pepperoni"
+            ],
+            "sent_ids": [
+                298778
+            ],
+            "logic": "chain",
+            "attributes": [
+                "pepperoni"
+            ],
+            "category_id": 59,
+            "expression": "The pizza slice with pepperoni on the plate"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "3800123",
+                    "3799876",
+                    "3801234"
+                ],
+                "random": [
+                    "3802345",
+                    "3803456",
+                    "3804567"
+                ],
+                "catAndcat": [
+                    "3805678",
+                    "3806789",
+                    "3807890"
+                ],
+                "cat": [
+                    "3808901",
+                    "3809012",
+                    "3810123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "2276543",
+                    "2175432",
+                    "2074321"
+                ],
+                "random": [
+                    "1973210",
+                    "1872109",
+                    "1771098"
+                ],
+                "catAndcat": [
+                    "1670987",
+                    "1569876",
+                    "1468765"
+                ],
+                "cat": [
+                    "987667",
+                    "876556",
+                    "765445"
+                ]
+            },
+            "ann_id": 845305,
+            "imageId": "2401301",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Blue",
+                        "sports",
+                        "car",
+                        "racing",
+                        "around",
+                        "the",
+                        "track"
+                    ],
+                    "sent_id": 298779,
+                    "sent": "Blue sports car racing around the track"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    112567,
+                    223678,
+                    334789
+                ],
+                "random": [
+                    445890,
+                    556901,
+                    667012
+                ],
+                "catAndAttr": [
+                    778123,
+                    889234,
+                    990345
+                ],
+                "cat": [
+                    124567,
+                    235678,
+                    346789
+                ]
+            },
+            "objectId": "5432123",
+            "attri_used": [
+                [
+                    "blue"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401301",
+            "valid_flag": 1,
+            "ref_id": 298779,
+            "name": "car",
+            "box": [
+                180,
+                120,
+                160,
+                80
+            ],
+            "att_wds": [
+                "blue"
+            ],
+            "sent_ids": [
+                298779
+            ],
+            "logic": "unary",
+            "attributes": [
+                "blue",
+                "sports",
+                "racing"
+            ],
+            "category_id": 3,
+            "expression": "Blue sports car racing around the track"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "3900123",
+                    "3899876",
+                    "3901234"
+                ],
+                "random": [
+                    "3902345",
+                    "3903456",
+                    "3904567"
+                ],
+                "catAndcat": [
+                    "3905678",
+                    "3906789",
+                    "3907890"
+                ],
+                "cat": [
+                    "3908901",
+                    "3909012",
+                    "3910123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "2376543",
+                    "2275432",
+                    "2174321"
+                ],
+                "random": [
+                    "2073210",
+                    "1972109",
+                    "1871098"
+                ],
+                "catAndcat": [
+                    "1770987",
+                    "1669876",
+                    "1568765"
+                ],
+                "cat": [
+                    "987668",
+                    "876557",
+                    "765446"
+                ]
+            },
+            "ann_id": 845306,
+            "imageId": "2401302",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "musician",
+                        "playing",
+                        "guitar",
+                        "on",
+                        "the",
+                        "stage"
+                    ],
+                    "sent_id": 298780,
+                    "sent": "The musician playing guitar on the stage"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    112678,
+                    223789,
+                    334890
+                ],
+                "random": [
+                    445901,
+                    556012,
+                    667123
+                ],
+                "catAndAttr": [
+                    778234,
+                    889345,
+                    990456
+                ],
+                "cat": [
+                    124678,
+                    235789,
+                    346890
+                ]
+            },
+            "objectId": "5432124",
+            "attri_used": [
+                [
+                    ""
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401302",
+            "valid_flag": 1,
+            "ref_id": 298780,
+            "name": "person",
+            "box": [
+                140,
+                80,
+                100,
+                180
+            ],
+            "att_wds": [],
+            "sent_ids": [
+                298780
+            ],
+            "logic": "chain",
+            "attributes": [
+                "playing"
+            ],
+            "category_id": 1,
+            "expression": "The musician playing guitar on the stage"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "4000123",
+                    "3999876",
+                    "4001234"
+                ],
+                "random": [
+                    "4002345",
+                    "4003456",
+                    "4004567"
+                ],
+                "catAndcat": [
+                    "4005678",
+                    "4006789",
+                    "4007890"
+                ],
+                "cat": [
+                    "4008901",
+                    "4009012",
+                    "4010123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "2476543",
+                    "2375432",
+                    "2274321"
+                ],
+                "random": [
+                    "2173210",
+                    "2072109",
+                    "1971098"
+                ],
+                "catAndcat": [
+                    "1870987",
+                    "1769876",
+                    "1668765"
+                ],
+                "cat": [
+                    "987669",
+                    "876558",
+                    "765447"
+                ]
+            },
+            "ann_id": 845307,
+            "imageId": "2401303",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Green",
+                        "grass",
+                        "growing",
+                        "in",
+                        "the",
+                        "field",
+                        "behind",
+                        "the",
+                        "fence"
+                    ],
+                    "sent_id": 298781,
+                    "sent": "Green grass growing in the field behind the fence"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    112789,
+                    223890,
+                    334901
+                ],
+                "random": [
+                    445012,
+                    556123,
+                    667234
+                ],
+                "catAndAttr": [
+                    778345,
+                    889456,
+                    990567
+                ],
+                "cat": [
+                    124789,
+                    235890,
+                    346901
+                ]
+            },
+            "objectId": "5432125",
+            "attri_used": [
+                [
+                    "green"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401303",
+            "valid_flag": 1,
+            "ref_id": 298781,
+            "name": "grass",
+            "box": [
+                0,
+                200,
+                400,
+                100
+            ],
+            "att_wds": [
+                "green"
+            ],
+            "sent_ids": [
+                298781
+            ],
+            "logic": "chain",
+            "attributes": [
+                "green",
+                "growing"
+            ],
+            "category_id": 130,
+            "expression": "Green grass growing in the field behind the fence"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "4100123",
+                    "4099876",
+                    "4101234"
+                ],
+                "random": [
+                    "4102345",
+                    "4103456",
+                    "4104567"
+                ],
+                "catAndcat": [
+                    "4105678",
+                    "4106789",
+                    "4107890"
+                ],
+                "cat": [
+                    "4108901",
+                    "4109012",
+                    "4110123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "2576543",
+                    "2475432",
+                    "2374321"
+                ],
+                "random": [
+                    "2273210",
+                    "2172109",
+                    "2071098"
+                ],
+                "catAndcat": [
+                    "1970987",
+                    "1869876",
+                    "1768765"
+                ],
+                "cat": [
+                    "987670",
+                    "876559",
+                    "765448"
+                ]
+            },
+            "ann_id": 845308,
+            "imageId": "2401304",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "nurse",
+                        "wearing",
+                        "blue",
+                        "scrubs",
+                        "walking",
+                        "down",
+                        "the",
+                        "hospital",
+                        "hallway"
+                    ],
+                    "sent_id": 298782,
+                    "sent": "The nurse wearing blue scrubs walking down the hospital hallway"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    112890,
+                    223901,
+                    334012
+                ],
+                "random": [
+                    445123,
+                    556234,
+                    667345
+                ],
+                "catAndAttr": [
+                    778456,
+                    889567,
+                    990678
+                ],
+                "cat": [
+                    124890,
+                    235901,
+                    347012
+                ]
+            },
+            "objectId": "5432126",
+            "attri_used": [
+                [
+                    "blue"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401304",
+            "valid_flag": 1,
+            "ref_id": 298782,
+            "name": "person",
+            "box": [
+                160,
+                70,
+                90,
+                200
+            ],
+            "att_wds": [
+                "blue"
+            ],
+            "sent_ids": [
+                298782
+            ],
+            "logic": "chain",
+            "attributes": [
+                "wearing",
+                "walking"
+            ],
+            "category_id": 1,
+            "expression": "The nurse wearing blue scrubs walking down the hospital hallway"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "4200123",
+                    "4199876",
+                    "4201234"
+                ],
+                "random": [
+                    "4202345",
+                    "4203456",
+                    "4204567"
+                ],
+                "catAndcat": [
+                    "4205678",
+                    "4206789",
+                    "4207890"
+                ],
+                "cat": [
+                    "4208901",
+                    "4209012",
+                    "4210123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "2676543",
+                    "2575432",
+                    "2474321"
+                ],
+                "random": [
+                    "2373210",
+                    "2272109",
+                    "2171098"
+                ],
+                "catAndcat": [
+                    "2070987",
+                    "1969876",
+                    "1868765"
+                ],
+                "cat": [
+                    "987671",
+                    "876560",
+                    "765449"
+                ]
+            },
+            "ann_id": 845309,
+            "imageId": "2401305",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Orange",
+                        "tabby",
+                        "cat",
+                        "sleeping",
+                        "on",
+                        "the",
+                        "windowsill"
+                    ],
+                    "sent_id": 298783,
+                    "sent": "Orange tabby cat sleeping on the windowsill"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    112901,
+                    223012,
+                    334123
+                ],
+                "random": [
+                    445234,
+                    556345,
+                    667456
+                ],
+                "catAndAttr": [
+                    778567,
+                    889678,
+                    990789
+                ],
+                "cat": [
+                    124901,
+                    236012,
+                    347123
+                ]
+            },
+            "objectId": "5432127",
+            "attri_used": [
+                [
+                    "orange"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401305",
+            "valid_flag": 1,
+            "ref_id": 298783,
+            "name": "cat",
+            "box": [
+                200,
+                120,
+                80,
+                60
+            ],
+            "att_wds": [
+                "orange"
+            ],
+            "sent_ids": [
+                298783
+            ],
+            "logic": "unary",
+            "attributes": [
+                "orange",
+                "tabby",
+                "sleeping"
+            ],
+            "category_id": 17,
+            "expression": "Orange tabby cat sleeping on the windowsill"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "4300123",
+                    "4299876",
+                    "4301234"
+                ],
+                "random": [
+                    "4302345",
+                    "4303456",
+                    "4304567"
+                ],
+                "catAndcat": [
+                    "4305678",
+                    "4306789",
+                    "4307890"
+                ],
+                "cat": [
+                    "4308901",
+                    "4309012",
+                    "4310123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "2776543",
+                    "2675432",
+                    "2574321"
+                ],
+                "random": [
+                    "2473210",
+                    "2372109",
+                    "2271098"
+                ],
+                "catAndcat": [
+                    "2170987",
+                    "2069876",
+                    "1968765"
+                ],
+                "cat": [
+                    "987672",
+                    "876561",
+                    "765450"
+                ]
+            },
+            "ann_id": 845310,
+            "imageId": "2401306",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "fisherman",
+                        "casting",
+                        "his",
+                        "line",
+                        "into",
+                        "the",
+                        "lake"
+                    ],
+                    "sent_id": 298784,
+                    "sent": "The fisherman casting his line into the lake"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    113012,
+                    224123,
+                    335234
+                ],
+                "random": [
+                    446345,
+                    557456,
+                    668567
+                ],
+                "catAndAttr": [
+                    779678,
+                    890789,
+                    991890
+                ],
+                "cat": [
+                    125012,
+                    236123,
+                    347234
+                ]
+            },
+            "objectId": "5432128",
+            "attri_used": [
+                [
+                    ""
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401306",
+            "valid_flag": 1,
+            "ref_id": 298784,
+            "name": "person",
+            "box": [
+                120,
+                90,
+                100,
+                160
+            ],
+            "att_wds": [],
+            "sent_ids": [
+                298784
+            ],
+            "logic": "chain",
+            "attributes": [
+                "casting"
+            ],
+            "category_id": 1,
+            "expression": "The fisherman casting his line into the lake"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "4400123",
+                    "4399876",
+                    "4401234"
+                ],
+                "random": [
+                    "4402345",
+                    "4403456",
+                    "4404567"
+                ],
+                "catAndcat": [
+                    "4405678",
+                    "4406789",
+                    "4407890"
+                ],
+                "cat": [
+                    "4408901",
+                    "4409012",
+                    "4410123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "2876543",
+                    "2775432",
+                    "2674321"
+                ],
+                "random": [
+                    "2573210",
+                    "2472109",
+                    "2371098"
+                ],
+                "catAndcat": [
+                    "2270987",
+                    "2169876",
+                    "2068765"
+                ],
+                "cat": [
+                    "987673",
+                    "876562",
+                    "765451"
+                ]
+            },
+            "ann_id": 845311,
+            "imageId": "2401307",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Pink",
+                        "roses",
+                        "blooming",
+                        "in",
+                        "the",
+                        "garden",
+                        "next",
+                        "to",
+                        "the",
+                        "white",
+                        "fence"
+                    ],
+                    "sent_id": 298785,
+                    "sent": "Pink roses blooming in the garden next to the white fence"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    113123,
+                    224234,
+                    335345
+                ],
+                "random": [
+                    446456,
+                    557567,
+                    668678
+                ],
+                "catAndAttr": [
+                    779789,
+                    890890,
+                    991901
+                ],
+                "cat": [
+                    125123,
+                    236234,
+                    347345
+                ]
+            },
+            "objectId": "5432129",
+            "attri_used": [
+                [
+                    "pink"
+                ],
+                [
+                    "white"
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401307",
+            "valid_flag": 1,
+            "ref_id": 298785,
+            "name": "flower",
+            "box": [
+                150,
+                100,
+                60,
+                80
+            ],
+            "att_wds": [
+                "pink"
+            ],
+            "sent_ids": [
+                298785
+            ],
+            "logic": "chain",
+            "attributes": [
+                "pink",
+                "blooming"
+            ],
+            "category_id": 64,
+            "expression": "Pink roses blooming in the garden next to the white fence"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "4500123",
+                    "4499876",
+                    "4501234"
+                ],
+                "random": [
+                    "4502345",
+                    "4503456",
+                    "4504567"
+                ],
+                "catAndcat": [
+                    "4505678",
+                    "4506789",
+                    "4507890"
+                ],
+                "cat": [
+                    "4508901",
+                    "4509012",
+                    "4510123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "2976543",
+                    "2875432",
+                    "2774321"
+                ],
+                "random": [
+                    "2673210",
+                    "2572109",
+                    "2471098"
+                ],
+                "catAndcat": [
+                    "2370987",
+                    "2269876",
+                    "2168765"
+                ],
+                "cat": [
+                    "987674",
+                    "876563",
+                    "765452"
+                ]
+            },
+            "ann_id": 845312,
+            "imageId": "2401308",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "pilot",
+                        "flying",
+                        "the",
+                        "airplane",
+                        "through",
+                        "the",
+                        "clouds"
+                    ],
+                    "sent_id": 298786,
+                    "sent": "The pilot flying the airplane through the clouds"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    113234,
+                    224345,
+                    335456
+                ],
+                "random": [
+                    446567,
+                    557678,
+                    668789
+                ],
+                "catAndAttr": [
+                    779890,
+                    890901,
+                    991012
+                ],
+                "cat": [
+                    125234,
+                    236345,
+                    347456
+                ]
+            },
+            "objectId": "5432130",
+            "attri_used": [
+                [
+                    ""
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401308",
+            "valid_flag": 1,
+            "ref_id": 298786,
+            "name": "person",
+            "box": [
+                180,
+                60,
+                80,
+                120
+            ],
+            "att_wds": [],
+            "sent_ids": [
+                298786
+            ],
+            "logic": "chain",
+            "attributes": [
+                "flying"
+            ],
+            "category_id": 1,
+            "expression": "The pilot flying the airplane through the clouds"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "4600123",
+                    "4599876",
+                    "4601234"
+                ],
+                "random": [
+                    "4602345",
+                    "4603456",
+                    "4604567"
+                ],
+                "catAndcat": [
+                    "4605678",
+                    "4606789",
+                    "4607890"
+                ],
+                "cat": [
+                    "4608901",
+                    "4609012",
+                    "4610123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "3076543",
+                    "2975432",
+                    "2874321"
+                ],
+                "random": [
+                    "2773210",
+                    "2672109",
+                    "2571098"
+                ],
+                "catAndcat": [
+                    "2470987",
+                    "2369876",
+                    "2268765"
+                ],
+                "cat": [
+                    "987675",
+                    "876564",
+                    "765453"
+                ]
+            },
+            "ann_id": 845313,
+            "imageId": "2401309",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Dark",
+                        "chocolate",
+                        "cake",
+                        "sitting",
+                        "on",
+                        "the",
+                        "plate",
+                        "with",
+                        "strawberries"
+                    ],
+                    "sent_id": 298787,
+                    "sent": "Dark chocolate cake sitting on the plate with strawberries"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    113345,
+                    224456,
+                    335567
+                ],
+                "random": [
+                    446678,
+                    557789,
+                    668890
+                ],
+                "catAndAttr": [
+                    779901,
+                    890012,
+                    991123
+                ],
+                "cat": [
+                    125345,
+                    236456,
+                    347567
+                ]
+            },
+            "objectId": "5432131",
+            "attri_used": [
+                [
+                    "dark"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401309",
+            "valid_flag": 1,
+            "ref_id": 298787,
+            "name": "cake",
+            "box": [
+                170,
+                130,
+                100,
+                70
+            ],
+            "att_wds": [
+                "dark"
+            ],
+            "sent_ids": [
+                298787
+            ],
+            "logic": "chain",
+            "attributes": [
+                "dark",
+                "chocolate"
+            ],
+            "category_id": 61,
+            "expression": "Dark chocolate cake sitting on the plate with strawberries"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "4700123",
+                    "4699876",
+                    "4701234"
+                ],
+                "random": [
+                    "4702345",
+                    "4703456",
+                    "4704567"
+                ],
+                "catAndcat": [
+                    "4705678",
+                    "4706789",
+                    "4707890"
+                ],
+                "cat": [
+                    "4708901",
+                    "4709012",
+                    "4710123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "3176543",
+                    "3075432",
+                    "2974321"
+                ],
+                "random": [
+                    "2873210",
+                    "2772109",
+                    "2671098"
+                ],
+                "catAndcat": [
+                    "2570987",
+                    "2469876",
+                    "2368765"
+                ],
+                "cat": [
+                    "987676",
+                    "876565",
+                    "765454"
+                ]
+            },
+            "ann_id": 845314,
+            "imageId": "2401310",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "construction",
+                        "worker",
+                        "wearing",
+                        "a",
+                        "yellow",
+                        "hard",
+                        "hat",
+                        "and",
+                        "working",
+                        "on",
+                        "the",
+                        "building"
+                    ],
+                    "sent_id": 298788,
+                    "sent": "The construction worker wearing a yellow hard hat and working on the building"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    113456,
+                    224567,
+                    335678
+                ],
+                "random": [
+                    446789,
+                    557890,
+                    668901
+                ],
+                "catAndAttr": [
+                    779012,
+                    890123,
+                    991234
+                ],
+                "cat": [
+                    125456,
+                    236567,
+                    347678
+                ]
+            },
+            "objectId": "5432132",
+            "attri_used": [
+                [
+                    "yellow"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401310",
+            "valid_flag": 1,
+            "ref_id": 298788,
+            "name": "person",
+            "box": [
+                140,
+                70,
+                110,
+                200
+            ],
+            "att_wds": [
+                "yellow"
+            ],
+            "sent_ids": [
+                298788
+            ],
+            "logic": "and",
+            "attributes": [
+                "wearing",
+                "working"
+            ],
+            "category_id": 1,
+            "expression": "The construction worker wearing a yellow hard hat and working on the building"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "4800123",
+                    "4799876",
+                    "4801234"
+                ],
+                "random": [
+                    "4802345",
+                    "4803456",
+                    "4804567"
+                ],
+                "catAndcat": [
+                    "4805678",
+                    "4806789",
+                    "4807890"
+                ],
+                "cat": [
+                    "4808901",
+                    "4809012",
+                    "4810123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "3276543",
+                    "3175432",
+                    "3074321"
+                ],
+                "random": [
+                    "2973210",
+                    "2872109",
+                    "2771098"
+                ],
+                "catAndcat": [
+                    "2670987",
+                    "2569876",
+                    "2468765"
+                ],
+                "cat": [
+                    "987677",
+                    "876566",
+                    "765455"
+                ]
+            },
+            "ann_id": 845315,
+            "imageId": "2401311",
+            "sentences": [
+                {
+                    "tokens": [
+                        "Vintage",
+                        "red",
+                        "truck",
+                        "parked",
+                        "in",
+                        "front",
+                        "of",
+                        "the",
+                        "old",
+                        "barn"
+                    ],
+                    "sent_id": 298789,
+                    "sent": "Vintage red truck parked in front of the old barn"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    113567,
+                    224678,
+                    335789
+                ],
+                "random": [
+                    446890,
+                    557901,
+                    669012
+                ],
+                "catAndAttr": [
+                    780123,
+                    891234,
+                    992345
+                ],
+                "cat": [
+                    126567,
+                    237678,
+                    348789
+                ]
+            },
+            "objectId": "5432133",
+            "attri_used": [
+                [
+                    "vintage",
+                    "red"
+                ],
+                [
+                    "old"
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401311",
+            "valid_flag": 1,
+            "ref_id": 298789,
+            "name": "truck",
+            "box": [
+                100,
+                120,
+                200,
+                120
+            ],
+            "att_wds": [
+                "vintage",
+                "red"
+            ],
+            "sent_ids": [
+                298789
+            ],
+            "logic": "chain",
+            "attributes": [
+                "vintage",
+                "red",
+                "parked"
+            ],
+            "category_id": 8,
+            "expression": "Vintage red truck parked in front of the old barn"
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "4900123",
+                    "4899876",
+                    "4901234"
+                ],
+                "random": [
+                    "4902345",
+                    "4903456",
+                    "4904567"
+                ],
+                "catAndcat": [
+                    "4905678",
+                    "4906789",
+                    "4907890"
+                ],
+                "cat": [
+                    "4908901",
+                    "4909012",
+                    "4910123"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "3376543",
+                    "3275432",
+                    "3174321"
+                ],
+                "random": [
+                    "3073210",
+                    "2972109",
+                    "2871098"
+                ],
+                "catAndcat": [
+                    "2770987",
+                    "2669876",
+                    "2568765"
+                ],
+                "cat": [
+                    "987678",
+                    "876567",
+                    "765456"
+                ]
+            },
+            "ann_id": 845316,
+            "imageId": "2401312",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "swimmer",
+                        "diving",
+                        "into",
+                        "the",
+                        "clear",
+                        "blue",
+                        "pool"
+                    ],
+                    "sent_id": 298790,
+                    "sent": "The swimmer diving into the clear blue pool"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    113678,
+                    224789,
+                    335890
+                ],
+                "random": [
+                    446901,
+                    558012,
+                    669123
+                ],
+                "catAndAttr": [
+                    780234,
+                    891345,
+                    992456
+                ],
+                "cat": [
+                    126678,
+                    237789,
+                    348890
+                ]
+            },
+            "objectId": "5432134",
+            "attri_used": [
+                [
+                    ""
+                ],
+                [
+                    "clear",
+                    "blue"
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401312",
+            "valid_flag": 1,
+            "ref_id": 298790,
+            "name": "person",
+            "box": [
+                160,
+                80,
+                80,
+                120
+            ],
+            "att_wds": [],
+            "sent_ids": [
+                298790
+            ],
+            "logic": "chain",
+            "attributes": [
+                "diving"
+            ],
+            "category_id": 1,
+            "expression": "The swimmer diving into the clear blue pool"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+# ─────────────────────────────────────────────────────────────────────
+# DeepSoftLog-REC — Python dependencies
+#
+# NOTE: The neurosymbolic engine, `deepsoftlog`, is NOT listed here because it
+# ships Cython extensions and must be built. Install it FIRST, separately:
+#
+#   git clone https://github.com/sam-mcm-642/DeepSoftLog.git
+#   cd DeepSoftLog && pip install -r requirements.txt && pip install -e .
+#
+# Versions below are aligned with that fork to avoid conflicts. See README.
+# ─────────────────────────────────────────────────────────────────────
+
+# ── Core runtime (training + evaluation) ──
+torch==2.1.0
+torchvision==0.16.0
+numpy==1.26.1
+pyyaml==6.0.1
+tqdm==4.66.1
+wandb==0.16.0
+
+# ── LLM query parser (src/models/text/triplets_chatgpt) ──
+anthropic>=0.25.0
+python-dotenv>=1.0.0
+
+# ── Analysis & visualisation scripts ──
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+# ── Scene-graph helpers (src/models/sgg) ──
+h5py>=3.10.0
+Pillow>=10.0.0
+
+# ── Optional / offline only — NOT installed by this file (see README) ──
+# maskrcnn-benchmark : only to (re)generate scene graphs in
+#   src/models/sgg/scene_graph_generator.py. Build from upstream
+#   Scene-Graph-Benchmark.pytorch — it is not pip-installable as-is.
+# gentopia : used only by src/models/text/triplets_chatgpt/run.py.

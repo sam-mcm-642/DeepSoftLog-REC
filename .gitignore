@@ -1,0 +1,48 @@
+# ── Python ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ── Environment / secrets ───────────────────────────────────────────
+.env
+*.env
+.env.local
+.env.*.local
+
+# ── Models & checkpoints (NONE are committed — see README) ──────────
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.hdf5
+store.pt
+
+# ── Experiment tracking / logs ──────────────────────────────────────
+wandb/
+mlruns/
+*.log
+
+# ── Large / generated datasets (not committed — see README "Data") ──
+sample_images/
+cops_ref_images/
+data.json
+data/vg/
+data/scene_graph_results/
+*_formatted.csv
+vg_scene_graphs*.csv
+gqa_scene_graphs*.csv
+training_metrics_next.csv
+
+# ── Installers / misc ───────────────────────────────────────────────
+Miniconda3-latest-MacOSX-x86_64.sh
+
+# ── OS / editor ─────────────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/

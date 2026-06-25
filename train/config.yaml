@@ -1,0 +1,26 @@
+# Description: Configuration file for training the model
+project: referring expression
+name: thesis
+program: /Users/sammcmanagan/Desktop/Thesis/Model/data/program/initial_program.pl
+seed: 1337
+verbose: true
+data_subset: null
+device: cpu
+semantics: sdd2
+
+# optimization
+optimizer: AdamW
+embedding_learning_rate: 0.08
+functor_learning_rate: 0
+weight_decay: 0
+nb_epochs: 10
+batch_size: 1
+grad_clip: null
+max_proofs: 4
+max_depth: 38
+max_branching: 38
+
+# embeddings
+embedding_dimensions: 100
+embedding_initialization: sphere
+embedding_metric: angle

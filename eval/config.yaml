@@ -1,0 +1,26 @@
+# Evaluation Configuration
+project: referring expression evaluation
+name: eval_thesis
+program: /Users/sammcmanagan/Desktop/Thesis/Model/data/program/eval_program.pl
+eval_program: /Users/sammcmanagan/Desktop/Thesis/Model/data/program/eval_program.pl
+device: cpu
+semantics: sdd2
+seed: 1337
+
+# Data paths
+eval_data_file: data/vg/sgg_scene_graphs_formatted.csv
+eval_queries_file: data/final_queries_edited.json
+
+# Evaluation limits
+max_proofs: 15
+max_depth: 500
+max_branching: 750
+max_eval_instances: 1000
+
+# Model parameters (should match training config)
+embedding_dimensions: 100
+embedding_initialization: sphere
+embedding_metric: angle
+
+# Output
+output_file: evaluation_metrics_sgg.csv

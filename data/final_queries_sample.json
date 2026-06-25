@@ -1,0 +1,32 @@
+{
+    "queries": [
+        {
+            "image_id": "107974",
+            "query": "target(X), type(X, tree), expression(hasAttribute, X, bare), expression(rightOf, X, rock), expression(leftOf, X, giraffe), expression(hasAttribute, giraffe, tall)",
+            "target": [
+                "tree",
+                [
+                    255,
+                    0,
+                    171,
+                    382
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": "1082",
+            "query": "target(X), type(X, basket), expression(hasAttribute, X, brown), expression(contains, X, shoe)",
+            "target": [
+                "basket",
+                [
+                    119,
+                    264,
+                    291,
+                    138
+                ]
+            ],
+            "probability": 1.0
+        }
+    ]
+}

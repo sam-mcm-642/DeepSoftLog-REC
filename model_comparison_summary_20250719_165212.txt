@@ -1,0 +1,29 @@
+CLAUDE MODEL COMPARISON REPORT
+==================================================
+
+Processing Date: 2025-07-19T16:52:12.735118
+Total Expressions: 40
+
+SUCCESS RATES:
+  Sonnet: 100.0%
+  Haiku:  100.0%
+
+VALIDITY RATES:
+  Sonnet: 100.0%
+  Haiku:  100.0%
+
+PERFORMANCE:
+  Avg Sonnet Time: 2.15s
+  Avg Haiku Time:  1.43s
+  Haiku Speed Advantage: 33.6%
+
+COST ANALYSIS:
+  Sonnet Total Cost: $0.0183
+  Haiku Total Cost:  $0.0015
+  Cost Ratio (S:H):  12.5:1
+  Cost/Expression (Sonnet): $0.0005
+  Cost/Expression (Haiku):  $0.0000
+
+AGREEMENT:
+  Both Successful: 100.0%
+  Output Agreement: 0.0%

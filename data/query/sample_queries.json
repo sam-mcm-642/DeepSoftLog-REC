@@ -1,0 +1,284 @@
+{
+    "queries": [
+        {
+            "image_id": 1,
+            "query": "target(X), type(X, shade), expression(on, X, street), expression(nextTo, tree, street), expression(hasAttribute, street, clean), expression(has, street, pavement)",
+            "target": [
+                "shade",
+                [
+                    119,
+                    338,
+                    274,
+                    192
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 2,
+            "query": "target(X), type(X, road), expression(neighboring, tree, X)",
+            "target": [
+                "road",
+                [
+                    3,
+                    321,
+                    372,
+                    279
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 3,
+            "query": "target(X), type(X, furniture), expression(has, X, beige)",
+            "target": [
+                "cabinet",
+                [
+                    2,
+                    269,
+                    139,
+                    201
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 3,
+            "query": "target(X), type(X, room), expression(atop, outlet, X), expression(along, outlet, X)",
+            "target": [
+                "wall",
+                [
+                    3,
+                    6,
+                    258,
+                    265
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 3,
+            "query": "target(X), type(X, container), expression(hasAttribute, X, black)",
+            "target": [
+                "bag",
+                [
+                    574,
+                    270,
+                    65,
+                    134
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 4,
+            "query": "target(X), type(X, color), expression(has, X, blue)",
+            "target": [
+                "color",
+                [
+                    575,
+                    38,
+                    22,
+                    38
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 4,
+            "query": "target(X), type(X, color), expression(has, X, blue)",
+            "target": [
+                "color",
+                [
+                    298,
+                    225,
+                    41,
+                    48
+                ]
+            ],
+            "probability": 0.0
+        },
+        {
+            "image_id": 4,
+            "query": "target(X), type(X, bedding), expression(hasAttribute, X, snowy)",
+            "target": [
+                "pillow",
+                [
+                    183,
+                    222,
+                    111,
+                    86
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 4,
+            "query": "target(X), type(X, bedding), expression(hasAttribute, X, snowy)",
+            "target": [
+                "box",
+                [
+                    457,
+                    165,
+                    57,
+                    25
+                ]
+            ],
+            "probability": 0.0
+        },
+        {
+            "image_id": 5,
+            "query": "target(X), type(X, room), expression(hasAttribute, X, brown), expression(atop, heater, X), expression(hasAttribute, X, wood)",
+            "target": [
+                "floor",
+                [
+                    2,
+                    490,
+                    349,
+                    108
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 6,
+            "query": "target(X), type(X, glass), expression(hasAttribute, X, clear)",
+            "target": [
+                "glass",
+                [
+                    192,
+                    0,
+                    59,
+                    98
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 6,
+            "query": "target(X), type(X, bedding), expression(with, container, X), expression(adjacent, bag, container), expression(on, bag, counter)",
+            "target": [
+                "cover",
+                [
+                    600,
+                    56,
+                    147,
+                    46
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 7,
+            "query": "target(X), type(X, grass), expression(onTopOf, X, desk)",
+            "target": [
+                "cereal",
+                [
+                    459,
+                    326,
+                    46,
+                    77
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 7,
+            "query": "target(X), type(X, female), expression(contains, X, sweater)",
+            "target": [
+                "woman",
+                [
+                    6,
+                    309,
+                    256,
+                    287
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 8,
+            "query": "target(X), type(X, table), expression(on, stapler, X), expression(near, stapler, cup)",
+            "target": [
+                "desk",
+                [
+                    27,
+                    329,
+                    544,
+                    267
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 8,
+            "query": "target(X), type(X, color), expression(hasProperty, X, gray)",
+            "target": [
+                "color",
+                [
+                    377,
+                    513,
+                    40,
+                    48
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 8,
+            "query": "target(X), type(X, color), expression(hasProperty, X, gray)",
+            "target": [
+                "mug",
+                [
+                    719,
+                    472,
+                    44,
+                    58
+                ]
+            ],
+            "probability": 0.0
+        },
+        {
+            "image_id": 9,
+            "query": "target(X), type(X, seat), expression(hasAttribute, X, gray)",
+            "target": [
+                "chair",
+                [
+                    495,
+                    223,
+                    29,
+                    58
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 9,
+            "query": "target(X), type(X, room), expression(hasProperty, X, white)",
+            "target": [
+                "ceiling",
+                [
+                    70,
+                    3,
+                    569,
+                    91
+                ]
+            ],
+            "probability": 1.0
+        },
+        {
+            "image_id": 10,
+            "query": "target(X), type(X, seat), expression(on, coat, X)",
+            "target": [
+                "chair",
+                [
+                    558,
+                    352,
+                    157,
+                    203
+                ]
+            ],
+            "probability": 1.0
+        }
+    ]
+}

@@ -1,0 +1,5345 @@
+{
+  "refs": [
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2392274",
+          "4871",
+          "2341715"
+        ],
+        "random": [
+          "3455",
+          "2338447",
+          "2323095"
+        ],
+        "catAndcat": [
+          "2384693",
+          "2323268",
+          "2377489"
+        ],
+        "cat": [
+          "4884",
+          "2380953",
+          "3930"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "481596",
+          "1563978",
+          "3247437"
+        ],
+        "random": [
+          "4340201",
+          "4595103",
+          "3959680"
+        ],
+        "catAndcat": [
+          "524977",
+          "3027010",
+          "2390127"
+        ],
+        "cat": [
+          "1564123",
+          "1340828",
+          "1654742"
+        ]
+      },
+      "ann_id": 12842,
+      "imageId": "2388625",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "wood",
+            "chair",
+            "that",
+            "is",
+            "to",
+            "the",
+            "left",
+            "of",
+            "the",
+            "pink",
+            "shirt",
+            "that",
+            "is",
+            "to",
+            "the",
+            "right",
+            "of",
+            "the",
+            "table"
+          ],
+          "sent_id": 6100,
+          "sent": "The wood chair that is to the left of the pink shirt that is to the right of the table"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          843317,
+          892920,
+          1034164
+        ],
+        "random": [
+          230450,
+          1372246,
+          636535
+        ],
+        "catAndAttr": [
+          1056288,
+          1244303,
+          1213418
+        ],
+        "cat": [
+          622329,
+          296596,
+          742236
+        ]
+      },
+      "objectId": "672033",
+      "attri_used": [
+        [
+          "wood"
+        ],
+        [
+          "pink"
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2388625",
+      "valid_flag": 1,
+      "ref_id": 6100,
+      "name": "chair",
+      "box": [
+        173,
+        325,
+        148,
+        94
+      ],
+      "att_wds": [
+        "brown",
+        "wood"
+      ],
+      "sent_ids": [
+        6100
+      ],
+      "logic": "chain",
+      "attributes": [
+        "brown",
+        "wood"
+      ],
+      "category_id": 783,
+      "expression": "The wood chair that is to the left of the pink shirt that is to the right of the table",
+      "explored_list": [
+        [
+          "672033"
+        ],
+        [
+          "672036"
+        ],
+        [
+          "672032"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "498144",
+          "2414784",
+          "2370389"
+        ],
+        "random": [
+          "2349757",
+          "2342309",
+          "2416226"
+        ],
+        "catAndcat": [
+          "2406438",
+          "2386338",
+          "2320680"
+        ],
+        "cat": [
+          "2407148",
+          "2368611",
+          "2362311"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "1574093",
+          "152053",
+          "3983755"
+        ],
+        "random": [
+          "1686976",
+          "2877602",
+          "2962538"
+        ],
+        "catAndcat": [
+          "3811774",
+          "1287042",
+          "4228168"
+        ],
+        "cat": [
+          "284789",
+          "745562",
+          "1759810"
+        ]
+      },
+      "ann_id": 246446,
+      "imageId": "2359509",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "black",
+            "cat",
+            "that",
+            "is",
+            "lying",
+            "on",
+            "the",
+            "wood",
+            "desk"
+          ],
+          "sent_id": 4219,
+          "sent": "The black cat that is lying on the wood desk"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          1228693,
+          1263682,
+          1041762
+        ],
+        "random": [
+          109209,
+          137551,
+          1399857
+        ],
+        "catAndAttr": [
+          458013,
+          718899,
+          705926
+        ],
+        "cat": [
+          1179673,
+          1262906,
+          1351134
+        ]
+      },
+      "objectId": "1967945",
+      "attri_used": [
+        [
+          "black"
+        ],
+        [
+          "wood"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2359509",
+      "valid_flag": 1,
+      "ref_id": 4219,
+      "name": "cat",
+      "box": [
+        112,
+        136,
+        330,
+        185
+      ],
+      "att_wds": [
+        "black"
+      ],
+      "sent_ids": [
+        4219
+      ],
+      "logic": "chain",
+      "attributes": [
+        "black"
+      ],
+      "category_id": 173,
+      "expression": "The black cat that is lying on the wood desk",
+      "explored_list": [
+        [
+          "1967945"
+        ],
+        [
+          "1834660"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2355138",
+          "2371554",
+          "2385350"
+        ],
+        "random": [
+          "2399186",
+          "2326150",
+          "2372812"
+        ],
+        "catAndcat": [
+          "3494",
+          "2407602",
+          "1285"
+        ],
+        "cat": [
+          "2396092",
+          "2414269",
+          "1159718"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "2120079",
+          "739218",
+          "1297970"
+        ],
+        "random": [
+          "1171443",
+          "983365",
+          "590349"
+        ],
+        "catAndcat": [
+          "3972162",
+          "276843",
+          "1031955"
+        ],
+        "cat": [
+          "665322",
+          "4175630",
+          "4160343"
+        ]
+      },
+      "ann_id": 984163,
+      "imageId": "2327496",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "brown",
+            "door",
+            "that",
+            "is",
+            "of",
+            "the",
+            "room"
+          ],
+          "sent_id": 8095,
+          "sent": "The brown door that is of the room"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          612097,
+          1216543,
+          1022986
+        ],
+        "random": [
+          24665,
+          1049928,
+          529402
+        ],
+        "catAndAttr": [
+          185420,
+          802829,
+          1074378
+        ],
+        "cat": [
+          1048561,
+          851011,
+          9102
+        ]
+      },
+      "objectId": "3405872",
+      "attri_used": [
+        [
+          "brown"
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2327496",
+      "valid_flag": 1,
+      "ref_id": 8095,
+      "name": "door",
+      "box": [
+        253,
+        66,
+        89,
+        262
+      ],
+      "att_wds": [
+        "brown"
+      ],
+      "sent_ids": [
+        8095
+      ],
+      "logic": "chain",
+      "attributes": [
+        "brown"
+      ],
+      "category_id": 462,
+      "expression": "The brown door that is of the room",
+      "explored_list": [
+        [
+          "3405872"
+        ],
+        [
+          "3405873"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2355360",
+          "2396750",
+          "150510"
+        ],
+        "random": [
+          "2399993",
+          "2400645",
+          "2337687"
+        ],
+        "catAndcat": [
+          "2388832",
+          "2337339",
+          "2404849"
+        ],
+        "cat": [
+          "2332614",
+          "2352815",
+          "2416361"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "830358",
+          "440812",
+          "1567785"
+        ],
+        "random": [
+          "3818715",
+          "406973",
+          "2040530"
+        ],
+        "catAndcat": [
+          "4508027",
+          "2426914",
+          "337223"
+        ],
+        "cat": [
+          "3405109",
+          "2316157",
+          "3059760"
+        ]
+      },
+      "ann_id": 210522,
+      "imageId": "2364966",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "glass",
+            "bottle",
+            "that",
+            "is",
+            "on",
+            "the",
+            "table",
+            "and",
+            "to",
+            "the",
+            "left",
+            "of",
+            "the",
+            "yellow",
+            "sauce"
+          ],
+          "sent_id": 14033,
+          "sent": "The glass bottle that is on the table and to the left of the yellow sauce"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          702512,
+          618103,
+          152165
+        ],
+        "random": [
+          577283,
+          1272373,
+          1310614
+        ],
+        "catAndAttr": [
+          121721,
+          953902,
+          1176145
+        ],
+        "cat": [
+          3390,
+          1400708,
+          556149
+        ]
+      },
+      "objectId": "637384",
+      "attri_used": [
+        [
+          "glass"
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            "yellow"
+          ]
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2364966",
+      "valid_flag": 1,
+      "ref_id": 14033,
+      "name": "bottle",
+      "box": [
+        1,
+        21,
+        107,
+        191
+      ],
+      "att_wds": [
+        "open"
+      ],
+      "sent_ids": [
+        14033
+      ],
+      "logic": "and",
+      "attributes": [
+        "glass",
+        "open"
+      ],
+      "category_id": 687,
+      "expression": "The glass bottle that is on the table and to the left of the yellow sauce",
+      "explored_list": [
+        [
+          "637384"
+        ],
+        [
+          "637394",
+          "637396"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2334677",
+          "2366586",
+          "1159761"
+        ],
+        "random": [
+          "2352380",
+          "2414912",
+          "2357474"
+        ],
+        "catAndcat": [
+          "3509",
+          "2328963",
+          "4737"
+        ],
+        "cat": [
+          "2391915",
+          "2371719",
+          "2358665"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "2076676",
+          "627484",
+          "1597393"
+        ],
+        "random": [
+          "2782919",
+          "149513",
+          "1846423"
+        ],
+        "catAndcat": [
+          "4552542",
+          "3019806",
+          "1562210"
+        ],
+        "cat": [
+          "1236110",
+          "2097738",
+          "1736784"
+        ]
+      },
+      "ann_id": 106803,
+      "imageId": "2317272",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "wood",
+            "bench",
+            "that",
+            "is",
+            "in",
+            "front",
+            "of",
+            "the",
+            "gray",
+            "wall",
+            "and",
+            "in",
+            "front",
+            "of",
+            "the",
+            "wood",
+            "window"
+          ],
+          "sent_id": 17458,
+          "sent": "The wood bench that is in front of the gray wall and in front of the wood window"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          914986,
+          223625,
+          1177314
+        ],
+        "random": [
+          1098992,
+          879554,
+          16355
+        ],
+        "catAndAttr": [
+          932546,
+          899783,
+          841417
+        ],
+        "cat": [
+          355350,
+          637566,
+          252690
+        ]
+      },
+      "objectId": "1022237",
+      "attri_used": [
+        [
+          "wood"
+        ],
+        [
+          [
+            "gray"
+          ],
+          [
+            "wood"
+          ]
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2317272",
+      "valid_flag": 1,
+      "ref_id": 17458,
+      "name": "bench",
+      "box": [
+        40,
+        153,
+        235,
+        163
+      ],
+      "att_wds": [
+        "brown",
+        "wood"
+      ],
+      "sent_ids": [
+        17458
+      ],
+      "logic": "and",
+      "attributes": [
+        "brown",
+        "wood"
+      ],
+      "category_id": 834,
+      "expression": "The wood bench that is in front of the gray wall and in front of the wood window",
+      "explored_list": [
+        [
+          "1022237"
+        ],
+        [
+          "1022233",
+          "1022234"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2398113",
+          "2369981",
+          "2365472"
+        ],
+        "random": [
+          "2326150",
+          "2324726",
+          "1160110"
+        ],
+        "catAndcat": [
+          "2361696",
+          "2416149",
+          "2333800"
+        ],
+        "cat": [
+          "2369626",
+          "2332958",
+          "2346008"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "1040733",
+          "2417734",
+          "756835"
+        ],
+        "random": [
+          "983364",
+          "2820426",
+          "1601693"
+        ],
+        "catAndcat": [
+          "1943655",
+          "3026890",
+          "3079944"
+        ],
+        "cat": [
+          "2193139",
+          "3502545",
+          "1754905"
+        ]
+      },
+      "ann_id": 1351357,
+      "imageId": "2395343",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "surfing",
+            "person",
+            "that",
+            "is",
+            "in",
+            "the",
+            "calm",
+            "water"
+          ],
+          "sent_id": 5243,
+          "sent": "The surfing person that is in the calm water"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          951044,
+          165570,
+          909110
+        ],
+        "random": [
+          1049929,
+          406599,
+          1348743
+        ],
+        "catAndAttr": [
+          1124007,
+          303231,
+          554164
+        ],
+        "cat": [
+          1145310,
+          1277281,
+          1000771
+        ]
+      },
+      "objectId": "455608",
+      "attri_used": [
+        [
+          "surfing"
+        ],
+        [
+          "calm"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2395343",
+      "valid_flag": 1,
+      "ref_id": 5243,
+      "name": "person",
+      "box": [
+        176,
+        83,
+        236,
+        166
+      ],
+      "att_wds": [],
+      "sent_ids": [
+        5243
+      ],
+      "logic": "chain",
+      "attributes": [
+        "surfing",
+        "surfing"
+      ],
+      "category_id": 792,
+      "expression": "The surfing person that is in the calm water",
+      "explored_list": [
+        [
+          "455608"
+        ],
+        [
+          "455611"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2320356",
+          "2318041",
+          "2413897"
+        ],
+        "random": [
+          "2353266",
+          "2402321",
+          "2361301"
+        ],
+        "catAndcat": [
+          "2341555",
+          "2347091",
+          "2396431"
+        ],
+        "cat": [
+          "2363711",
+          "2330606",
+          "2406583"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "3150232",
+          "1014879",
+          "163958"
+        ],
+        "random": [
+          "1744970",
+          "1137717",
+          "2458450"
+        ],
+        "catAndcat": [
+          "941810",
+          "893614",
+          "1197989"
+        ],
+        "cat": [
+          "2216098",
+          "3072706",
+          "1101095"
+        ]
+      },
+      "ann_id": 788678,
+      "imageId": "2412311",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "white",
+            "shirt",
+            "that",
+            "is",
+            "to",
+            "the",
+            "right",
+            "of",
+            "the",
+            "happy",
+            "man",
+            "that",
+            "is",
+            "to",
+            "the",
+            "left",
+            "of",
+            "the",
+            "sign",
+            "that",
+            "is",
+            "on",
+            "the",
+            "wall"
+          ],
+          "sent_id": 5451,
+          "sent": "The white shirt that is to the right of the happy man that is to the left of the sign that is on the wall"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          326311,
+          225963,
+          978727
+        ],
+        "random": [
+          266960,
+          374764,
+          1004568
+        ],
+        "catAndAttr": [
+          973815,
+          310421,
+          486246
+        ],
+        "cat": [
+          526502,
+          1233694,
+          76062
+        ]
+      },
+      "objectId": "197474",
+      "attri_used": [
+        [
+          "white"
+        ],
+        [
+          "happy"
+        ],
+        [
+          ""
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2412311",
+      "valid_flag": 1,
+      "ref_id": 5451,
+      "name": "shirt",
+      "box": [
+        234,
+        144,
+        121,
+        118
+      ],
+      "att_wds": [
+        "white"
+      ],
+      "sent_ids": [
+        5451
+      ],
+      "logic": "chain",
+      "attributes": [
+        "white"
+      ],
+      "category_id": 688,
+      "expression": "The white shirt that is to the right of the happy man that is to the left of the sign that is on the wall",
+      "explored_list": [
+        [
+          "197474"
+        ],
+        [
+          "197477"
+        ],
+        [
+          "197485"
+        ],
+        [
+          "197487"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2338882",
+          "2367048",
+          "2344179"
+        ],
+        "random": [
+          "2367977",
+          "2350003",
+          "2331892"
+        ],
+        "catAndcat": [
+          "2411264",
+          "2368373",
+          "2410897"
+        ],
+        "cat": [
+          "2332640",
+          "286084",
+          "2388973"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "3929696",
+          "2901057",
+          "2957478"
+        ],
+        "random": [
+          "1748459",
+          "2170749",
+          "4653167"
+        ],
+        "catAndcat": [
+          "314316",
+          "618183",
+          "1084745"
+        ],
+        "cat": [
+          "2824271",
+          "1571779",
+          "1265077"
+        ]
+      },
+      "ann_id": 878004,
+      "imageId": "2390071",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "white",
+            "plate",
+            "that",
+            "is",
+            "of",
+            "the",
+            "white",
+            "rice"
+          ],
+          "sent_id": 3654,
+          "sent": "The white plate that is of the white rice"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          1074886,
+          247850,
+          407236
+        ],
+        "random": [
+          628160,
+          280442,
+          623519
+        ],
+        "catAndAttr": [
+          1191536,
+          1018679,
+          1126829
+        ],
+        "cat": [
+          811090,
+          924151,
+          344874
+        ]
+      },
+      "objectId": "500629",
+      "attri_used": [
+        [
+          "white"
+        ],
+        [
+          "white"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2390071",
+      "valid_flag": 1,
+      "ref_id": 3654,
+      "name": "plate",
+      "box": [
+        326,
+        65,
+        173,
+        134
+      ],
+      "att_wds": [
+        "white"
+      ],
+      "sent_ids": [
+        3654
+      ],
+      "logic": "chain",
+      "attributes": [
+        "white"
+      ],
+      "category_id": 937,
+      "expression": "The white plate that is of the white rice",
+      "explored_list": [
+        [
+          "500629"
+        ],
+        [
+          "500628"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2393687",
+          "2393602",
+          "2339668"
+        ],
+        "random": [
+          "2408005",
+          "2403002",
+          "2414167"
+        ],
+        "catAndcat": [
+          "2361612",
+          "1591973",
+          "2329895"
+        ],
+        "cat": [
+          "2375091",
+          "2319689",
+          "2344251"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "470569",
+          "1218506",
+          "950554"
+        ],
+        "random": [
+          "269880",
+          "3372043",
+          "158616"
+        ],
+        "catAndcat": [
+          "2900447",
+          "1605600",
+          "973771"
+        ],
+        "cat": [
+          "1991430",
+          "999689",
+          "2349580"
+        ]
+      },
+      "ann_id": 66174,
+      "imageId": "2404668",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "black",
+            "dress",
+            "that",
+            "is",
+            "to",
+            "the",
+            "right",
+            "of",
+            "the",
+            "arm"
+          ],
+          "sent_id": 5716,
+          "sent": "The black dress that is to the right of the arm"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          91437,
+          535846,
+          895471
+        ],
+        "random": [
+          1158238,
+          318567,
+          973253
+        ],
+        "catAndAttr": [
+          897277,
+          422318,
+          13126
+        ],
+        "cat": [
+          1158114,
+          846464,
+          1354280
+        ]
+      },
+      "objectId": "1113948",
+      "attri_used": [
+        [
+          "black"
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2404668",
+      "valid_flag": 1,
+      "ref_id": 5716,
+      "name": "dress",
+      "box": [
+        257,
+        0,
+        118,
+        289
+      ],
+      "att_wds": [
+        "black"
+      ],
+      "sent_ids": [
+        5716
+      ],
+      "logic": "chain",
+      "attributes": [
+        "black"
+      ],
+      "category_id": 590,
+      "expression": "The black dress that is to the right of the arm",
+      "explored_list": [
+        [
+          "1113948"
+        ],
+        [
+          "1113952"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndcat": [
+          "2342866",
+          "2408028",
+          "2323750"
+        ],
+        "random": [
+          "2394374",
+          "2412168",
+          "2416038"
+        ],
+        "catAndAttr": [
+          "2392548",
+          "2343965",
+          "2400855"
+        ],
+        "cat": [
+          "2372836",
+          "2395045",
+          "2354203"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndcat": [
+          "930014",
+          "269596",
+          "3003060"
+        ],
+        "random": [
+          "464732",
+          "357780",
+          "4263180"
+        ],
+        "catAndAttr": [
+          "1228681",
+          "2720840",
+          "4281975"
+        ],
+        "cat": [
+          "2380486",
+          "458318",
+          "2001195"
+        ]
+      },
+      "ann_id": 1379311,
+      "imageId": "713187",
+      "sentences": [
+        {
+          "tokens": [
+            "the",
+            "first",
+            "rock",
+            "from",
+            "the",
+            "left",
+            "that",
+            "is",
+            "large",
+            "and",
+            "to",
+            "the",
+            "left",
+            "of",
+            "gray",
+            "pavement"
+          ],
+          "sent_id": 11262,
+          "sent": "the first rock from the left that is large and to the left of gray pavement"
+        }
+      ],
+      "neg_ann_id_list": {
+        "random": [
+          488816,
+          766812,
+          272794
+        ],
+        "catAndAttr": [
+          92226,
+          726298,
+          193353
+        ],
+        "cat": [
+          1121877,
+          200047,
+          1305287
+        ]
+      },
+      "objectId": "1580067",
+      "attri_used": [
+        [
+          "large"
+        ],
+        [
+          "gray"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "713187",
+      "valid_flag": 1,
+      "ref_id": 11262,
+      "name": "rocks",
+      "box": [
+        210,
+        442,
+        340,
+        114
+      ],
+      "att_wds": [
+        "large"
+      ],
+      "sent_ids": [
+        11262
+      ],
+      "logic": "unary",
+      "attributes": [
+        "large"
+      ],
+      "category_id": 303,
+      "expression": "the first rock from the left that is large and to the left of gray pavement",
+      "explored_list": [
+        [
+          "1580067"
+        ],
+        [
+          "1580082"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2411698",
+          "2395639",
+          "2394690"
+        ],
+        "random": [
+          "2317627",
+          "2383479",
+          "2398651"
+        ],
+        "catAndcat": [
+          "2360505",
+          "2394699",
+          "2383120"
+        ],
+        "cat": [
+          "2390480",
+          "2388994",
+          "2394690"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "2997637",
+          "1204095",
+          "461868"
+        ],
+        "random": [
+          "1019005",
+          "532470",
+          "1177690"
+        ],
+        "catAndcat": [
+          "3260495",
+          "4405323",
+          "1323633"
+        ],
+        "cat": [
+          "496930",
+          "1264951",
+          "461868"
+        ]
+      },
+      "ann_id": 119770,
+      "imageId": "2345855",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "white",
+            "toilet",
+            "that",
+            "is",
+            "to",
+            "the",
+            "right",
+            "of",
+            "the",
+            "sink",
+            "that",
+            "is",
+            "below",
+            "the",
+            "mirror",
+            "that",
+            "is",
+            "on",
+            "the",
+            "wall"
+          ],
+          "sent_id": 5057,
+          "sent": "The white toilet that is to the right of the sink that is below the mirror that is on the wall"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          136188,
+          958608,
+          739377
+        ],
+        "random": [
+          948511,
+          616681,
+          832296
+        ],
+        "catAndAttr": [
+          537962,
+          926750,
+          266857
+        ],
+        "cat": [
+          830988,
+          479953,
+          266857
+        ]
+      },
+      "objectId": "904304",
+      "attri_used": [
+        [
+          "white"
+        ],
+        [
+          ""
+        ],
+        [
+          ""
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2345855",
+      "valid_flag": 1,
+      "ref_id": 5057,
+      "name": "toilet",
+      "box": [
+        59,
+        251,
+        97,
+        106
+      ],
+      "att_wds": [
+        "white"
+      ],
+      "sent_ids": [
+        5057
+      ],
+      "logic": "chain",
+      "attributes": [
+        "toilet",
+        "white"
+      ],
+      "category_id": 902,
+      "expression": "The white toilet that is to the right of the sink that is below the mirror that is on the wall",
+      "explored_list": [
+        [
+          "904304"
+        ],
+        [
+          "904320"
+        ],
+        [
+          "904307"
+        ],
+        [
+          "904325"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2321809",
+          "2373169",
+          "2316725"
+        ],
+        "random": [
+          "2358552",
+          "2367678",
+          "2392318"
+        ],
+        "catAndcat": [
+          "2400536",
+          "2360487",
+          "2346165"
+        ],
+        "cat": [
+          "2331367",
+          "2337359",
+          "2328825"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "4186620",
+          "2248532",
+          "3075655"
+        ],
+        "random": [
+          "2256323",
+          "2691088",
+          "1231444"
+        ],
+        "catAndcat": [
+          "408120",
+          "787708",
+          "901936"
+        ],
+        "cat": [
+          "3483235",
+          "2079782",
+          "976073"
+        ]
+      },
+      "ann_id": 1338592,
+      "imageId": "2334526",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "tennis",
+            "shoe",
+            "that",
+            "is",
+            "on",
+            "the",
+            "floor"
+          ],
+          "sent_id": 5848,
+          "sent": "The tennis shoe that is on the floor"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          769260,
+          520356,
+          174986
+        ],
+        "random": [
+          654308,
+          443717,
+          579043
+        ],
+        "catAndAttr": [
+          1132945,
+          1396786,
+          330264
+        ],
+        "cat": [
+          371635,
+          393063,
+          105552
+        ]
+      },
+      "objectId": "4552873",
+      "attri_used": [
+        [
+          "tennis"
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2334526",
+      "valid_flag": 1,
+      "ref_id": 5848,
+      "name": "shoe",
+      "box": [
+        413,
+        70,
+        85,
+        198
+      ],
+      "att_wds": [
+        "white"
+      ],
+      "sent_ids": [
+        5848
+      ],
+      "logic": "chain",
+      "attributes": [
+        "white",
+        "tennis"
+      ],
+      "category_id": 592,
+      "expression": "The tennis shoe that is on the floor",
+      "explored_list": [
+        [
+          "4552873"
+        ],
+        [
+          "4552871"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2354599",
+          "2361471",
+          "2344439"
+        ],
+        "random": [
+          "2394017",
+          "2414503",
+          "2380658"
+        ],
+        "catAndcat": [
+          "2326974",
+          "2392147",
+          "2341638"
+        ],
+        "cat": [
+          "2327453",
+          "2352092",
+          "2349439"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "2503073",
+          "3367440",
+          "2631467"
+        ],
+        "random": [
+          "1214966",
+          "294682",
+          "1344013"
+        ],
+        "catAndcat": [
+          "2829737",
+          "1233444",
+          "2521875"
+        ],
+        "cat": [
+          "2828772",
+          "1968622",
+          "3599246"
+        ]
+      },
+      "ann_id": 243212,
+      "imageId": "2403230",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "blond",
+            "woman",
+            "that",
+            "is",
+            "holding",
+            "the",
+            "clear",
+            "glass"
+          ],
+          "sent_id": 3389,
+          "sent": "The blond woman that is holding the clear glass"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          1071702,
+          1292968,
+          210644
+        ],
+        "random": [
+          62430,
+          1377113,
+          192757
+        ],
+        "catAndAttr": [
+          790709,
+          771720,
+          1339416
+        ],
+        "cat": [
+          604251,
+          1273651,
+          1314392
+        ]
+      },
+      "objectId": "1126775",
+      "attri_used": [
+        [
+          "blond"
+        ],
+        [
+          "clear"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2403230",
+      "valid_flag": 1,
+      "ref_id": 3389,
+      "name": "woman",
+      "box": [
+        0,
+        108,
+        138,
+        225
+      ],
+      "att_wds": [
+        "smiling",
+        "young",
+        "blond",
+        "happy"
+      ],
+      "sent_ids": [
+        3389
+      ],
+      "logic": "chain",
+      "attributes": [
+        "young",
+        "posing",
+        "blond",
+        "smiling",
+        "happy"
+      ],
+      "category_id": 162,
+      "expression": "The blond woman that is holding the clear glass",
+      "explored_list": [
+        [
+          "1126775"
+        ],
+        [
+          "1126776"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2368611",
+          "2328839",
+          "2408934"
+        ],
+        "random": [
+          "2411929",
+          "2350037",
+          "2367190"
+        ],
+        "catAndcat": [
+          "2364886",
+          "2376957",
+          "2325870"
+        ],
+        "cat": [
+          "2334361",
+          "2317428",
+          "2334847"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "745562",
+          "976017",
+          "252348"
+        ],
+        "random": [
+          "206711",
+          "870759",
+          "1809895"
+        ],
+        "catAndcat": [
+          "638083",
+          "718995",
+          "3061215"
+        ],
+        "cat": [
+          "3155316",
+          "1020919",
+          "2078281"
+        ]
+      },
+      "ann_id": 955756,
+      "imageId": "2414061",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "sitting",
+            "cat",
+            "that",
+            "is",
+            "in",
+            "front",
+            "of",
+            "the",
+            "brown",
+            "fence"
+          ],
+          "sent_id": 4271,
+          "sent": "The sitting cat that is in front of the brown fence"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          815893,
+          1169007,
+          1289274
+        ],
+        "random": [
+          696081,
+          864438,
+          780445
+        ],
+        "catAndAttr": [
+          1262906,
+          348719,
+          122776
+        ],
+        "cat": [
+          335040,
+          1314353,
+          336338
+        ]
+      },
+      "objectId": "160645",
+      "attri_used": [
+        [
+          "sitting"
+        ],
+        [
+          "brown"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2414061",
+      "valid_flag": 1,
+      "ref_id": 4271,
+      "name": "cat",
+      "box": [
+        89,
+        136,
+        233,
+        270
+      ],
+      "att_wds": [
+        "black",
+        "sitting"
+      ],
+      "sent_ids": [
+        4271
+      ],
+      "logic": "chain",
+      "attributes": [
+        "black",
+        "sitting"
+      ],
+      "category_id": 173,
+      "expression": "The sitting cat that is in front of the brown fence",
+      "explored_list": [
+        [
+          "160645"
+        ],
+        [
+          "160654"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2405711",
+          "2393233",
+          "2347171"
+        ],
+        "random": [
+          "2347454",
+          "2336075",
+          "2416914"
+        ],
+        "catAndcat": [
+          "2341009",
+          "2397470",
+          "2320189"
+        ],
+        "cat": [
+          "2405711",
+          "286018",
+          "2393233"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "329892",
+          "473880",
+          "2570135"
+        ],
+        "random": [
+          "890711",
+          "2793367",
+          "2972195"
+        ],
+        "catAndcat": [
+          "3657421",
+          "433874",
+          "3042065"
+        ],
+        "cat": [
+          "329892",
+          "1571234",
+          "473880"
+        ]
+      },
+      "ann_id": 58884,
+      "imageId": "2346651",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "blue",
+            "jean",
+            "that",
+            "is",
+            "to",
+            "the",
+            "right",
+            "of",
+            "the",
+            "hand"
+          ],
+          "sent_id": 7759,
+          "sent": "The blue jean that is to the right of the hand"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          627390,
+          87390,
+          778843
+        ],
+        "random": [
+          1152385,
+          939505,
+          892884
+        ],
+        "catAndAttr": [
+          1255887,
+          582653,
+          17838
+        ],
+        "cat": [
+          1255887,
+          752466,
+          582653
+        ]
+      },
+      "objectId": "897478",
+      "attri_used": [
+        [
+          "blue"
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2346651",
+      "valid_flag": 1,
+      "ref_id": 7759,
+      "name": "jeans",
+      "box": [
+        191,
+        292,
+        87,
+        207
+      ],
+      "att_wds": [
+        "blue"
+      ],
+      "sent_ids": [
+        7759
+      ],
+      "logic": "chain",
+      "attributes": [
+        "blue"
+      ],
+      "category_id": 618,
+      "expression": "The blue jean that is to the right of the hand",
+      "explored_list": [
+        [
+          "897478"
+        ],
+        [
+          "897485"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2356747",
+          "2361646",
+          "2366832"
+        ],
+        "random": [
+          "2319822",
+          "2414912",
+          "2317263"
+        ],
+        "catAndcat": [
+          "2413324",
+          "2361911",
+          "2385634"
+        ],
+        "cat": [
+          "2390133",
+          "2364729",
+          "1159778"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "817690",
+          "780657",
+          "2411892"
+        ],
+        "random": [
+          "3137517",
+          "149513",
+          "1022302"
+        ],
+        "catAndcat": [
+          "1055919",
+          "3752789",
+          "521052"
+        ],
+        "cat": [
+          "1253567",
+          "3219225",
+          "1597561"
+        ]
+      },
+      "ann_id": 614492,
+      "imageId": "2403093",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "open",
+            "door",
+            "that",
+            "is",
+            "of",
+            "the",
+            "indoors",
+            "oven"
+          ],
+          "sent_id": 8123,
+          "sent": "The open door that is of the indoors oven"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          1275885,
+          1346999,
+          899983
+        ],
+        "random": [
+          567306,
+          879554,
+          1162058
+        ],
+        "catAndAttr": [
+          1210046,
+          896670,
+          663828
+        ],
+        "cat": [
+          625994,
+          976886,
+          304044
+        ]
+      },
+      "objectId": "383683",
+      "attri_used": [
+        [
+          "open"
+        ],
+        [
+          "indoors"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2403093",
+      "valid_flag": 1,
+      "ref_id": 8123,
+      "name": "door",
+      "box": [
+        207,
+        212,
+        292,
+        147
+      ],
+      "att_wds": [
+        "open"
+      ],
+      "sent_ids": [
+        8123
+      ],
+      "logic": "chain",
+      "attributes": [
+        "open"
+      ],
+      "category_id": 462,
+      "expression": "The open door that is of the indoors oven",
+      "explored_list": [
+        [
+          "383683"
+        ],
+        [
+          "383679"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndcat": [
+          "2413467",
+          "2364335",
+          "2365993"
+        ],
+        "random": [
+          "2318746",
+          "2324466",
+          "2365064"
+        ],
+        "catAndAttr": [
+          "1159622",
+          "85",
+          "2352226"
+        ],
+        "cat": [
+          "2370134",
+          "150543",
+          "2342793"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndcat": [
+          "173043",
+          "1041450",
+          "631081"
+        ],
+        "random": [
+          "1050118",
+          "4078793",
+          "636698"
+        ],
+        "catAndAttr": [
+          "1595640",
+          "4290356",
+          "855379"
+        ],
+        "cat": [
+          "2998032",
+          "4071722",
+          "2552273"
+        ]
+      },
+      "ann_id": 466434,
+      "imageId": "2317536",
+      "sentences": [
+        {
+          "tokens": [
+            "cabinet",
+            "on",
+            "the",
+            "left",
+            "that",
+            "is",
+            "wood",
+            "and",
+            "to",
+            "the",
+            "right",
+            "of",
+            "refrigerator"
+          ],
+          "sent_id": 9150,
+          "sent": "cabinet on the left that is wood and to the right of refrigerator"
+        }
+      ],
+      "neg_ann_id_list": {
+        "random": [
+          258016,
+          291862,
+          803467
+        ],
+        "catAndAttr": [
+          985821,
+          874137,
+          203395
+        ],
+        "cat": [
+          755990,
+          436201,
+          270176
+        ]
+      },
+      "objectId": "2807271",
+      "attri_used": [
+        [
+          "wood"
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2317536",
+      "valid_flag": 1,
+      "ref_id": 9150,
+      "name": "cabinet",
+      "box": [
+        81,
+        153,
+        194,
+        47
+      ],
+      "att_wds": [
+        "brown",
+        "wood"
+      ],
+      "sent_ids": [
+        9150
+      ],
+      "logic": "unary",
+      "attributes": [
+        "brown",
+        "wood"
+      ],
+      "category_id": 918,
+      "expression": "cabinet on the left that is wood and to the right of refrigerator",
+      "explored_list": [
+        [
+          "2807271"
+        ],
+        [
+          "2715637"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "515",
+          "2385163",
+          "2393739"
+        ],
+        "random": [
+          "2411038",
+          "2352439",
+          "713559"
+        ],
+        "catAndcat": [
+          "2378071",
+          "2354550",
+          "2412502"
+        ],
+        "cat": [
+          "2376384",
+          "4101",
+          "2356862"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "1625681",
+          "522175",
+          "1217321"
+        ],
+        "random": [
+          "317421",
+          "2634093",
+          "4571055"
+        ],
+        "catAndcat": [
+          "2339247",
+          "2977017",
+          "193021"
+        ],
+        "cat": [
+          "573332",
+          "3649974",
+          "1798349"
+        ]
+      },
+      "ann_id": 647061,
+      "imageId": "2369841",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "framed",
+            "picture",
+            "that",
+            "is",
+            "on",
+            "the",
+            "yellow",
+            "wall"
+          ],
+          "sent_id": 3865,
+          "sent": "The framed picture that is on the yellow wall"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          1233474,
+          511205,
+          952992
+        ],
+        "random": [
+          549007,
+          77730,
+          278217
+        ],
+        "catAndAttr": [
+          288026,
+          1296641,
+          187002
+        ],
+        "cat": [
+          1017203,
+          725849,
+          648012
+        ]
+      },
+      "objectId": "608787",
+      "attri_used": [
+        [
+          "framed"
+        ],
+        [
+          "yellow"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2369841",
+      "valid_flag": 1,
+      "ref_id": 3865,
+      "name": "picture",
+      "box": [
+        72,
+        27,
+        104,
+        127
+      ],
+      "att_wds": [
+        "black"
+      ],
+      "sent_ids": [
+        3865
+      ],
+      "logic": "chain",
+      "attributes": [
+        "black",
+        "framed"
+      ],
+      "category_id": 933,
+      "expression": "The framed picture that is on the yellow wall",
+      "explored_list": [
+        [
+          "608787"
+        ],
+        [
+          "608788"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2393405",
+          "2365195",
+          "2370488"
+        ],
+        "random": [
+          "2370296",
+          "2390473",
+          "2341441"
+        ],
+        "catAndcat": [
+          "2349496",
+          "2370175",
+          "2365195"
+        ],
+        "cat": [
+          "2347772",
+          "2372684",
+          "2415750"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "1220263",
+          "757652",
+          "741755"
+        ],
+        "random": [
+          "3859301",
+          "1249863",
+          "3655259"
+        ],
+        "catAndcat": [
+          "1770276",
+          "3002349",
+          "757652"
+        ],
+        "cat": [
+          "887666",
+          "4113474",
+          "1056370"
+        ]
+      },
+      "ann_id": 313373,
+      "imageId": "2412511",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "standing",
+            "bird",
+            "that",
+            "is",
+            "by",
+            "the",
+            "dirty",
+            "water"
+          ],
+          "sent_id": 3785,
+          "sent": "The standing bird that is by the dirty water"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          1291574,
+          340146,
+          874197
+        ],
+        "random": [
+          518612,
+          208803,
+          1230729
+        ],
+        "catAndAttr": [
+          248172,
+          874197,
+          285229
+        ],
+        "cat": [
+          1121088,
+          1344829,
+          791920
+        ]
+      },
+      "objectId": "192832",
+      "attri_used": [
+        [
+          "standing"
+        ],
+        [
+          "dirty"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2412511",
+      "valid_flag": 1,
+      "ref_id": 3785,
+      "name": "bird",
+      "box": [
+        278,
+        78,
+        117,
+        153
+      ],
+      "att_wds": [],
+      "sent_ids": [
+        3785
+      ],
+      "logic": "chain",
+      "attributes": [
+        "standing"
+      ],
+      "category_id": 267,
+      "expression": "The standing bird that is by the dirty water",
+      "explored_list": [
+        [
+          "192832"
+        ],
+        [
+          "192848"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2335787",
+          "713115",
+          "2368941"
+        ],
+        "random": [
+          "2318261",
+          "2353910",
+          "713353"
+        ],
+        "catAndcat": [
+          "4626",
+          "2351404",
+          "2391692"
+        ],
+        "cat": [
+          "2391692",
+          "2335787",
+          "2344162"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "961937",
+          "4561488",
+          "614994"
+        ],
+        "random": [
+          "1012508",
+          "2065418",
+          "3700696"
+        ],
+        "catAndcat": [
+          "4376651",
+          "3589318",
+          "1238406"
+        ],
+        "cat": [
+          "1238406",
+          "961937",
+          "2846234"
+        ]
+      },
+      "ann_id": 846322,
+      "imageId": "713397",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "white",
+            "desk",
+            "that",
+            "is",
+            "above",
+            "the",
+            "trash",
+            "can",
+            "and",
+            "behind",
+            "the",
+            "black",
+            "chair"
+          ],
+          "sent_id": 16513,
+          "sent": "The white desk that is above the trash can and behind the black chair"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          1196720,
+          798546,
+          591534
+        ],
+        "random": [
+          892675,
+          634304,
+          1206785
+        ],
+        "catAndAttr": [
+          523611,
+          1128940,
+          465146
+        ],
+        "cat": [
+          591534,
+          523611,
+          132464
+        ]
+      },
+      "objectId": "1582985",
+      "attri_used": [
+        [
+          "white"
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            "black"
+          ]
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "713397",
+      "valid_flag": 1,
+      "ref_id": 16513,
+      "name": "desk",
+      "box": [
+        328,
+        213,
+        340,
+        255
+      ],
+      "att_wds": [
+        "white"
+      ],
+      "sent_ids": [
+        16513
+      ],
+      "logic": "and",
+      "attributes": [
+        "white"
+      ],
+      "category_id": 768,
+      "expression": "The white desk that is above the trash can and behind the black chair",
+      "explored_list": [
+        [
+          "1582985"
+        ],
+        [
+          "1582995",
+          "1582951"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2376114",
+          "2322236",
+          "2414300"
+        ],
+        "random": [
+          "2327903",
+          "2379737",
+          "2367044"
+        ],
+        "catAndcat": [
+          "2364476",
+          "2324933",
+          "2407164"
+        ],
+        "cat": [
+          "2344108",
+          "2376114",
+          "150510"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "2062781",
+          "992847",
+          "297312"
+        ],
+        "random": [
+          "2915253",
+          "711645",
+          "2262275"
+        ],
+        "catAndcat": [
+          "2354047",
+          "3701533",
+          "284548"
+        ],
+        "cat": [
+          "3335069",
+          "2062781",
+          "1567832"
+        ]
+      },
+      "ann_id": 477128,
+      "imageId": "2385677",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "wood",
+            "table",
+            "that",
+            "is",
+            "below",
+            "the",
+            "white",
+            "sink",
+            "and",
+            "below",
+            "the",
+            "mirror"
+          ],
+          "sent_id": 15768,
+          "sent": "The wood table that is below the white sink and below the mirror"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          1119765,
+          744097,
+          864068
+        ],
+        "random": [
+          354984,
+          1257838,
+          1305873
+        ],
+        "catAndAttr": [
+          700968,
+          1019193,
+          301027
+        ],
+        "cat": [
+          830479,
+          700968,
+          640356
+        ]
+      },
+      "objectId": "1294023",
+      "attri_used": [
+        [
+          "wood"
+        ],
+        [
+          [
+            "white"
+          ],
+          [
+            ""
+          ]
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2385677",
+      "valid_flag": 1,
+      "ref_id": 15768,
+      "name": "table",
+      "box": [
+        0,
+        277,
+        122,
+        180
+      ],
+      "att_wds": [
+        "brown",
+        "wood"
+      ],
+      "sent_ids": [
+        15768
+      ],
+      "logic": "and",
+      "attributes": [
+        "brown",
+        "wood"
+      ],
+      "category_id": 741,
+      "expression": "The wood table that is below the white sink and below the mirror",
+      "explored_list": [
+        [
+          "1294023"
+        ],
+        [
+          "1294013",
+          "1294012"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "4480",
+          "2329566",
+          "2388625"
+        ],
+        "random": [
+          "2337103",
+          "2407635",
+          "150504"
+        ],
+        "catAndcat": [
+          "2349431",
+          "2397393",
+          "2401863"
+        ],
+        "cat": [
+          "2400235",
+          "2317561",
+          "2388625"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "2571022",
+          "2757881",
+          "672033"
+        ],
+        "random": [
+          "2508096",
+          "2008335",
+          "1567699"
+        ],
+        "catAndcat": [
+          "3903271",
+          "2287895",
+          "395153"
+        ],
+        "cat": [
+          "410339",
+          "1019735",
+          "672033"
+        ]
+      },
+      "ann_id": 765831,
+      "imageId": "2384329",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "wood",
+            "chair",
+            "that",
+            "is",
+            "in",
+            "front",
+            "of",
+            "the",
+            "floor"
+          ],
+          "sent_id": 6063,
+          "sent": "The wood chair that is in front of the floor"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          824072,
+          903529,
+          913055
+        ],
+        "random": [
+          389788,
+          357540,
+          738396
+        ],
+        "catAndAttr": [
+          369738,
+          522130,
+          12842
+        ],
+        "cat": [
+          407660,
+          1021330,
+          12842
+        ]
+      },
+      "objectId": "1310765",
+      "attri_used": [
+        [
+          "wood"
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2384329",
+      "valid_flag": 1,
+      "ref_id": 6063,
+      "name": "chair",
+      "box": [
+        125,
+        47,
+        186,
+        106
+      ],
+      "att_wds": [
+        "brown",
+        "wood"
+      ],
+      "sent_ids": [
+        6063
+      ],
+      "logic": "chain",
+      "attributes": [
+        "brown",
+        "wood"
+      ],
+      "category_id": 783,
+      "expression": "The wood chair that is in front of the floor",
+      "explored_list": [
+        [
+          "1310765"
+        ],
+        [
+          "1310787"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2316905",
+          "2351464",
+          "2330006"
+        ],
+        "random": [
+          "2360715",
+          "2345161",
+          "2376720"
+        ],
+        "catAndcat": [
+          "2414300",
+          "2396567",
+          "2415204"
+        ],
+        "cat": [
+          "2406438",
+          "2349366",
+          "2321041"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "4070229",
+          "2173563",
+          "3723649"
+        ],
+        "random": [
+          "1814060",
+          "2259893",
+          "2589471"
+        ],
+        "catAndcat": [
+          "297334",
+          "4349422",
+          "143916"
+        ],
+        "cat": [
+          "652301",
+          "875320",
+          "3157983"
+        ]
+      },
+      "ann_id": 113803,
+      "imageId": "2378201",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "red",
+            "label",
+            "that",
+            "is",
+            "to",
+            "the",
+            "left",
+            "of",
+            "the",
+            "food",
+            "that",
+            "is",
+            "on",
+            "top",
+            "of",
+            "the",
+            "round",
+            "table"
+          ],
+          "sent_id": 2245,
+          "sent": "The red label that is to the left of the food that is on top of the round table"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          1035679,
+          196961,
+          813604
+        ],
+        "random": [
+          584303,
+          1208163,
+          1112121
+        ],
+        "catAndAttr": [
+          385468,
+          1275421,
+          560
+        ],
+        "cat": [
+          835089,
+          904838,
+          1289385
+        ]
+      },
+      "objectId": "561387",
+      "attri_used": [
+        [
+          "red"
+        ],
+        [
+          ""
+        ],
+        [
+          "round"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2378201",
+      "valid_flag": 1,
+      "ref_id": 2245,
+      "name": "label",
+      "box": [
+        16,
+        93,
+        104,
+        94
+      ],
+      "att_wds": [
+        "red"
+      ],
+      "sent_ids": [
+        2245
+      ],
+      "logic": "chain",
+      "attributes": [
+        "red"
+      ],
+      "category_id": 572,
+      "expression": "The red label that is to the left of the food that is on top of the round table",
+      "explored_list": [
+        [
+          "561387"
+        ],
+        [
+          "561383"
+        ],
+        [
+          "561379"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2391748",
+          "2366550",
+          "2360160"
+        ],
+        "random": [
+          "2359970",
+          "2398651",
+          "2328914"
+        ],
+        "catAndcat": [
+          "2362053",
+          "2355238",
+          "2413209"
+        ],
+        "cat": [
+          "2318945",
+          "2318382",
+          "2386705"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "486486",
+          "3368238",
+          "2548289"
+        ],
+        "random": [
+          "3763241",
+          "1177702",
+          "975737"
+        ],
+        "catAndcat": [
+          "777504",
+          "831480",
+          "177821"
+        ],
+        "cat": [
+          "3243852",
+          "3319920",
+          "1283357"
+        ]
+      },
+      "ann_id": 111255,
+      "imageId": "2383122",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "green",
+            "tree",
+            "that",
+            "is",
+            "to",
+            "the",
+            "left",
+            "of",
+            "the",
+            "pink",
+            "pant"
+          ],
+          "sent_id": 7657,
+          "sent": "The green tree that is to the left of the pink pant"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          54411,
+          333651,
+          72388
+        ],
+        "random": [
+          66077,
+          693171,
+          927925
+        ],
+        "catAndAttr": [
+          468330,
+          1301822,
+          666054
+        ],
+        "cat": [
+          1198643,
+          1390537,
+          1245136
+        ]
+      },
+      "objectId": "1323622",
+      "attri_used": [
+        [
+          "green"
+        ],
+        [
+          "pink"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2383122",
+      "valid_flag": 1,
+      "ref_id": 7657,
+      "name": "trees",
+      "box": [
+        45,
+        27,
+        65,
+        241
+      ],
+      "att_wds": [
+        "tall",
+        "green"
+      ],
+      "sent_ids": [
+        7657
+      ],
+      "logic": "chain",
+      "attributes": [
+        "tall",
+        "green"
+      ],
+      "category_id": 529,
+      "expression": "The green tree that is to the left of the pink pant",
+      "explored_list": [
+        [
+          "1323622"
+        ],
+        [
+          "1323614"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2391219",
+          "2390555",
+          "2317130"
+        ],
+        "random": [
+          "2412014",
+          "2359185",
+          "2324597"
+        ],
+        "catAndcat": [
+          "2365562",
+          "2354629",
+          "2364527"
+        ],
+        "cat": [
+          "2364527",
+          "2396750",
+          "2387934"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "1242706",
+          "496195",
+          "1023437"
+        ],
+        "random": [
+          "204725",
+          "1769199",
+          "3229211"
+        ],
+        "catAndcat": [
+          "633267",
+          "3776668",
+          "3738076"
+        ],
+        "cat": [
+          "3738076",
+          "440806",
+          "1271695"
+        ]
+      },
+      "ann_id": 85553,
+      "imageId": "2380448",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "metal",
+            "knife",
+            "that",
+            "is",
+            "on",
+            "the",
+            "brown",
+            "table"
+          ],
+          "sent_id": 6645,
+          "sent": "The metal knife that is on the brown table"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          411,
+          320402,
+          394423
+        ],
+        "random": [
+          1252185,
+          804747,
+          734205
+        ],
+        "catAndAttr": [
+          936043,
+          869914,
+          1047017
+        ],
+        "cat": [
+          394423,
+          256225,
+          291907
+        ]
+      },
+      "objectId": "545431",
+      "attri_used": [
+        [
+          "metal"
+        ],
+        [
+          "brown"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2380448",
+      "valid_flag": 1,
+      "ref_id": 6645,
+      "name": "knife",
+      "box": [
+        24,
+        260,
+        105,
+        184
+      ],
+      "att_wds": [
+        "metal",
+        "black"
+      ],
+      "sent_ids": [
+        6645
+      ],
+      "logic": "chain",
+      "attributes": [
+        "metal",
+        "black",
+        "sharp"
+      ],
+      "category_id": 819,
+      "expression": "The metal knife that is on the brown table",
+      "explored_list": [
+        [
+          "545431"
+        ],
+        [
+          "545432"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndcat": [
+          "2417911",
+          "150391",
+          "2322211"
+        ],
+        "random": [
+          "2383328",
+          "2358122",
+          "2347683"
+        ],
+        "catAndAttr": [
+          "2359470",
+          "2382216",
+          "2407958"
+        ],
+        "cat": [
+          "2333044",
+          "2368936",
+          "2407958"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndcat": [
+          "3786694",
+          "1060156",
+          "3517248"
+        ],
+        "random": [
+          "1321776",
+          "3768911",
+          "888546"
+        ],
+        "catAndAttr": [
+          "793074",
+          "1330163",
+          "1095247"
+        ],
+        "cat": [
+          "2796074",
+          "1676324",
+          "1095247"
+        ]
+      },
+      "ann_id": 1264406,
+      "imageId": "2403683",
+      "sentences": [
+        {
+          "tokens": [
+            "the",
+            "first",
+            "man",
+            "from",
+            "the",
+            "right",
+            "that",
+            "is",
+            "walking",
+            "and",
+            "to",
+            "the",
+            "right",
+            "of",
+            "suit"
+          ],
+          "sent_id": 8904,
+          "sent": "the first man from the right that is walking and to the right of suit"
+        }
+      ],
+      "neg_ann_id_list": {
+        "random": [
+          1211732,
+          522910,
+          907305
+        ],
+        "catAndAttr": [
+          162326,
+          928815,
+          755872
+        ],
+        "cat": [
+          458363,
+          246024,
+          755872
+        ]
+      },
+      "objectId": "380387",
+      "attri_used": [
+        [
+          "walking"
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2403683",
+      "valid_flag": 1,
+      "ref_id": 8904,
+      "name": "man",
+      "box": [
+        346,
+        74,
+        77,
+        231
+      ],
+      "att_wds": [
+        "walking"
+      ],
+      "sent_ids": [
+        8904
+      ],
+      "logic": "unary",
+      "attributes": [
+        "walking"
+      ],
+      "category_id": 230,
+      "expression": "the first man from the right that is walking and to the right of suit",
+      "explored_list": [
+        [
+          "380387"
+        ],
+        [
+          "380392"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2364538",
+          "2404433",
+          "2409481"
+        ],
+        "random": [
+          "2388873",
+          "2389749",
+          "2406370"
+        ],
+        "catAndcat": [
+          "2346600",
+          "2348385",
+          "2364538"
+        ],
+        "cat": [
+          "2364538",
+          "2380261",
+          "2320456"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "2036265",
+          "342731",
+          "240849"
+        ],
+        "random": [
+          "4507412",
+          "1257585",
+          "4055199"
+        ],
+        "catAndcat": [
+          "897877",
+          "2513674",
+          "1997844"
+        ],
+        "cat": [
+          "2036265",
+          "711192",
+          "2716985"
+        ]
+      },
+      "ann_id": 981130,
+      "imageId": "2409686",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "ripe",
+            "banana",
+            "that",
+            "is",
+            "in",
+            "the",
+            "basket"
+          ],
+          "sent_id": 7443,
+          "sent": "The ripe banana that is in the basket"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          129536,
+          846170,
+          102195
+        ],
+        "random": [
+          27112,
+          395857,
+          682513
+        ],
+        "catAndAttr": [
+          84933,
+          1293383,
+          611166
+        ],
+        "cat": [
+          84933,
+          742595,
+          1381533
+        ]
+      },
+      "objectId": "236133",
+      "attri_used": [
+        [
+          "ripe"
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2409686",
+      "valid_flag": 1,
+      "ref_id": 7443,
+      "name": "bananas",
+      "box": [
+        183,
+        55,
+        261,
+        197
+      ],
+      "att_wds": [
+        "lying",
+        "yellow"
+      ],
+      "sent_ids": [
+        7443
+      ],
+      "logic": "chain",
+      "attributes": [
+        "lying",
+        "ripe",
+        "yellow"
+      ],
+      "category_id": 734,
+      "expression": "The ripe banana that is in the basket",
+      "explored_list": [
+        [
+          "236133"
+        ],
+        [
+          "236134"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2362053",
+          "2394009",
+          "2398665"
+        ],
+        "random": [
+          "2350324",
+          "2352860",
+          "2348770"
+        ],
+        "catAndcat": [
+          "2360524",
+          "2399821",
+          "2346094"
+        ],
+        "cat": [
+          "2343326",
+          "2321728",
+          "2350027"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "777494",
+          "1215063",
+          "1177480"
+        ],
+        "random": [
+          "1954005",
+          "1944293",
+          "1713471"
+        ],
+        "catAndcat": [
+          "2696315",
+          "1165826",
+          "902574"
+        ],
+        "cat": [
+          "2328481",
+          "4189886",
+          "2205716"
+        ]
+      },
+      "ann_id": 106227,
+      "imageId": "2400554",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "walking",
+            "man",
+            "that",
+            "is",
+            "standing",
+            "on",
+            "the",
+            "sandy",
+            "beach"
+          ],
+          "sent_id": 3076,
+          "sent": "The walking man that is standing on the sandy beach"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          874454,
+          1098289,
+          1010258
+        ],
+        "random": [
+          1396762,
+          363920,
+          622744
+        ],
+        "catAndAttr": [
+          311230,
+          644658,
+          149917
+        ],
+        "cat": [
+          401175,
+          1361390,
+          738864
+        ]
+      },
+      "objectId": "1157441",
+      "attri_used": [
+        [
+          "walking"
+        ],
+        [
+          "sandy"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2400554",
+      "valid_flag": 1,
+      "ref_id": 3076,
+      "name": "man",
+      "box": [
+        132,
+        105,
+        87,
+        219
+      ],
+      "att_wds": [
+        "walking"
+      ],
+      "sent_ids": [
+        3076
+      ],
+      "logic": "chain",
+      "attributes": [
+        "standing",
+        "walking",
+        "surfing",
+        "barefoot"
+      ],
+      "category_id": 230,
+      "expression": "The walking man that is standing on the sandy beach",
+      "explored_list": [
+        [
+          "1157441"
+        ],
+        [
+          "1157444"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2325830",
+          "2387913",
+          "2393923"
+        ],
+        "random": [
+          "2341084",
+          "2371481",
+          "2405119"
+        ],
+        "catAndcat": [
+          "2402763",
+          "2317680",
+          "2321556"
+        ],
+        "cat": [
+          "2369355",
+          "2386599",
+          "1592175"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "3011897",
+          "4524754",
+          "1215636"
+        ],
+        "random": [
+          "2996613",
+          "3521209",
+          "2978035"
+        ],
+        "catAndcat": [
+          "386655",
+          "1018554",
+          "2910671"
+        ],
+        "cat": [
+          "612025",
+          "681392",
+          "4434517"
+        ]
+      },
+      "ann_id": 874607,
+      "imageId": "2346644",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "black",
+            "cell",
+            "phone",
+            "that",
+            "is",
+            "to",
+            "the",
+            "left",
+            "of",
+            "the",
+            "hand",
+            "that",
+            "is",
+            "to",
+            "the",
+            "right",
+            "of",
+            "the",
+            "picture"
+          ],
+          "sent_id": 5806,
+          "sent": "The black cell phone that is to the left of the hand that is to the right of the picture"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          1159582,
+          1137894,
+          330946
+        ],
+        "random": [
+          76295,
+          283568,
+          1052880
+        ],
+        "catAndAttr": [
+          236794,
+          527018,
+          583686
+        ],
+        "cat": [
+          982993,
+          240575,
+          15169
+        ]
+      },
+      "objectId": "1732585",
+      "attri_used": [
+        [
+          "black"
+        ],
+        [
+          ""
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2346644",
+      "valid_flag": 1,
+      "ref_id": 5806,
+      "name": "cell phone",
+      "box": [
+        206,
+        243,
+        199,
+        103
+      ],
+      "att_wds": [
+        "black"
+      ],
+      "sent_ids": [
+        5806
+      ],
+      "logic": "chain",
+      "attributes": [
+        "black"
+      ],
+      "category_id": 229,
+      "expression": "The black cell phone that is to the left of the hand that is to the right of the picture",
+      "explored_list": [
+        [
+          "1732585"
+        ],
+        [
+          "1758649"
+        ],
+        [
+          "3615990"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndcat": [
+          "2364151",
+          "2416484",
+          "2407938"
+        ],
+        "random": [
+          "2394163",
+          "2374740",
+          "2406435"
+        ],
+        "catAndAttr": [
+          "2320675",
+          "2399690",
+          "2377794"
+        ],
+        "cat": [
+          "2354406",
+          "2365382",
+          "2386438"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndcat": [
+          "2353400",
+          "3188317",
+          "271022"
+        ],
+        "random": [
+          "4421035",
+          "585936",
+          "324392"
+        ],
+        "catAndAttr": [
+          "4470031",
+          "1167340",
+          "563741"
+        ],
+        "cat": [
+          "2909148",
+          "634615",
+          "1286027"
+        ]
+      },
+      "ann_id": 183412,
+      "imageId": "2409049",
+      "sentences": [
+        {
+          "tokens": [
+            "the",
+            "first",
+            "boy",
+            "from",
+            "the",
+            "right",
+            "that",
+            "is",
+            "little",
+            "and",
+            "to",
+            "the",
+            "right",
+            "of",
+            "green",
+            "t-shirt"
+          ],
+          "sent_id": 8559,
+          "sent": "the first boy from the right that is little and to the right of green t-shirt"
+        }
+      ],
+      "neg_ann_id_list": {
+        "random": [
+          1016489,
+          1305512,
+          417033
+        ],
+        "catAndAttr": [
+          809938,
+          707969,
+          1382804
+        ],
+        "cat": [
+          879212,
+          245790,
+          273716
+        ]
+      },
+      "objectId": "2066652",
+      "attri_used": [
+        [
+          "little"
+        ],
+        [
+          "green"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2409049",
+      "valid_flag": 1,
+      "ref_id": 8559,
+      "name": "boy",
+      "box": [
+        322,
+        99,
+        165,
+        335
+      ],
+      "att_wds": [
+        "little"
+      ],
+      "sent_ids": [
+        8559
+      ],
+      "logic": "unary",
+      "attributes": [
+        "little"
+      ],
+      "category_id": 880,
+      "expression": "the first boy from the right that is little and to the right of green t-shirt",
+      "explored_list": [
+        [
+          "2066652"
+        ],
+        [
+          "250010"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndcat": [
+          "2338449",
+          "2371623",
+          "2394009"
+        ],
+        "random": [
+          "2343399",
+          "2367059",
+          "2356022"
+        ],
+        "catAndAttr": [
+          "2374264",
+          "2384367",
+          "2384642"
+        ],
+        "cat": [
+          "2402999",
+          "1160088",
+          "2368828"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndcat": [
+          "2051865",
+          "738902",
+          "1215053"
+        ],
+        "random": [
+          "924116",
+          "2240123",
+          "2468816"
+        ],
+        "catAndAttr": [
+          "3849626",
+          "1310370",
+          "1306829"
+        ],
+        "cat": [
+          "384333",
+          "1601560",
+          "3866813"
+        ]
+      },
+      "ann_id": 726415,
+      "imageId": "2383754",
+      "sentences": [
+        {
+          "tokens": [
+            "motorcycle",
+            "on",
+            "the",
+            "left",
+            "that",
+            "is",
+            "black",
+            "and",
+            "to",
+            "the",
+            "left",
+            "of",
+            "wheel"
+          ],
+          "sent_id": 9893,
+          "sent": "motorcycle on the left that is black and to the left of wheel"
+        }
+      ],
+      "neg_ann_id_list": {
+        "random": [
+          609306,
+          1319384,
+          940290
+        ],
+        "catAndAttr": [
+          949565,
+          500685,
+          179243
+        ],
+        "cat": [
+          36569,
+          462179,
+          1294773
+        ]
+      },
+      "objectId": "1317425",
+      "attri_used": [
+        [
+          "black"
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2383754",
+      "valid_flag": 1,
+      "ref_id": 9893,
+      "name": "motorcycle",
+      "box": [
+        0,
+        115,
+        137,
+        114
+      ],
+      "att_wds": [
+        "black"
+      ],
+      "sent_ids": [
+        9893
+      ],
+      "logic": "unary",
+      "attributes": [
+        "black"
+      ],
+      "category_id": 789,
+      "expression": "motorcycle on the left that is black and to the left of wheel",
+      "explored_list": [
+        [
+          "1317425"
+        ],
+        [
+          "1317421"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2332498",
+          "2380141",
+          "2320395"
+        ],
+        "random": [
+          "2349225",
+          "2370038",
+          "2364604"
+        ],
+        "catAndcat": [
+          "2412363",
+          "2338569",
+          "2416926"
+        ],
+        "cat": [
+          "2366130",
+          "2403401",
+          "2412363"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "2733606",
+          "1789421",
+          "3180561"
+        ],
+        "random": [
+          "3903814",
+          "2610299",
+          "1683998"
+        ],
+        "catAndcat": [
+          "3125053",
+          "2097744",
+          "3443648"
+        ],
+        "cat": [
+          "2544107",
+          "353482",
+          "3125053"
+        ]
+      },
+      "ann_id": 59715,
+      "imageId": "2327696",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "white",
+            "spoon",
+            "that",
+            "is",
+            "on",
+            "the",
+            "round",
+            "plate",
+            "that",
+            "is",
+            "on",
+            "the",
+            "wood",
+            "table"
+          ],
+          "sent_id": 6617,
+          "sent": "The white spoon that is on the round plate that is on the wood table"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          1097756,
+          1205785,
+          578513
+        ],
+        "random": [
+          995833,
+          1130644,
+          869067
+        ],
+        "catAndAttr": [
+          205675,
+          1107831,
+          618377
+        ],
+        "cat": [
+          1011423,
+          639049,
+          1097756
+        ]
+      },
+      "objectId": "979725",
+      "attri_used": [
+        [
+          "white"
+        ],
+        [
+          "round"
+        ],
+        [
+          "wood"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2327696",
+      "valid_flag": 1,
+      "ref_id": 6617,
+      "name": "spoon",
+      "box": [
+        191,
+        162,
+        233,
+        146
+      ],
+      "att_wds": [
+        "white"
+      ],
+      "sent_ids": [
+        6617
+      ],
+      "logic": "chain",
+      "attributes": [
+        "white"
+      ],
+      "category_id": 573,
+      "expression": "The white spoon that is on the round plate that is on the wood table",
+      "explored_list": [
+        [
+          "979725"
+        ],
+        [
+          "979726"
+        ],
+        [
+          "979729"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2390282",
+          "2383601",
+          "2381569"
+        ],
+        "random": [
+          "2320793",
+          "2358945",
+          "2355999"
+        ],
+        "catAndcat": [
+          "2318261",
+          "2402763",
+          "2359715"
+        ],
+        "cat": [
+          "1159889",
+          "2344404",
+          "2415736"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "1251948",
+          "3847999",
+          "703606"
+        ],
+        "random": [
+          "2863934",
+          "797566",
+          "3564746"
+        ],
+        "catAndcat": [
+          "1012499",
+          "386656",
+          "791645"
+        ],
+        "cat": [
+          "4188881",
+          "2700035",
+          "4259365"
+        ]
+      },
+      "ann_id": 1255778,
+      "imageId": "2401384",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "smiling",
+            "man",
+            "that",
+            "is",
+            "wearing",
+            "the",
+            "brown",
+            "glass",
+            "and",
+            "holding",
+            "the",
+            "orange",
+            "phone"
+          ],
+          "sent_id": 14820,
+          "sent": "The smiling man that is wearing the brown glass and holding the orange phone"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          902530,
+          519666,
+          737859
+        ],
+        "random": [
+          1254472,
+          1286523,
+          122226
+        ],
+        "catAndAttr": [
+          924607,
+          460550,
+          3179
+        ],
+        "cat": [
+          611405,
+          1128400,
+          281827
+        ]
+      },
+      "objectId": "399932",
+      "attri_used": [
+        [
+          "smiling"
+        ],
+        [
+          [
+            "brown"
+          ],
+          [
+            "orange"
+          ]
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2401384",
+      "valid_flag": 1,
+      "ref_id": 14820,
+      "name": "man",
+      "box": [
+        1,
+        13,
+        491,
+        319
+      ],
+      "att_wds": [
+        "smiling",
+        "happy"
+      ],
+      "sent_ids": [
+        14820
+      ],
+      "logic": "and",
+      "attributes": [
+        "smiling",
+        "happy"
+      ],
+      "category_id": 230,
+      "expression": "The smiling man that is wearing the brown glass and holding the orange phone",
+      "explored_list": [
+        [
+          "399932"
+        ],
+        [
+          "399933",
+          "399937"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2327696",
+          "2417558",
+          "2411400"
+        ],
+        "random": [
+          "2407958",
+          "2414806",
+          "2375892"
+        ],
+        "catAndcat": [
+          "2406435",
+          "2336990",
+          "2361313"
+        ],
+        "cat": [
+          "4856",
+          "2411400",
+          "2346895"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "979726",
+          "2736717",
+          "647358"
+        ],
+        "random": [
+          "1095248",
+          "151552",
+          "1682166"
+        ],
+        "catAndcat": [
+          "324393",
+          "4577090",
+          "1905920"
+        ],
+        "cat": [
+          "3682997",
+          "647358",
+          "3614401"
+        ]
+      },
+      "ann_id": 185530,
+      "imageId": "2396708",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "white",
+            "plate",
+            "that",
+            "is",
+            "on",
+            "the",
+            "wood",
+            "table"
+          ],
+          "sent_id": 3672,
+          "sent": "The white plate that is on the wood table"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          417034,
+          75347,
+          691964
+        ],
+        "random": [
+          755869,
+          613519,
+          695730
+        ],
+        "catAndAttr": [
+          59713,
+          719463,
+          718611
+        ],
+        "cat": [
+          570429,
+          718611,
+          882261
+        ]
+      },
+      "objectId": "3821867",
+      "attri_used": [
+        [
+          "white"
+        ],
+        [
+          "wood"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2396708",
+      "valid_flag": 1,
+      "ref_id": 3672,
+      "name": "plate",
+      "box": [
+        0,
+        30,
+        127,
+        118
+      ],
+      "att_wds": [
+        "white"
+      ],
+      "sent_ids": [
+        3672
+      ],
+      "logic": "chain",
+      "attributes": [
+        "white"
+      ],
+      "category_id": 937,
+      "expression": "The white plate that is on the wood table",
+      "explored_list": [
+        [
+          "3821867"
+        ],
+        [
+          "3821868"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2396086",
+          "2386080",
+          "2416133"
+        ],
+        "random": [
+          "2317627",
+          "2363020",
+          "2317027"
+        ],
+        "catAndcat": [
+          "2405929",
+          "2332249",
+          "2334786"
+        ],
+        "cat": [
+          "2394981",
+          "2386080",
+          "2400520"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "665330",
+          "519881",
+          "4264158"
+        ],
+        "random": [
+          "1019015",
+          "3526666",
+          "1050740"
+        ],
+        "catAndcat": [
+          "1105333",
+          "2817732",
+          "3119625"
+        ],
+        "cat": [
+          "458886",
+          "519881",
+          "1157988"
+        ]
+      },
+      "ann_id": 831571,
+      "imageId": "2367468",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "black",
+            "jacket",
+            "that",
+            "is",
+            "to",
+            "the",
+            "right",
+            "of",
+            "the",
+            "full",
+            "shelf"
+          ],
+          "sent_id": 4650,
+          "sent": "The black jacket that is to the right of the full shelf"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          601939,
+          695438,
+          8475
+        ],
+        "random": [
+          24699,
+          971059,
+          2841
+        ],
+        "catAndAttr": [
+          1153292,
+          1011696,
+          1052973
+        ],
+        "cat": [
+          436304,
+          1011696,
+          304347
+        ]
+      },
+      "objectId": "622208",
+      "attri_used": [
+        [
+          "black"
+        ],
+        [
+          "full"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2367468",
+      "valid_flag": 1,
+      "ref_id": 4650,
+      "name": "jacket",
+      "box": [
+        398,
+        9,
+        95,
+        161
+      ],
+      "att_wds": [
+        "black"
+      ],
+      "sent_ids": [
+        4650
+      ],
+      "logic": "chain",
+      "attributes": [
+        "black"
+      ],
+      "category_id": 955,
+      "expression": "The black jacket that is to the right of the full shelf",
+      "explored_list": [
+        [
+          "622208"
+        ],
+        [
+          "622203"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2354301",
+          "2383047",
+          "2372121"
+        ],
+        "random": [
+          "2324606",
+          "2326716",
+          "2361083"
+        ],
+        "catAndcat": [
+          "2367586",
+          "2352785",
+          "150264"
+        ],
+        "cat": [
+          "2379645",
+          "2383047",
+          "2378071"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "2313972",
+          "535402",
+          "593811"
+        ],
+        "random": [
+          "3365151",
+          "981780",
+          "2045627"
+        ],
+        "catAndcat": [
+          "751124",
+          "1747304",
+          "1037932"
+        ],
+        "cat": [
+          "1355689",
+          "535402",
+          "2236877"
+        ]
+      },
+      "ann_id": 706938,
+      "imageId": "2390210",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "wood",
+            "bench",
+            "that",
+            "is",
+            "on",
+            "the",
+            "bridge"
+          ],
+          "sent_id": 7863,
+          "sent": "The wood bench that is on the bridge"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          874829,
+          1214868,
+          133919
+        ],
+        "random": [
+          725506,
+          1132508,
+          785967
+        ],
+        "catAndAttr": [
+          1254819,
+          218038,
+          610517
+        ],
+        "cat": [
+          621868,
+          218038,
+          914877
+        ]
+      },
+      "objectId": "3828214",
+      "attri_used": [
+        [
+          "wood"
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2390210",
+      "valid_flag": 1,
+      "ref_id": 7863,
+      "name": "bench",
+      "box": [
+        323,
+        74,
+        132,
+        122
+      ],
+      "att_wds": [
+        "wood"
+      ],
+      "sent_ids": [
+        7863
+      ],
+      "logic": "chain",
+      "attributes": [
+        "wood"
+      ],
+      "category_id": 834,
+      "expression": "The wood bench that is on the bridge",
+      "explored_list": [
+        [
+          "3828214"
+        ],
+        [
+          "1252861"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndcat": [
+          "2360622",
+          "2407603",
+          "2356847"
+        ],
+        "random": [
+          "1159845",
+          "2399941",
+          "2330086"
+        ],
+        "catAndAttr": [
+          "2335519",
+          "2372538",
+          "2402863"
+        ],
+        "cat": [
+          "2379",
+          "2400207",
+          "2367234"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndcat": [
+          "2364214",
+          "276792",
+          "816841"
+        ],
+        "random": [
+          "4177395",
+          "1954125",
+          "3104022"
+        ],
+        "catAndAttr": [
+          "2467439",
+          "3074863",
+          "385663"
+        ],
+        "cat": [
+          "4539053",
+          "1161622",
+          "623772"
+        ]
+      },
+      "ann_id": 636950,
+      "imageId": "2343710",
+      "sentences": [
+        {
+          "tokens": [
+            "building",
+            "on",
+            "the",
+            "left",
+            "that",
+            "is",
+            "white",
+            "and",
+            "to",
+            "the",
+            "left",
+            "of",
+            "poster"
+          ],
+          "sent_id": 8623,
+          "sent": "building on the left that is white and to the left of poster"
+        }
+      ],
+      "neg_ann_id_list": {
+        "random": [
+          1251527,
+          1024559,
+          1026722
+        ],
+        "catAndAttr": [
+          46318,
+          704801,
+          301731
+        ],
+        "cat": [
+          355972,
+          231759,
+          993102
+        ]
+      },
+      "objectId": "2130536",
+      "attri_used": [
+        [
+          "white"
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2343710",
+      "valid_flag": 1,
+      "ref_id": 8623,
+      "name": "building",
+      "box": [
+        0,
+        0,
+        62,
+        252
+      ],
+      "att_wds": [
+        "white"
+      ],
+      "sent_ids": [
+        8623
+      ],
+      "logic": "unary",
+      "attributes": [
+        "white"
+      ],
+      "category_id": 948,
+      "expression": "building on the left that is white and to the left of poster",
+      "explored_list": [
+        [
+          "2130536"
+        ],
+        [
+          "2335090"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "2384828",
+          "2338514",
+          "2415053"
+        ],
+        "random": [
+          "2335351",
+          "2353035",
+          "2399185"
+        ],
+        "catAndcat": [
+          "2367567",
+          "2320183",
+          "2368211"
+        ],
+        "cat": [
+          "2361696",
+          "2372217",
+          "2338052"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "690802",
+          "3151427",
+          "146953"
+        ],
+        "random": [
+          "963265",
+          "2672239",
+          "418445"
+        ],
+        "catAndcat": [
+          "621639",
+          "3426593",
+          "2971343"
+        ],
+        "cat": [
+          "2264098",
+          "1915600",
+          "4599600"
+        ]
+      },
+      "ann_id": 334002,
+      "imageId": "2398442",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "painted",
+            "train",
+            "that",
+            "is",
+            "near",
+            "the",
+            "weed"
+          ],
+          "sent_id": 3994,
+          "sent": "The painted train that is near the weed"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          837773,
+          1036693,
+          432474
+        ],
+        "random": [
+          1120526,
+          1289450,
+          999447
+        ],
+        "catAndAttr": [
+          753232,
+          269796,
+          808059
+        ],
+        "cat": [
+          737470,
+          437278,
+          977556
+        ]
+      },
+      "objectId": "425297",
+      "attri_used": [
+        [
+          "painted"
+        ],
+        [
+          ""
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2398442",
+      "valid_flag": 1,
+      "ref_id": 3994,
+      "name": "train",
+      "box": [
+        61,
+        74,
+        327,
+        209
+      ],
+      "att_wds": [
+        "blue"
+      ],
+      "sent_ids": [
+        3994
+      ],
+      "logic": "chain",
+      "attributes": [
+        "blue",
+        "painted"
+      ],
+      "category_id": 729,
+      "expression": "The painted train that is near the weed",
+      "explored_list": [
+        [
+          "425297"
+        ],
+        [
+          "425310"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndAttr": [
+          "1592386",
+          "2344481",
+          "2335590"
+        ],
+        "random": [
+          "2398108",
+          "2410951",
+          "2359333"
+        ],
+        "catAndcat": [
+          "2374736",
+          "2324176",
+          "2369279"
+        ],
+        "cat": [
+          "3401",
+          "2370138",
+          "1592688"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndAttr": [
+          "4273611",
+          "2387466",
+          "4622268"
+        ],
+        "random": [
+          "428381",
+          "1084355",
+          "794232"
+        ],
+        "catAndcat": [
+          "2679581",
+          "4143638",
+          "1680682"
+        ],
+        "cat": [
+          "3968479",
+          "1871223",
+          "2990723"
+        ]
+      },
+      "ann_id": 790496,
+      "imageId": "2370370",
+      "sentences": [
+        {
+          "tokens": [
+            "The",
+            "glass",
+            "window",
+            "that",
+            "is",
+            "to",
+            "the",
+            "left",
+            "of",
+            "the",
+            "gray",
+            "shirt"
+          ],
+          "sent_id": 7521,
+          "sent": "The glass window that is to the left of the gray shirt"
+        }
+      ],
+      "neg_ann_id_list": {
+        "catAndcat": [
+          631666,
+          805126,
+          374361
+        ],
+        "random": [
+          966708,
+          1017019,
+          14381
+        ],
+        "catAndAttr": [
+          458067,
+          690369,
+          1286344
+        ],
+        "cat": [
+          789624,
+          360773,
+          553862
+        ]
+      },
+      "objectId": "2093616",
+      "attri_used": [
+        [
+          "glass"
+        ],
+        [
+          "gray"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2370370",
+      "valid_flag": 1,
+      "ref_id": 7521,
+      "name": "window",
+      "box": [
+        0,
+        0,
+        204,
+        324
+      ],
+      "att_wds": [],
+      "sent_ids": [
+        7521
+      ],
+      "logic": "chain",
+      "attributes": [
+        "glass"
+      ],
+      "category_id": 480,
+      "expression": "The glass window that is to the left of the gray shirt",
+      "explored_list": [
+        [
+          "2093616"
+        ],
+        [
+          "1841649"
+        ]
+      ]
+    },
+    {
+      "neg_img_list": {
+        "catAndcat": [
+          "713905",
+          "2365264",
+          "2342134"
+        ],
+        "random": [
+          "713770",
+          "498032",
+          "2413899"
+        ],
+        "catAndAttr": [
+          "2407974",
+          "2399966",
+          "2366004"
+        ],
+        "cat": [
+          "2414404",
+          "2412122",
+          "2340398"
+        ]
+      },
+      "neg_obj_list": {
+        "catAndcat": [
+          "1590153",
+          "2289677",
+          "936881"
+        ],
+        "random": [
+          "4273498",
+          "1573199",
+          "163925"
+        ],
+        "catAndAttr": [
+          "650328",
+          "1164279",
+          "755112"
+        ],
+        "cat": [
+          "4283227",
+          "202431",
+          "3660266"
+        ]
+      },
+      "ann_id": 1260371,
+      "imageId": "2381255",
+      "sentences": [
+        {
+          "tokens": [
+            "the",
+            "first",
+            "counter",
+            "from",
+            "the",
+            "right",
+            "that",
+            "is",
+            "granite",
+            "and",
+            "to",
+            "the",
+            "right",
+            "of",
+            "wood",
+            "cabinet"
+          ],
+          "sent_id": 12244,
+          "sent": "the first counter from the right that is granite and to the right of wood cabinet"
+        }
+      ],
+      "neg_ann_id_list": {
+        "random": [
+          539576,
+          497795,
+          1812
+        ],
+        "catAndAttr": [
+          762831,
+          505934,
+          1061436
+        ],
+        "cat": [
+          963983,
+          1222734,
+          712445
+        ]
+      },
+      "objectId": "1338017",
+      "attri_used": [
+        [
+          "granite"
+        ],
+        [
+          "wood"
+        ]
+      ],
+      "split": "test",
+      "splitOld": "val",
+      "image_id": "2381255",
+      "valid_flag": 1,
+      "ref_id": 12244,
+      "name": "counter",
+      "box": [
+        168,
+        240,
+        332,
+        84
+      ],
+      "att_wds": [],
+      "sent_ids": [
+        12244
+      ],
+      "logic": "unary",
+      "attributes": [
+        "granite"
+      ],
+      "category_id": 238,
+      "expression": "the first counter from the right that is granite and to the right of wood cabinet",
+      "explored_list": [
+        [
+          "1338017"
+        ],
+        [
+          "1338026"
+        ]
+      ]
+    }
+  ]
+}

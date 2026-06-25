@@ -1,0 +1,1098 @@
+{
+    "refs": [
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2341289",
+                    "2351493",
+                    "2388986"
+                ],
+                "random": [
+                    "2372817",
+                    "2329125",
+                    "2370025"
+                ],
+                "catAndcat": [
+                    "2332170",
+                    "2386036",
+                    "2398215"
+                ],
+                "cat": [
+                    "2398138",
+                    "2351493",
+                    "2388986"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "944023",
+                    "2380596",
+                    "669376"
+                ],
+                "random": [
+                    "735306",
+                    "3056465",
+                    "606971"
+                ],
+                "catAndcat": [
+                    "3713466",
+                    "684306",
+                    "662740"
+                ],
+                "cat": [
+                    "1182407",
+                    "2380596",
+                    "669376"
+                ]
+            },
+            "ann_id": 262011,
+            "imageId": "2335763",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "white",
+                        "plate",
+                        "that",
+                        "is",
+                        "to",
+                        "the",
+                        "right",
+                        "of",
+                        "the",
+                        "tomato",
+                        "that",
+                        "is",
+                        "in",
+                        "the",
+                        "bowl"
+                    ],
+                    "sent_id": 59440,
+                    "sent": "The white plate that is to the right of the tomato that is in the bowl"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    774766,
+                    246401,
+                    1261971
+                ],
+                "random": [
+                    743556,
+                    859833,
+                    1161401
+                ],
+                "catAndAttr": [
+                    574468,
+                    1158562,
+                    1127579
+                ],
+                "cat": [
+                    1318808,
+                    1158562,
+                    1127579
+                ]
+            },
+            "objectId": "3667055",
+            "attri_used": [
+                [
+                    "white"
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2335763",
+            "valid_flag": 1,
+            "ref_id": 59440,
+            "name": "plate",
+            "box": [
+                297,
+                105,
+                145,
+                170
+            ],
+            "att_wds": [
+                "white"
+            ],
+            "sent_ids": [
+                59440
+            ],
+            "logic": "chain",
+            "attributes": [
+                "white"
+            ],
+            "category_id": 937,
+            "expression": "The white plate that is to the right of the tomato that is in the bowl",
+            "explored_list": [
+                [
+                    "3667055"
+                ],
+                [
+                    "3147617"
+                ],
+                [
+                    "3667054"
+                ]
+            ]
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "4813",
+                    "2393444",
+                    "2399267"
+                ],
+                "random": [
+                    "2386143",
+                    "2321860",
+                    "2411392"
+                ],
+                "catAndcat": [
+                    "2383265",
+                    "2390269",
+                    "2354226"
+                ],
+                "cat": [
+                    "2405257",
+                    "2317842",
+                    "2406374"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "1036850",
+                    "1219851",
+                    "417679"
+                ],
+                "random": [
+                    "683633",
+                    "4184215",
+                    "312558"
+                ],
+                "catAndcat": [
+                    "533925",
+                    "1252128",
+                    "840255"
+                ],
+                "cat": [
+                    "3571492",
+                    "4061537",
+                    "652438"
+                ]
+            },
+            "ann_id": 200870,
+            "imageId": "2335763",
+            "sentences": [
+                {
+                    "tokens": [
+                        "plate",
+                        "on",
+                        "the",
+                        "left",
+                        "that",
+                        "is",
+                        "white",
+                        "and",
+                        "to",
+                        "the",
+                        "left",
+                        "of",
+                        "food"
+                    ],
+                    "sent_id": 113634,
+                    "sent": "plate on the left that is white and to the left of food"
+                }
+            ],
+            "neg_ann_id_list": {
+                "random": [
+                    647566,
+                    1224786,
+                    730082
+                ],
+                "catAndAttr": [
+                    789877,
+                    691467,
+                    1247269
+                ],
+                "cat": [
+                    701164,
+                    838759,
+                    981857
+                ]
+            },
+            "objectId": "2189454",
+            "attri_used": [
+                [
+                    "white"
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2335763",
+            "valid_flag": 1,
+            "ref_id": 113634,
+            "name": "plate",
+            "box": [
+                0,
+                94,
+                160,
+                164
+            ],
+            "att_wds": [
+                "white"
+            ],
+            "sent_ids": [
+                113634
+            ],
+            "logic": "unary",
+            "attributes": [
+                "white"
+            ],
+            "category_id": 937,
+            "expression": "plate on the left that is white and to the left of food",
+            "explored_list": [
+                [
+                    "2189454"
+                ],
+                [
+                    "3506753"
+                ]
+            ]
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2346494",
+                    "2390626",
+                    "2349024"
+                ],
+                "random": [
+                    "2364805",
+                    "2355132",
+                    "2404150"
+                ],
+                "catAndcat": [
+                    "107942",
+                    "2359818",
+                    "2371904"
+                ],
+                "cat": [
+                    "2403501",
+                    "2390626",
+                    "2346494"
+                ]
+            },
+            "sentences": [
+                {
+                    "tokens": [
+                        "the",
+                        "first",
+                        "plate",
+                        "from",
+                        "the",
+                        "right",
+                        "that",
+                        "is",
+                        "white",
+                        "and",
+                        "to",
+                        "the",
+                        "left",
+                        "of",
+                        "glass"
+                    ],
+                    "sent_id": 113906,
+                    "sent": "the first plate from the right that is white and to the left of glass"
+                }
+            ],
+            "ann_id": 262011,
+            "imageId": "2335763",
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "1809037",
+                    "1248561",
+                    "2134649"
+                ],
+                "random": [
+                    "3887730",
+                    "2536411",
+                    "4231887"
+                ],
+                "catAndcat": [
+                    "1037689",
+                    "2486174",
+                    "1804320"
+                ],
+                "cat": [
+                    "381153",
+                    "1248561",
+                    "1809037"
+                ]
+            },
+            "neg_ann_id_list": {
+                "random": [
+                    653057,
+                    259218,
+                    1115022
+                ],
+                "catAndAttr": [
+                    991806,
+                    546116,
+                    1010847
+                ],
+                "cat": [
+                    759117,
+                    546116,
+                    991806
+                ]
+            },
+            "objectId": "3667055",
+            "attri_used": [
+                [
+                    "white"
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2335763",
+            "valid_flag": 1,
+            "ref_id": 113906,
+            "name": "plate",
+            "box": [
+                297,
+                105,
+                145,
+                170
+            ],
+            "att_wds": [
+                "white"
+            ],
+            "sent_ids": [
+                113906
+            ],
+            "logic": "unary",
+            "attributes": [
+                "white"
+            ],
+            "category_id": 937,
+            "expression": "the first plate from the right that is white and to the left of glass",
+            "explored_list": [
+                [
+                    "3667055"
+                ],
+                [
+                    "2586226"
+                ]
+            ]
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "713647",
+                    "2398897",
+                    "4784"
+                ],
+                "random": [
+                    "2364404",
+                    "2359020",
+                    "2320531"
+                ],
+                "catAndcat": [
+                    "2403193",
+                    "2379577",
+                    "2320757"
+                ],
+                "cat": [
+                    "2414685",
+                    "2363022",
+                    "2370152"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "1586860",
+                    "421038",
+                    "4381032"
+                ],
+                "random": [
+                    "2340438",
+                    "4255757",
+                    "4472898"
+                ],
+                "catAndcat": [
+                    "355726",
+                    "3834853",
+                    "4526307"
+                ],
+                "cat": [
+                    "153934",
+                    "1041552",
+                    "742547"
+                ]
+            },
+            "ann_id": 732259,
+            "imageId": "2335763",
+            "sentences": [
+                {
+                    "tokens": [
+                        "the",
+                        "first",
+                        "glass",
+                        "from",
+                        "the",
+                        "left",
+                        "that",
+                        "is",
+                        "clear",
+                        "and",
+                        "to",
+                        "the",
+                        "left",
+                        "of",
+                        "gravy"
+                    ],
+                    "sent_id": 115596,
+                    "sent": "the first glass from the left that is clear and to the left of gravy"
+                }
+            ],
+            "neg_ann_id_list": {
+                "random": [
+                    840181,
+                    1342802,
+                    75960
+                ],
+                "catAndAttr": [
+                    1169901,
+                    545104,
+                    1092933
+                ],
+                "cat": [
+                    1162423,
+                    330103,
+                    226406
+                ]
+            },
+            "objectId": "2973140",
+            "attri_used": [
+                [
+                    "clear"
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2335763",
+            "valid_flag": 1,
+            "ref_id": 115596,
+            "name": "glass",
+            "box": [
+                0,
+                0,
+                110,
+                102
+            ],
+            "att_wds": [
+                "clear"
+            ],
+            "sent_ids": [
+                115596
+            ],
+            "logic": "unary",
+            "attributes": [
+                "glass",
+                "clear"
+            ],
+            "category_id": 307,
+            "expression": "the first glass from the left that is clear and to the left of gravy",
+            "explored_list": [
+                [
+                    "2973140"
+                ],
+                [
+                    "3924894"
+                ]
+            ]
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2339415",
+                    "2397404",
+                    "2321612"
+                ],
+                "random": [
+                    "2318864",
+                    "2410411",
+                    "2369475"
+                ],
+                "catAndcat": [
+                    "2392453",
+                    "2336770",
+                    "2334505"
+                ],
+                "cat": [
+                    "2342631",
+                    "2355608",
+                    "2346710"
+                ]
+            },
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "clear",
+                        "glass",
+                        "that",
+                        "is",
+                        "in",
+                        "the",
+                        "bowl",
+                        "or",
+                        "to",
+                        "the",
+                        "left",
+                        "of",
+                        "the",
+                        "browned",
+                        "beef"
+                    ],
+                    "sent_id": 211515,
+                    "sent": "The clear glass that is in the bowl or to the left of the browned beef"
+                }
+            ],
+            "ann_id": 732259,
+            "imageId": "2335763",
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "951469",
+                    "1190105",
+                    "1047465"
+                ],
+                "random": [
+                    "2703325",
+                    "218306",
+                    "3863278"
+                ],
+                "catAndcat": [
+                    "1229900",
+                    "4583369",
+                    "1045670"
+                ],
+                "cat": [
+                    "2159009",
+                    "828095",
+                    "896996"
+                ]
+            },
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    716089,
+                    505995,
+                    189153
+                ],
+                "random": [
+                    444269,
+                    1091408,
+                    1039113
+                ],
+                "catAndAttr": [
+                    1248182,
+                    7759,
+                    45765
+                ],
+                "cat": [
+                    1244703,
+                    595540,
+                    162203
+                ]
+            },
+            "objectId": "2973140",
+            "attri_used": [
+                [
+                    "clear"
+                ],
+                [
+                    [
+                        ""
+                    ],
+                    [
+                        "browned"
+                    ]
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2335763",
+            "valid_flag": 1,
+            "ref_id": 211515,
+            "name": "glass",
+            "box": [
+                0,
+                0,
+                110,
+                102
+            ],
+            "att_wds": [
+                "clear"
+            ],
+            "sent_ids": [
+                211515
+            ],
+            "not_rela": "in",
+            "logic": "or",
+            "attributes": [
+                "glass",
+                "clear"
+            ],
+            "category_id": 307,
+            "expression": "The clear glass that is in the bowl or to the left of the browned beef",
+            "explored_list": [
+                [
+                    "2973140"
+                ],
+                [
+                    "3667054",
+                    "3252344"
+                ]
+            ]
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2407715",
+                    "2390827",
+                    "2347945"
+                ],
+                "random": [
+                    "2324081",
+                    "2321672",
+                    "2344600"
+                ],
+                "catAndcat": [
+                    "2374894",
+                    "2366875",
+                    "2350139"
+                ],
+                "cat": [
+                    "2390827",
+                    "2378613",
+                    "2317884"
+                ]
+            },
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "274857",
+                    "1246662",
+                    "2423361"
+                ],
+                "random": [
+                    "4088325",
+                    "4191769",
+                    "914611"
+                ],
+                "catAndcat": [
+                    "2508809",
+                    "3876724",
+                    "1782204"
+                ],
+                "cat": [
+                    "1246662",
+                    "2145747",
+                    "3246650"
+                ]
+            },
+            "ann_id": 893277,
+            "imageId": "2387884",
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "striped",
+                        "zebra",
+                        "that",
+                        "is",
+                        "in",
+                        "front",
+                        "of",
+                        "the",
+                        "gray",
+                        "sand",
+                        "and",
+                        "walking",
+                        "by",
+                        "the",
+                        "white",
+                        "zebra"
+                    ],
+                    "sent_id": 172278,
+                    "sent": "The striped zebra that is in front of the gray sand and walking by the white zebra"
+                }
+            ],
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    767507,
+                    334979,
+                    368131
+                ],
+                "random": [
+                    1383055,
+                    704041,
+                    506270
+                ],
+                "catAndAttr": [
+                    523033,
+                    987888,
+                    1020946
+                ],
+                "cat": [
+                    987888,
+                    727082,
+                    642158
+                ]
+            },
+            "objectId": "1272158",
+            "attri_used": [
+                [
+                    "striped"
+                ],
+                [
+                    [
+                        "gray"
+                    ],
+                    [
+                        "white"
+                    ]
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2387884",
+            "valid_flag": 1,
+            "ref_id": 172278,
+            "name": "zebra",
+            "box": [
+                13,
+                98,
+                488,
+                236
+            ],
+            "att_wds": [
+                "striped"
+            ],
+            "sent_ids": [
+                172278
+            ],
+            "logic": "and",
+            "attributes": [
+                "standing",
+                "wild",
+                "striped",
+                "patterned"
+            ],
+            "category_id": 467,
+            "expression": "The striped zebra that is in front of the gray sand and walking by the white zebra",
+            "explored_list": [
+                [
+                    "1272158"
+                ],
+                [
+                    "1272163",
+                    "1272162"
+                ]
+            ]
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2409415",
+                    "4376",
+                    "2387803"
+                ],
+                "random": [
+                    "1368",
+                    "2341554",
+                    "4098"
+                ],
+                "catAndcat": [
+                    "2320792",
+                    "2370071",
+                    "2373824"
+                ],
+                "cat": [
+                    "2378971",
+                    "2327646",
+                    "2371039"
+                ]
+            },
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "gray",
+                        "sand",
+                        "that",
+                        "is",
+                        "walking",
+                        "by",
+                        "the",
+                        "white",
+                        "zebra",
+                        "or",
+                        "behind",
+                        "the",
+                        "wild",
+                        "zebra"
+                    ],
+                    "sent_id": 236784,
+                    "sent": "The gray sand that is walking by the white zebra or behind the wild zebra"
+                }
+            ],
+            "ann_id": 1227564,
+            "imageId": "2387884",
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "242199",
+                    "1558544",
+                    "677044"
+                ],
+                "random": [
+                    "3635944",
+                    "2760691",
+                    "1556858"
+                ],
+                "catAndcat": [
+                    "2906902",
+                    "3375145",
+                    "2480211"
+                ],
+                "cat": [
+                    "3835703",
+                    "2740711",
+                    "2176551"
+                ]
+            },
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    429719,
+                    48588,
+                    480813
+                ],
+                "random": [
+                    350595,
+                    94678,
+                    232745
+                ],
+                "catAndAttr": [
+                    1109904,
+                    1221700,
+                    732073
+                ],
+                "cat": [
+                    16870,
+                    243483,
+                    1007018
+                ]
+            },
+            "objectId": "1272163",
+            "attri_used": [
+                [
+                    "gray"
+                ],
+                [
+                    [
+                        "white"
+                    ],
+                    [
+                        "wild"
+                    ]
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2387884",
+            "valid_flag": 1,
+            "ref_id": 236784,
+            "name": "sand",
+            "box": [
+                0,
+                220,
+                228,
+                114
+            ],
+            "att_wds": [
+                "gray"
+            ],
+            "sent_ids": [
+                236784
+            ],
+            "not_rela": "walking by",
+            "logic": "or",
+            "attributes": [
+                "gray"
+            ],
+            "category_id": 52,
+            "expression": "The gray sand that is walking by the white zebra or behind the wild zebra",
+            "explored_list": [
+                [
+                    "1272163"
+                ],
+                [
+                    "1272162",
+                    "1272158"
+                ]
+            ]
+        },
+        {
+            "neg_img_list": {
+                "catAndAttr": [
+                    "2401234",
+                    "2388942",
+                    "2357812"
+                ],
+                "random": [
+                    "2323455",
+                    "2341098",
+                    "2405671"
+                ],
+                "catAndcat": [
+                    "2376543",
+                    "2359817",
+                    "2384902"
+                ],
+                "cat": [
+                    "2394876",
+                    "2328901",
+                    "2367432"
+                ]
+            },
+            "sentences": [
+                {
+                    "tokens": [
+                        "The",
+                        "person",
+                        "sitting",
+                        "on",
+                        "a",
+                        "bench",
+                        "next",
+                        "to",
+                        "another",
+                        "person",
+                        "who",
+                        "is",
+                        "on",
+                        "a",
+                        "skateboard"
+                    ],
+                    "sent_id": 298765,
+                    "sent": "The person sitting on a bench next to another person who is on a skateboard"
+                }
+            ],
+            "ann_id": 845291,
+            "imageId": "2401287",
+            "neg_obj_list": {
+                "catAndAttr": [
+                    "1234567",
+                    "2345678",
+                    "3456789"
+                ],
+                "random": [
+                    "4567890",
+                    "5678901",
+                    "6789012"
+                ],
+                "catAndcat": [
+                    "7890123",
+                    "8901234",
+                    "9012345"
+                ],
+                "cat": [
+                    "1234568",
+                    "2345679",
+                    "3456780"
+                ]
+            },
+            "neg_ann_id_list": {
+                "catAndcat": [
+                    898776,
+                    567432,
+                    234109
+                ],
+                "random": [
+                    876543,
+                    765432,
+                    654321
+                ],
+                "catAndAttr": [
+                    543210,
+                    432109,
+                    321098
+                ],
+                "cat": [
+                    210987,
+                    109876,
+                    98765
+                ]
+            },
+            "objectId": "5432109",
+            "attri_used": [
+                [
+                    ""
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ],
+            "split": "val",
+            "splitOld": "train",
+            "image_id": "2401287",
+            "valid_flag": 1,
+            "ref_id": 298765,
+            "name": "person",
+            "box": [
+                145,
+                78,
+                89,
+                245
+            ],
+            "att_wds": [],
+            "sent_ids": [
+                298765
+            ],
+            "logic": "chain",
+            "attributes": [
+                "sitting"
+            ],
+            "category_id": 1,
+            "expression": "The person sitting on a bench next to another person who is on a skateboard",
+            "explored_list": [
+                [
+                    "5432109"
+                ],
+                [
+                    "6543210"
+                ],
+                [
+                    "7654321"
+                ]
+            ]
+        }
+    ]
+}

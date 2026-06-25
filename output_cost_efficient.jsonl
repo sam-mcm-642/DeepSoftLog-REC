@@ -1,0 +1,33 @@
+{"2335763_59440": "target(X), type(X, car), expression(parkedNextTo, X, building), expression(hasAttribute, X, red), expression(hasAttribute, building, blue)"}
+{"2335764_113634": "target(X), type(X, dog), expression(sitting, X, table), expression(hasAttribute, X, small), expression(hasAttribute, X, brown), expression(hasAttribute, table, wooden)"}
+{"2335765_113906": "target(X), type(X, woman), expression(wearing, X, shirt), expression(holding, X, umbrella), expression(hasAttribute, shirt, green), expression(hasAttribute, umbrella, white)"}
+{"2335766_115596": "target(X), type(X, cat), expression(sleeping, X, cushion), expression(hasAttribute, X, black), expression(hasAttribute, cushion, soft)"}
+{"2335767_211515": "target(X), type(X, man), expression(standing, X, fence), expression(standing, X, sign), expression(hasAttribute, X, tall), expression(hasAttribute, fence, red), expression(hasAttribute, sign, yellow)"}
+{"2387885_172278": "target(X), type(X, bicycle), expression(leaningAgainst, X, wall), expression(hasAttribute, X, blue), expression(hasAttribute, wall, brick)"}
+{"2387886_236784": "target(X), type(X, cup), expression(sitting, X, table), expression(near, X, laptop), expression(hasAttribute, X, white), expression(hasAttribute, table, wooden)"}
+{"2401287_298765": "target(X), type(X, book), expression(on, X, shelf), expression(between, X, redBook), expression(between, X, blueBook), expression(hasAttribute, X, green)"}
+{"2401288_298766": "target(X), type(X, elephant), expression(walking, X, tree), expression(hasAttribute, X, large), expression(hasAttribute, X, gray), expression(hasAttribute, tree, small)"}
+{"2401289_298767": "target(X), type(X, basketball), expression(rolling, X, floor), expression(hasAttribute, X, orange), expression(hasAttribute, floor, gym)"}
+{"2401290_298768": "target(X), type(X, boy), expression(eating, X, iceCreamCone), expression(sitting, X, bench), expression(hasAttribute, X, young), expression(hasAttribute, bench, park)"}
+{"2401291_298769": "target(X), type(X, flower), expression(blooming, X, garden), expression(next, X, path), expression(hasAttribute, X, purple), expression(hasAttribute, path, stone)"}
+{"2401292_298770": "target(X), type(X, laptop), expression(open, X, desk), expression(beside, X, coffeeMug), expression(hasAttribute, X, silver)"}
+{"2401293_298771": "target(X), type(X, dog), expression(playing, X, ball), expression(in, X, yard), expression(hasAttribute, X, goldenRetriever)"}
+{"2401294_298772": "target(X), type(X, woman), expression(knitting, X, sweater), expression(sitting, X, chair), expression(hasAttribute, X, old), expression(hasAttribute, chair, rocking)"}
+{"2401295_298773": "target(X), type(X, sunflower), expression(standing, X, field), expression(hasAttribute, X, bright), expression(hasAttribute, X, yellow)"}
+{"2401296_298774": "target(X), type(X, apple), expression(sitting, X, counter), expression(near, X, fruitBowl), expression(hasAttribute, X, red)"}
+{"2401297_298775": "target(X), type(X, chef), expression(wearing, X, hat), expression(cooking, X, kitchen), expression(hasAttribute, hat, white)"}
+{"2401298_298776": "target(X), type(X, chair), expression(positioned, X, table), expression(hasAttribute, X, brown), expression(hasAttribute, X, wooden), expression(hasAttribute, table, dining)"}
+{"2401299_298777": "target(X), type(X, bird), expression(perched, X, branch), expression(hasAttribute, X, small), expression(hasAttribute, X, white)"}
+{"2401300_298778": "target(X), type(X, pizza_slice), expression(with, X, pepperoni), expression(on, X, plate)"}
+{"2401301_298779": "target(X), type(X, sports_car), expression(hasAttribute, X, blue), expression(racing, X, track)"}
+{"2401302_298780": "target(X), type(X, musician), expression(playing, X, guitar), expression(on, X, stage)"}
+{"2401303_298781": "target(X), type(X, grass), expression(hasAttribute, X, green), expression(growing, X, field), expression(behind, X, fence)"}
+{"2401304_298782": "target(X), type(X, nurse), expression(wearing, X, scrubs), expression(hasAttribute, X, blue), expression(walking, X, hallway)"}
+{"2401305_298783": "target(X), type(X, cat), expression(hasAttribute, X, orange), expression(hasAttribute, X, tabby), expression(sleeping, X, windowsill)"}
+{"2401306_298784": "target(X), type(X, fisherman), expression(casting, X, line), expression(into, X, lake)"}
+{"2401307_298785": "target(X), type(X, roses), expression(hasAttribute, X, pink), expression(blooming, X, garden), expression(next_to, X, fence)"}
+{"2401308_298786": "target(X), type(X, pilot), expression(flying, X, airplane), expression(through, X, clouds)"}
+{"2401309_298787": "target(X), type(X, cake), expression(hasAttribute, X, dark_chocolate), expression(sitting, X, plate), expression(with, X, strawberries)"}
+{"2401310_298788": "target(X), type(X, construction_worker), expression(wearing, X, hard_hat), expression(hasAttribute, X, yellow), expression(working, X, building)"}
+{"2401311_298789": "target(X), type(X, truck), expression(hasAttribute, X, vintage), expression(hasAttribute, X, red), expression(parked, X, barn)"}
+{"2401312_298790": "target(X), type(X, swimmer), expression(diving, X, pool), expression(hasAttribute, X, clear), expression(hasAttribute, X, blue)"}

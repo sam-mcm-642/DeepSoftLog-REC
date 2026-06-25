@@ -1,0 +1,21 @@
+batch_size: 1
+data_subset: null
+device: cpu
+embedding_dimensions: 100
+embedding_initialization: sphere
+embedding_learning_rate: 0.08
+embedding_metric: angle
+functor_learning_rate: 0
+grad_clip: null
+max_branching: 38
+max_depth: 38
+max_proofs: 4
+name: thesis
+nb_epochs: 10
+optimizer: AdamW
+program: /Users/sammcmanagan/Desktop/Thesis/Model/data/program/initial_program.pl
+project: referring expression
+seed: 1337
+semantics: sdd2
+verbose: true
+weight_decay: 0

@@ -1,0 +1,403 @@
+image_id,subject,subject_bbox,relationship,object,object_bbox
+1,shade,"[119, 338, 274, 192]",on,street,"[77, 328, 714, 262]"
+1,sign,"[118, 13, 88, 182]",on,building,"[1, 2, 218, 536]"
+1,man,"[238, 249, 60, 262]",has,shirt,"[241, 289, 59, 101]"
+1,sidewalk,"[77, 331, 722, 266]",nextTo,street,"[358, 283, 440, 233]"
+1,man,"[238, 249, 60, 262]",has,shirt,"[241, 289, 59, 101]"
+1,man,"[372, 264, 75, 251]",has,jacket,"[356, 296, 89, 97]"
+1,bike,"[318, 319, 28, 34]",parkedOn,sidewalk,"[77, 331, 722, 266]"
+1,bike,"[334, 319, 29, 35]",parkedOn,sidewalk,"[77, 331, 722, 266]"
+1,car,"[708, 342, 91, 174]",parkedOn,street,"[358, 283, 440, 233]"
+1,bike,"[334, 319, 29, 35]",on,sidewalk,"[343, 318, 50, 189]"
+1,man,"[238, 249, 60, 262]",wearing,shirt,"[241, 289, 59, 101]"
+1,shirt,"[241, 289, 59, 101]",on,man,"[238, 249, 60, 262]"
+1,man,"[238, 249, 60, 262]",in,shirt,"[241, 289, 59, 101]"
+1,tree,"[249, 0, 176, 360]",nextTo,street,"[358, 283, 440, 233]"
+1,man,"[372, 264, 75, 251]",wearing,jacket,"[356, 296, 89, 97]"
+1,clock,"[421, 91, 79, 339]",hasAttribute,green,
+1,clock,"[421, 91, 79, 339]",hasAttribute,tall,
+1,street,"[77, 328, 714, 262]",hasAttribute,sidewalk,
+1,bike,"[318, 319, 28, 34]",hasAttribute,parked,
+1,bike,"[334, 319, 29, 35]",hasAttribute,parked,
+1,bike,"[334, 319, 29, 35]",hasAttribute,chained,
+1,sign,"[118, 13, 88, 182]",hasAttribute,black,
+1,building,"[1, 2, 218, 536]",hasAttribute,tall,
+1,building,"[1, 2, 218, 536]",hasAttribute,brick,
+1,sidewalk,"[77, 331, 722, 266]",hasAttribute,brick,
+1,shirt,"[241, 289, 59, 101]",hasAttribute,orange,
+1,street,"[358, 283, 440, 233]",hasAttribute,clean,
+1,car,"[708, 342, 91, 174]",hasAttribute,white,
+1,car,"[708, 342, 91, 174]",hasAttribute,parked,
+1,jacket,"[356, 296, 89, 97]",hasAttribute,gray,
+1,jacket,"[356, 296, 89, 97]",hasAttribute,grey,
+1,van,"[529, 298, 233, 134]",hasAttribute,parked,
+1,van,"[529, 298, 233, 134]",hasAttribute,white,
+1,wall,"[0, 1, 134, 533]",hasAttribute,grey,
+1,shirt,"[384, 306, 37, 66]",hasAttribute,grey,
+2,man,"[324, 320, 142, 255]",wears,backpack,"[359, 362, 72, 81]"
+2,car,"[239, 347, 136, 126]",parkedOn,road,"[3, 321, 372, 279]"
+2,tree,"[0, 146, 73, 223]",nextTo,road,"[3, 321, 372, 279]"
+2,tree,"[58, 155, 61, 201]",nextTo,road,"[3, 321, 372, 279]"
+2,tree,"[110, 195, 83, 163]",nextTo,road,"[3, 321, 372, 279]"
+2,crosswalk,"[0, 492, 366, 107]",inFrontOf,man,"[324, 320, 142, 255]"
+2,building,"[547, 4, 251, 384]",has,window,"[645, 60, 99, 179]"
+2,building,"[547, 4, 251, 384]",has,window,"[742, 71, 57, 159]"
+2,building,"[547, 4, 251, 384]",has,window,"[644, 259, 105, 114]"
+2,building,"[547, 4, 251, 384]",has,window,"[746, 259, 52, 108]"
+2,building,"[547, 4, 251, 384]",has,window,"[628, 64, 26, 179]"
+2,car,"[346, 327, 86, 76]",parkedOn,road,"[3, 321, 372, 279]"
+2,sign,"[230, 287, 22, 67]",nextTo,road,"[3, 321, 372, 279]"
+2,tree,"[0, 146, 73, 223]",along,road,"[3, 321, 372, 279]"
+2,tree,"[58, 155, 61, 201]",along,road,"[3, 321, 372, 279]"
+2,tree,"[110, 195, 83, 163]",along,road,"[3, 321, 372, 279]"
+2,bike,"[415, 403, 33, 69]",nextTo,car,"[239, 347, 136, 126]"
+2,car,"[239, 347, 136, 126]",parkedOn,road,"[3, 321, 372, 279]"
+2,crosswalk,"[0, 492, 366, 107]",on,road,"[3, 321, 372, 279]"
+2,backpack,"[359, 362, 72, 81]",hasAttribute,silver,
+2,man,"[324, 320, 142, 255]",hasAttribute,walking,
+2,man,"[324, 320, 142, 255]",hasAttribute,white,
+2,car,"[239, 347, 136, 126]",hasAttribute,parked,
+2,road,"[3, 321, 372, 279]",hasAttribute,grey,
+2,tree,"[0, 146, 73, 223]",hasAttribute,green,
+2,tree,"[58, 155, 61, 201]",hasAttribute,green,
+2,tree,"[110, 195, 83, 163]",hasAttribute,green,
+2,crosswalk,"[0, 492, 366, 107]",hasAttribute,white,
+2,sidewalk,"[384, 343, 415, 247]",hasAttribute,brick,
+2,sidewalk,"[384, 343, 415, 247]",hasAttribute,white,
+2,window,"[628, 64, 26, 179]",hasAttribute,glass,
+2,window,"[645, 60, 99, 179]",hasAttribute,glass,
+2,window,"[742, 71, 57, 159]",hasAttribute,glass,
+2,window,"[644, 259, 105, 114]",hasAttribute,glass,
+2,window,"[746, 259, 52, 108]",hasAttribute,glass,
+2,building,"[547, 4, 251, 384]",hasAttribute,orange,
+2,building,"[547, 4, 251, 384]",hasAttribute,brown,
+2,building,"[547, 4, 251, 384]",hasAttribute,tall,
+2,car,"[346, 327, 86, 76]",hasAttribute,white,
+2,sign,"[230, 287, 22, 67]",hasAttribute,black,
+2,building,"[165, 13, 282, 298]",hasAttribute,brown,
+2,pole,"[405, 34, 78, 438]",hasAttribute,brown,
+3,keyboard,"[168, 273, 175, 48]",inFrontOf,monitor,"[159, 119, 149, 155]"
+3,mouse,"[346, 296, 29, 28]",nextTo,keyboard,"[168, 273, 175, 48]"
+3,girl,"[544, 89, 94, 149]",inFrontOf,monitor,"[417, 63, 82, 50]"
+3,mouse,"[346, 296, 29, 28]",nextTo,keyboard,"[168, 273, 175, 48]"
+3,outlet,"[83, 202, 17, 24]",on,wall,"[3, 6, 258, 265]"
+3,outlet,"[42, 207, 22, 29]",on,wall,"[3, 6, 258, 265]"
+3,girl,"[544, 89, 94, 149]",has,hair,"[585, 98, 55, 109]"
+3,girl,"[544, 89, 94, 149]",wears,chain,"[593, 166, 34, 17]"
+3,pen,"[405, 323, 53, 16]",on,desk,"[130, 235, 506, 241]"
+3,cable,"[137, 408, 52, 58]",on,floor,"[110, 340, 390, 139]"
+3,cable,"[150, 387, 84, 40]",on,floor,"[110, 340, 390, 139]"
+3,bag,"[574, 270, 65, 134]",on,desk,"[130, 235, 506, 241]"
+3,monitor,"[417, 63, 82, 50]",on,wall,"[304, 30, 217, 97]"
+3,picture,"[210, 2, 61, 44]",on,wall,"[3, 6, 258, 265]"
+3,telephone,"[456, 266, 98, 79]",on,desk,"[130, 235, 506, 241]"
+3,pen,"[405, 323, 53, 16]",nextTo,telephone,"[456, 266, 98, 79]"
+3,pen,"[405, 323, 53, 16]",nextTo,telephone,"[456, 266, 98, 79]"
+3,girl,"[544, 89, 94, 149]",wearing,necklace,"[585, 169, 32, 15]"
+3,telephone,"[456, 266, 98, 79]",on,table,"[129, 233, 510, 244]"
+3,keyboard,"[168, 273, 175, 48]",hasAttribute,white,
+3,monitor,"[159, 119, 149, 155]",hasAttribute,white,
+3,mouse,"[346, 296, 29, 28]",hasAttribute,white,
+3,girl,"[544, 89, 94, 149]",hasAttribute,sitting,
+3,monitor,"[417, 63, 82, 50]",hasAttribute,off,
+3,pen,"[405, 323, 53, 16]",hasAttribute,blue,
+3,pen,"[405, 323, 53, 16]",hasAttribute,yellow,
+3,pen,"[405, 323, 53, 16]",hasAttribute,black,
+3,bag,"[574, 270, 65, 134]",hasAttribute,black,
+3,telephone,"[456, 266, 98, 79]",hasAttribute,black,
+3,table,"[129, 233, 510, 244]",hasAttribute,white,
+3,cabinet,"[2, 269, 139, 201]",hasAttribute,grey,
+3,cabinet,"[2, 269, 139, 201]",hasAttribute,beige,
+4,carpet,"[2, 321, 629, 157]",on,floor,"[1, 290, 631, 188]"
+4,pillow,"[183, 222, 111, 86]",on,couch,"[105, 210, 260, 172]"
+4,couch,"[105, 210, 260, 172]",has,frame,"[103, 274, 265, 107]"
+4,chair,"[387, 214, 92, 157]",nextTo,table,"[412, 238, 224, 200]"
+4,lamp,"[216, 62, 48, 150]",behind,couch,"[105, 210, 260, 172]"
+4,pillow,"[183, 222, 111, 86]",on,couch,"[105, 210, 260, 172]"
+4,lamp,"[216, 62, 48, 150]",on,floor,"[1, 290, 631, 188]"
+4,chair,"[387, 214, 92, 157]",hasAttribute,black,
+4,chair,"[387, 214, 92, 157]",hasAttribute,purple,
+4,chair,"[387, 214, 92, 157]",hasAttribute,blue,
+4,pillow,"[183, 222, 111, 86]",hasAttribute,white,
+4,carpet,"[2, 321, 629, 157]",hasAttribute,gray,
+4,carpet,"[2, 321, 629, 157]",hasAttribute,plush,
+4,carpet,"[2, 321, 629, 157]",hasAttribute,clean,
+4,carpet,"[2, 321, 629, 157]",hasAttribute,purple,
+4,carpet,"[2, 321, 629, 157]",hasAttribute,grey,
+4,floor,"[1, 290, 631, 188]",hasAttribute,wood,
+4,couch,"[105, 210, 260, 172]",hasAttribute,purple,
+4,couch,"[105, 210, 260, 172]",hasAttribute,cloth,
+4,color,"[298, 225, 41, 48]",hasAttribute,purple,
+4,table,"[412, 238, 224, 200]",hasAttribute,glass,
+4,table,"[412, 238, 224, 200]",hasAttribute,metal,
+4,door,"[367, 0, 120, 327]",hasAttribute,glass,
+4,color,"[575, 38, 22, 38]",hasAttribute,blue,
+4,drape,"[362, 0, 149, 282]",hasAttribute,tied,
+4,drape,"[362, 0, 149, 282]",hasAttribute,blue,
+4,picture,"[0, 230, 92, 129]",hasAttribute,water,
+4,picture,"[0, 230, 92, 129]",hasAttribute,poster,
+4,picture,"[0, 230, 92, 129]",hasAttribute,black,
+4,lamp,"[216, 62, 48, 150]",hasAttribute,tall,
+4,lamp,"[216, 62, 48, 150]",hasAttribute,chrome,
+4,lamp,"[216, 62, 48, 150]",hasAttribute,black,
+4,box,"[457, 165, 57, 25]",hasAttribute,empty,
+5,chair,"[144, 358, 174, 240]",near,desk,"[120, 357, 317, 107]"
+5,keyboard,"[240, 401, 116, 26]",on,desk,"[120, 357, 317, 107]"
+5,keyboard,"[240, 401, 116, 26]",on,desk,"[120, 357, 317, 107]"
+5,room,"[0, 2, 795, 597]",with,computer,"[347, 453, 63, 127]"
+5,railing,"[49, 322, 88, 103]",on,balcony,"[52, 328, 81, 91]"
+5,heater,"[421, 529, 113, 69]",on,floor,"[2, 490, 349, 108]"
+5,floor,"[2, 490, 349, 108]",hasAttribute,wood,
+5,floor,"[2, 490, 349, 108]",hasAttribute,brown,
+5,wall,"[389, 9, 404, 519]",hasAttribute,white,
+5,wall,"[389, 9, 404, 519]",hasAttribute,cream,
+5,light,"[72, 3, 119, 39]",hasAttribute,on,
+5,chair,"[144, 358, 174, 240]",hasAttribute,brown,
+5,chair,"[144, 358, 174, 240]",hasAttribute,wood,
+5,color,"[170, 453, 19, 40]",hasAttribute,brown,
+5,door,"[3, 8, 40, 529]",hasAttribute,white,
+5,desk,"[120, 357, 317, 107]",hasAttribute,brown,
+5,chair,"[377, 348, 166, 251]",hasAttribute,wood,
+5,window,"[44, 148, 87, 90]",hasAttribute,square,
+5,wall,"[145, 3, 245, 528]",hasAttribute,white,
+6,apple,"[253, 75, 60, 47]",on,counter,"[245, 14, 68, 114]"
+6,apple,"[253, 75, 60, 47]",in,counter,"[245, 14, 68, 114]"
+6,counter,"[245, 14, 68, 114]",has,apple,"[253, 75, 60, 47]"
+6,fork,"[111, 137, 56, 73]",on,plate,"[38, 102, 238, 117]"
+6,counter,"[245, 14, 68, 114]",has,liquid,"[255, 76, 57, 51]"
+6,liquid,"[255, 76, 57, 51]",in,counter,"[245, 14, 68, 114]"
+6,counter,"[245, 14, 68, 114]",has,apple,"[253, 75, 60, 47]"
+6,counter,"[245, 14, 68, 114]",has,apple,"[253, 75, 60, 47]"
+6,apple,"[253, 75, 60, 47]",in,counter,"[245, 14, 68, 114]"
+6,bag,"[629, 101, 144, 158]",on,counter,"[2, 11, 797, 520]"
+6,bowl,"[394, 2, 212, 126]",on,counter,"[2, 11, 797, 520]"
+6,container,"[599, 73, 187, 116]",on,counter,"[2, 11, 797, 520]"
+6,pan,"[676, 22, 122, 76]",on,counter,"[2, 11, 797, 520]"
+6,food,"[353, 102, 117, 78]",in,bag,"[349, 48, 133, 134]"
+6,bag,"[349, 48, 133, 134]",on,counter,"[2, 11, 797, 520]"
+6,food,"[353, 102, 117, 78]",in,bag,"[349, 48, 133, 134]"
+6,glass,"[275, 0, 54, 78]",on,counter,"[2, 11, 797, 520]"
+6,counter,"[245, 14, 68, 114]",on,counter,"[2, 11, 797, 520]"
+6,glass,"[192, 0, 59, 98]",on,counter,"[2, 11, 797, 520]"
+6,apple,"[339, 233, 126, 119]",on,counter,"[2, 11, 797, 520]"
+6,food,"[353, 102, 117, 78]",in,bag,"[349, 48, 133, 134]"
+6,apple,"[339, 233, 126, 119]",on,counter,"[2, 11, 797, 520]"
+6,fork,"[111, 137, 56, 73]",on,plate,"[38, 102, 238, 117]"
+6,container,"[599, 73, 187, 116]",with,cover,"[600, 56, 147, 46]"
+6,glass,"[275, 0, 54, 78]",on,counter,"[2, 11, 797, 520]"
+6,glass,"[192, 0, 59, 98]",on,counter,"[2, 11, 797, 520]"
+6,fork,"[111, 137, 56, 73]",on,plate,"[38, 102, 238, 117]"
+6,counter,"[245, 14, 68, 114]",contains,apple,"[253, 75, 60, 47]"
+6,apple,"[253, 75, 60, 47]",in,counter,"[245, 14, 68, 114]"
+6,apple,"[339, 233, 126, 119]",on,counter,"[2, 11, 797, 520]"
+6,fork,"[111, 137, 56, 73]",on,plate,"[38, 102, 238, 117]"
+6,bag,"[629, 101, 144, 158]",nextTo,container,"[599, 73, 187, 116]"
+6,leg,"[7, 268, 55, 130]",under,counter,"[2, 11, 797, 520]"
+6,chair,"[0, 2, 300, 521]",has,leg,"[138, 311, 83, 203]"
+6,chair,"[0, 2, 300, 521]",has,leg,"[7, 268, 55, 130]"
+6,crumb,"[209, 154, 8, 11]",on,plate,"[38, 102, 238, 117]"
+6,crumb,"[85, 175, 20, 14]",on,plate,"[38, 102, 238, 117]"
+6,bottle,"[476, 77, 122, 307]",has,logo,"[484, 256, 108, 112]"
+6,apple,"[253, 75, 60, 47]",hasAttribute,shiny,
+6,apple,"[253, 75, 60, 47]",hasAttribute,liquid,
+6,counter,"[245, 14, 68, 114]",hasAttribute,granite,
+6,counter,"[245, 14, 68, 114]",hasAttribute,black,
+6,granite,"[476, 77, 122, 307]",hasAttribute,black,
+6,fork,"[111, 137, 56, 73]",hasAttribute,metal,
+6,fork,"[111, 137, 56, 73]",hasAttribute,steel,
+6,fork,"[111, 137, 56, 73]",hasAttribute,dirty,
+6,fork,"[111, 137, 56, 73]",hasAttribute,utensil,
+6,plate,"[38, 102, 238, 117]",hasAttribute,white,
+6,plate,"[38, 102, 238, 117]",hasAttribute,empty,
+6,plate,"[38, 102, 238, 117]",hasAttribute,dirty,
+6,counter,"[2, 11, 797, 520]",hasAttribute,black,
+6,counter,"[2, 11, 797, 520]",hasAttribute,wood,
+6,container,"[599, 73, 187, 116]",hasAttribute,white,
+6,container,"[599, 73, 187, 116]",hasAttribute,plastic,
+6,container,"[599, 73, 187, 116]",hasAttribute,empty,
+6,glass,"[192, 0, 59, 98]",hasAttribute,empty,
+6,glass,"[192, 0, 59, 98]",hasAttribute,clear,
+6,bowl,"[394, 2, 212, 126]",hasAttribute,large,
+6,bowl,"[394, 2, 212, 126]",hasAttribute,empty,
+6,bowl,"[394, 2, 212, 126]",hasAttribute,salad,
+6,bowl,"[394, 2, 212, 126]",hasAttribute,brown,
+6,bag,"[629, 101, 144, 158]",hasAttribute,black,
+6,bag,"[629, 101, 144, 158]",hasAttribute,square,
+6,pan,"[676, 22, 122, 76]",hasAttribute,metal,
+6,pan,"[676, 22, 122, 76]",hasAttribute,empty,
+6,food,"[353, 102, 117, 78]",hasAttribute,raw,
+6,bag,"[349, 48, 133, 134]",hasAttribute,plastic,
+6,apple,"[339, 233, 126, 119]",hasAttribute,shiny,
+6,apple,"[339, 233, 126, 119]",hasAttribute,fruit,
+6,packet,"[208, 217, 55, 59]",hasAttribute,sauce,
+6,bottle,"[476, 77, 122, 307]",hasAttribute,plastic,
+6,bottle,"[476, 77, 122, 307]",hasAttribute,white,
+6,glass,"[275, 0, 54, 78]",hasAttribute,empty,
+6,utensil,"[593, 200, 79, 33]",hasAttribute,dirty,
+7,book,"[721, 527, 50, 56]",on,desk,"[583, 515, 213, 77]"
+7,lady,"[6, 316, 144, 268]",with,hair,"[5, 320, 28, 49]"
+7,telephone,"[525, 393, 85, 65]",on,desk,"[56, 398, 559, 110]"
+7,lady,"[6, 316, 144, 268]",lookingAt,monitor,"[222, 255, 170, 130]"
+7,pen,"[119, 436, 35, 12]",atop,book,"[92, 421, 90, 38]"
+7,mouse,"[409, 428, 39, 17]",on,desk,"[56, 398, 559, 110]"
+7,bracelet,"[190, 534, 10, 17]",on,wrist,"[174, 529, 34, 29]"
+7,cereal,"[459, 326, 46, 77]",onTopOf,desk,"[56, 398, 559, 110]"
+7,pen,"[119, 436, 35, 12]",onTopOf,book,"[92, 421, 90, 38]"
+7,monitor,"[222, 255, 170, 130]",nextTo,keyboard,"[243, 392, 143, 37]"
+7,mug,"[456, 388, 26, 38]",onTopOf,desk,"[56, 398, 559, 110]"
+7,laptop,"[589, 481, 178, 83]",has,lid,"[586, 481, 184, 73]"
+7,woman,"[6, 309, 256, 287]",wearing,sweater,"[2, 407, 196, 183]"
+7,mug,"[456, 388, 26, 38]",nextTo,telephone,"[525, 393, 85, 65]"
+7,laptop,"[589, 481, 178, 83]",onTopOf,desk,"[583, 515, 213, 77]"
+7,woman,"[6, 309, 256, 287]",has,sweater,"[2, 407, 196, 183]"
+7,mug,"[456, 388, 26, 38]",nextTo,telephone,"[525, 393, 85, 65]"
+7,calculator,"[484, 431, 49, 39]",onTopOf,book,"[419, 418, 170, 98]"
+7,pen,"[119, 436, 35, 12]",onTopOf,desk,"[56, 398, 559, 110]"
+7,mouse,"[409, 428, 39, 17]",onTopOf,desk,"[56, 398, 559, 110]"
+7,woman,"[6, 309, 256, 287]",has,sweater,"[2, 407, 196, 183]"
+7,telephone,"[525, 393, 85, 65]",onTopOf,desk,"[56, 398, 559, 110]"
+7,telephone,"[525, 393, 85, 65]",hasAttribute,pink,
+7,telephone,"[525, 393, 85, 65]",hasAttribute,beige,
+7,telephone,"[525, 393, 85, 65]",hasAttribute,tan,
+7,book,"[721, 527, 50, 56]",hasAttribute,purple,
+7,monitor,"[222, 255, 170, 130]",hasAttribute,on,
+7,lady,"[6, 316, 144, 268]",hasAttribute,young,
+7,hair,"[5, 320, 28, 49]",hasAttribute,black,
+7,mouse,"[409, 428, 39, 17]",hasAttribute,black,
+7,wall,"[277, 15, 180, 249]",hasAttribute,white,
+7,keyboard,"[243, 392, 143, 37]",hasAttribute,black,
+7,laptop,"[589, 481, 178, 83]",hasAttribute,black,
+7,laptop,"[589, 481, 178, 83]",hasAttribute,closed,
+7,sweater,"[2, 407, 196, 183]",hasAttribute,gray,
+7,sweater,"[2, 407, 196, 183]",hasAttribute,beige,
+7,window,"[489, 3, 309, 401]",hasAttribute,brown,
+7,label,"[484, 380, 21, 22]",hasAttribute,green,
+7,book,"[419, 418, 170, 98]",hasAttribute,open,
+8,cd,"[666, 550, 74, 42]",on,desk,"[580, 402, 219, 191]"
+8,cup,"[446, 398, 51, 75]",on,desk,"[27, 329, 544, 267]"
+8,hand,"[334, 400, 48, 47]",on,keyboard,"[282, 383, 155, 64]"
+8,cup,"[446, 398, 51, 75]",on,desk,"[27, 329, 544, 267]"
+8,man,"[117, 286, 266, 312]",wears,shirt,"[115, 375, 230, 225]"
+8,picture,"[699, 135, 97, 73]",on,wall,"[596, 0, 203, 434]"
+8,stapler,"[520, 444, 22, 35]",on,desk,"[27, 329, 544, 267]"
+8,picture,"[699, 135, 97, 73]",on,wall,"[596, 0, 203, 434]"
+8,cup,"[142, 167, 26, 52]",on,shelf,"[0, 215, 207, 36]"
+8,stapler,"[520, 444, 22, 35]",near,cup,"[446, 398, 51, 75]"
+8,cd,"[666, 550, 74, 42]",near,mug,"[719, 472, 44, 58]"
+8,cd,"[666, 550, 74, 42]",in,front,"[602, 536, 196, 63]"
+8,man,"[117, 286, 266, 312]",lookingAt,monitor,"[297, 270, 126, 123]"
+8,hand,"[334, 400, 48, 47]",on,keyboard,"[282, 383, 155, 64]"
+8,man,"[117, 286, 266, 312]",has,hand,"[334, 400, 48, 47]"
+8,mouse,"[421, 426, 35, 29]",nextTo,keyboard,"[282, 383, 155, 64]"
+8,mouse,"[421, 426, 35, 29]",on,desk,"[27, 329, 544, 267]"
+8,hand,"[334, 400, 48, 47]",on,keyboard,"[282, 383, 155, 64]"
+8,man,"[117, 286, 266, 312]",has,hand,"[334, 400, 48, 47]"
+8,cup,"[446, 398, 51, 75]",on,desk,"[27, 329, 544, 267]"
+8,cd,"[666, 550, 74, 42]",in,desk,"[580, 402, 219, 191]"
+8,book,"[86, 154, 58, 64]",on,shelf,"[0, 215, 207, 36]"
+8,cd,"[666, 550, 74, 42]",onTopOf,drawer,"[594, 554, 189, 45]"
+8,man,"[117, 286, 266, 312]",has,shirt,"[115, 375, 230, 225]"
+8,stapler,"[520, 444, 22, 35]",on,desk,"[27, 329, 544, 267]"
+8,monitor,"[297, 270, 126, 123]",hasAttribute,on,
+8,monitor,"[297, 270, 126, 123]",hasAttribute,black,
+8,man,"[117, 286, 266, 312]",hasAttribute,using,
+8,color,"[377, 513, 40, 48]",hasAttribute,grey,
+8,cd,"[666, 550, 74, 42]",hasAttribute,white,
+8,cd,"[666, 550, 74, 42]",hasAttribute,sitting,
+8,cup,"[446, 398, 51, 75]",hasAttribute,white,
+8,cup,"[446, 398, 51, 75]",hasAttribute,large,
+8,keyboard,"[282, 383, 155, 64]",hasAttribute,white,
+8,keyboard,"[282, 383, 155, 64]",hasAttribute,gray,
+8,shirt,"[115, 375, 230, 225]",hasAttribute,black,
+8,shirt,"[115, 375, 230, 225]",hasAttribute,white,
+8,dish,"[171, 254, 40, 31]",hasAttribute,empty,
+8,stapler,"[520, 444, 22, 35]",hasAttribute,black,
+8,cup,"[142, 167, 26, 52]",hasAttribute,black,
+8,cup,"[142, 167, 26, 52]",hasAttribute,silver,
+8,mouse,"[421, 426, 35, 29]",hasAttribute,white,
+8,book,"[86, 154, 58, 64]",hasAttribute,blue,
+8,chair,"[10, 471, 152, 127]",hasAttribute,blue,
+9,bottle,"[126, 281, 24, 39]",on,desk,"[71, 280, 169, 65]"
+9,monitor,"[286, 210, 65, 59]",on,desk,"[261, 260, 178, 93]"
+9,keyboard,"[542, 277, 50, 18]",on,desk,"[503, 241, 135, 60]"
+9,monitor,"[96, 221, 106, 76]",by,bottle,"[126, 281, 24, 39]"
+9,computer,"[543, 243, 54, 50]",on,desk,"[503, 241, 135, 60]"
+9,tower,"[253, 277, 56, 74]",on,floor,"[6, 286, 634, 194]"
+9,keyboard,"[542, 277, 50, 18]",on,desk,"[503, 241, 135, 60]"
+9,bottle,"[126, 281, 24, 39]",on,desk,"[71, 280, 169, 65]"
+9,tower,"[253, 277, 56, 74]",under,desk,"[251, 247, 184, 42]"
+9,book,"[410, 382, 80, 43]",on,desk,"[388, 367, 250, 112]"
+9,computer,"[543, 243, 54, 50]",on,desk,"[503, 241, 135, 60]"
+9,book,"[410, 382, 80, 43]",on,desk,"[388, 367, 250, 112]"
+9,computer,"[543, 243, 54, 50]",on,desk,"[503, 241, 135, 60]"
+9,tower,"[253, 277, 56, 74]",on,floor,"[6, 286, 634, 194]"
+9,room,"[4, 1, 635, 477]",hasAttribute,indoors,
+9,monitor,"[286, 210, 65, 59]",hasAttribute,white,
+9,monitor,"[286, 210, 65, 59]",hasAttribute,flat,
+9,monitor,"[286, 210, 65, 59]",hasAttribute,dark,
+9,monitor,"[286, 210, 65, 59]",hasAttribute,off,
+9,chair,"[153, 284, 101, 146]",hasAttribute,grey,
+9,chair,"[153, 284, 101, 146]",hasAttribute,rolling,
+9,chair,"[153, 284, 101, 146]",hasAttribute,office,
+9,bottle,"[126, 281, 24, 39]",hasAttribute,water,
+9,bottle,"[126, 281, 24, 39]",hasAttribute,empty,
+9,bottle,"[126, 281, 24, 39]",hasAttribute,plastic,
+9,computer,"[543, 243, 54, 50]",hasAttribute,laptop,
+9,computer,"[543, 243, 54, 50]",hasAttribute,grey,
+9,wall,"[26, 323, 156, 148]",hasAttribute,green,
+9,ceiling,"[70, 3, 569, 91]",hasAttribute,white,
+9,chair,"[495, 223, 29, 58]",hasAttribute,gray,
+9,keyboard,"[542, 277, 50, 18]",hasAttribute,black,
+9,monitor,"[96, 221, 106, 76]",hasAttribute,white,
+9,wall,"[3, 0, 351, 368]",hasAttribute,green,
+9,floor,"[6, 286, 634, 194]",hasAttribute,grey,
+9,floor,"[6, 286, 634, 194]",hasAttribute,clean,
+9,desk,"[388, 367, 250, 112]",hasAttribute,white,
+9,tower,"[253, 277, 56, 74]",hasAttribute,white,
+9,building,"[562, 127, 76, 127]",hasAttribute,large,
+9,building,"[562, 127, 76, 127]",hasAttribute,white,
+9,tube,"[151, 131, 87, 17]",hasAttribute,white,
+10,charger,"[231, 543, 23, 28]",on,cable,"[161, 562, 77, 18]"
+10,man,"[576, 270, 128, 149]",has,coat,"[532, 354, 146, 216]"
+10,coat,"[532, 354, 146, 216]",touching,floor,"[77, 472, 721, 126]"
+10,board,"[142, 142, 105, 145]",on,wall,"[3, 2, 796, 530]"
+10,coat,"[532, 354, 146, 216]",on,chair,"[558, 352, 157, 203]"
+10,cup,"[57, 441, 36, 41]",on,desk,"[0, 368, 472, 231]"
+10,man,"[576, 270, 128, 149]",has,coat,"[532, 354, 146, 216]"
+10,charger,"[231, 543, 23, 28]",under,cable,"[161, 562, 77, 18]"
+10,man,"[576, 270, 128, 149]",on,cable,"[161, 562, 77, 18]"
+10,coat,"[532, 354, 146, 216]",on,chair,"[558, 352, 157, 203]"
+10,man,"[576, 270, 128, 149]",using,computer,"[649, 278, 105, 119]"
+10,coat,"[532, 354, 146, 216]",on,chair,"[558, 352, 157, 203]"
+10,man,"[576, 270, 128, 149]",wears,shirt,"[586, 306, 115, 105]"
+10,coat,"[532, 354, 146, 216]",on,chair,"[558, 352, 157, 203]"
+10,cup,"[57, 441, 36, 41]",on,desk,"[0, 368, 472, 231]"
+10,monitor,"[647, 282, 107, 97]",on,desk,"[609, 315, 190, 101]"
+10,man,"[576, 270, 128, 149]",using,computer,"[649, 278, 105, 119]"
+10,coat,"[532, 354, 146, 216]",onBackOf,chair,"[558, 352, 157, 203]"
+10,computer,"[280, 277, 147, 140]",has,keyboard,"[305, 386, 130, 35]"
+10,cup,"[57, 441, 36, 41]",on,desk,"[0, 368, 472, 231]"
+10,outlet,"[217, 548, 65, 36]",on,floor,"[77, 472, 721, 126]"
+10,man,"[576, 270, 128, 149]",lookingAt,computer,"[649, 278, 105, 119]"
+10,cable,"[161, 562, 77, 18]",on,floor,"[77, 472, 721, 126]"
+10,cup,"[57, 441, 36, 41]",on,desk,"[0, 368, 472, 231]"
+10,monitor,"[278, 280, 129, 113]",has,screen,"[314, 295, 86, 73]"
+10,man,"[576, 270, 128, 149]",wearing,shirt,"[586, 306, 115, 105]"
+10,outlet,"[217, 548, 65, 36]",on,floor,"[77, 472, 721, 126]"
+10,charger,"[231, 543, 23, 28]",hasAttribute,black,
+10,charger,"[231, 543, 23, 28]",hasAttribute,white,
+10,floor,"[77, 472, 721, 126]",hasAttribute,grey,
+10,coat,"[532, 354, 146, 216]",hasAttribute,hanging,
+10,coat,"[532, 354, 146, 216]",hasAttribute,blue,
+10,wall,"[3, 2, 796, 530]",hasAttribute,green,
+10,board,"[142, 142, 105, 145]",hasAttribute,hanging,
+10,bookshelf,"[423, 151, 174, 358]",hasAttribute,wood,
+10,bookshelf,"[423, 151, 174, 358]",hasAttribute,tall,
+10,shelf,"[459, 327, 127, 18]",hasAttribute,full,
+10,cup,"[57, 441, 36, 41]",hasAttribute,blue,
+10,cup,"[57, 441, 36, 41]",hasAttribute,black,
+10,ostrich,"[581, 125, 24, 64]",hasAttribute,stuffed,
+10,shirt,"[586, 306, 115, 105]",hasAttribute,grey,
+10,monitor,"[647, 282, 107, 97]",hasAttribute,white,
+10,monitor,"[647, 282, 107, 97]",hasAttribute,on,
+10,keyboard,"[305, 386, 130, 35]",hasAttribute,white,

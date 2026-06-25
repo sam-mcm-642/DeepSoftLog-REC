@@ -1,0 +1,8 @@
+{"2335763_59440": "target(X), type(X, plate), expression(right, X, tomato), expression(in, tomato, bowl)"}
+{"2335763_113634": "target(X), type(X, plate), expression(left, X, food), expression(hasAttribute, X, white)"}
+{"2335763_113906": "target(X), type(X, plate), expression(left, X, glass), expression(hasAttribute, X, white), expression(first, X, right)"}
+{"2335763_115596": "target(X), type(X, glass), expression(left, X, gravy), expression(hasAttribute, X, clear), expression(first, X, left)"}
+{"2335763_211515": "target(X), type(X, glass), expression(hasAttribute, X, clear), expression(in, X, bowl), expression(left, X, beef)"}
+{"2387884_172278": "target(X), type(X, zebra), expression(hasAttribute, X, striped), expression(in_front, X, sand), expression(by, X, zebra)"}
+{"2387884_236784": "target(X), type(X, sand), expression(hasAttribute, X, gray), expression(by, X, zebra), expression(behind, X, zebra)"}
+{"2401287_298765": "target(X), type(X, person), expression(sitting, X, bench), expression(next_to, X, person), expression(on, other_person, skateboard)"}
